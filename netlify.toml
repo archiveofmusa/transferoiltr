@@ -1,5 +1,6 @@
 [build]
-  command = "npm run build"
+  # Keep middleware output compatible with Netlify's Next.js runtime packaging.
+  command = "npm run build -- --webpack"
   publish = ".next"
 
 [build.environment]

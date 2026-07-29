@@ -6,6 +6,7 @@ node_modules/
 .agents/
 *.log
 *.tsbuildinfo
+deno.lock
 
 # Environment files (keep a documented example if one is added later)
 .env
