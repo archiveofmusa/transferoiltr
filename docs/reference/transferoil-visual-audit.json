@@ -1,0 +1,124 @@
+{
+  "sourceUrls": {
+    "home": "https://www.transferoil.com/en/default.aspx",
+    "hydraulic": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+    "industrial": "https://www.transferoil.com/en/to-industrial-products.aspx",
+    "uhp": "https://www.transferoil.com/en/to-uhp-products.aspx",
+    "contact": "https://www.transferoil.com/website/contacts.aspx"
+  },
+  "capturedAt": "2026-07-01T20:36:47.358Z",
+  "status": "success",
+  "screenshots": {
+    "home": "docs/reference/transferoil-home.png",
+    "hydraulicMenu": "docs/reference/transferoil-hydraulic-menu.png",
+    "industrialMenu": "docs/reference/transferoil-industrial-menu.png",
+    "uhpMenu": "docs/reference/transferoil-uhp-menu.png",
+    "contact": "docs/reference/transferoil-contact.png"
+  },
+  "audit": {
+    "topOrangeBarHeight": 76,
+    "lowerGreyNavHeight": 62,
+    "logoDimensionsAndPlacement": {
+      "rect": {
+        "x": 31,
+        "y": 21,
+        "width": 217,
+        "height": 34
+      },
+      "naturalWidth": 300,
+      "naturalHeight": 47,
+      "source": "https://www.transferoil.com/website/images/TransferOil_w.svg"
+    },
+    "colors": {
+      "topBarOrange": "rgb(255, 115, 0)",
+      "lowerBarGrey": "rgba(67, 71, 76, 0.88)",
+      "menuHoverActiveOrange": "rgba(255, 136, 0, 0.867)",
+      "textColors": {
+        "utility": "rgb(255, 255, 255)",
+        "lowerNav": "rgb(255, 255, 255)",
+        "heroTitle": "rgb(126, 128, 130)",
+        "heroSubtitle": "rgb(255, 255, 255)"
+      },
+      "heroTitleBlock": "rgba(255, 136, 0, 0.867)",
+      "heroSubtitleBlock": "rgb(52, 58, 64)",
+      "buttonColors": {
+        "background": "rgb(65, 65, 70)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    "typography": {
+      "fontFamilyDetected": "Montserrat",
+      "fontSizes": {
+        "utility": "12px",
+        "lowerNav": "18px",
+        "heroTitle": "11px",
+        "heroSubtitle": "12px",
+        "button": "14px"
+      },
+      "fontWeights": {
+        "utility": "400",
+        "lowerNav": "400",
+        "heroTitle": "400",
+        "heroSubtitle": "300",
+        "button": "400"
+      },
+      "lineHeights": {
+        "utility": "18px",
+        "lowerNav": "27px",
+        "heroTitle": "16.5px",
+        "heroSubtitle": "18px",
+        "button": "36px"
+      }
+    },
+    "menuSpacing": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "sliderDimensions": {
+      "x": 0,
+      "y": 130,
+      "width": 1920,
+      "height": 3115
+    },
+    "productFinderTabDimensions": {
+      "x": -2,
+      "y": 710,
+      "width": 42,
+      "height": 142
+    },
+    "categoryStripDimensions": {
+      "x": 130,
+      "y": 535,
+      "width": 1245,
+      "height": 78
+    },
+    "colorsAsHex": {
+      "topBarOrange": {
+        "raw": "rgb(255, 115, 0)",
+        "hex": "#FF7300"
+      },
+      "lowerBarGrey": {
+        "raw": "rgba(67, 71, 76, 0.88)",
+        "hex": "#43474C @ 0.88"
+      },
+      "menuHoverActiveOrange": {
+        "raw": "rgba(255, 136, 0, 0.867)",
+        "hex": "#FF8800 @ 0.867"
+      },
+      "heroTitleBlock": {
+        "raw": "rgba(255, 136, 0, 0.867)",
+        "hex": "#FF8800 @ 0.867"
+      },
+      "heroSubtitleBlock": {
+        "raw": "rgb(52, 58, 64)",
+        "hex": "#343A40"
+      },
+      "buttonBackground": {
+        "raw": "rgb(65, 65, 70)",
+        "hex": "#414146"
+      }
+    }
+  }
+}

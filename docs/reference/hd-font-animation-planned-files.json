@@ -1,0 +1,32 @@
+{
+  "scope": "media-font-animation-only",
+  "baselineBuild": "pass",
+  "plannedCreated": [
+    "scripts/audit-transferoil-media.mjs",
+    "scripts/audit-transferoil-fonts.mjs",
+    "scripts/audit-transferoil-animations.mjs",
+    "scripts/check-hd-media.mjs",
+    "scripts/check-font-animation-parity.mjs",
+    "public/assets/transfer-oil/hd-media-manifest.json",
+    "public/assets/transfer-oil/hd/**",
+    "src/data/transferoil/hd-assets.generated.ts",
+    "src/styles/transferoil-typography.css",
+    "src/styles/transferoil-motion.css",
+    "docs/reference/transferoil-font-audit.json",
+    "docs/reference/transferoil-animation-audit.json"
+  ],
+  "plannedChanged": [
+    "package.json",
+    "src/app/globals.css",
+    "src/components/Hero.tsx",
+    "src/components/layout/TransferOilMainNav.tsx"
+  ],
+  "protected": [
+    "transferoil_link_manifest.json",
+    "messages/*.json",
+    "src/data/transferoil/routes.generated.json",
+    "src/data/transferoil/source-map.generated.json",
+    "src/content/transferoil/pages.generated.json",
+    "netlify.toml"
+  ]
+}

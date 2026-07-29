@@ -1,0 +1,546 @@
+{
+  "generatedAt": "2026-07-28T19:51:29.581Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "expectedReferenceMatchedCaptures": 44,
+  "referenceMatchedCaptures": 44,
+  "arabicMobileCaptures": 1,
+  "captures": [
+    {
+      "type": "page",
+      "key": "home",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/home-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/company-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/hydraulic-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/industrial-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/uhp-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "product-detail",
+      "pathname": "/tr/hidrolik/constant-pressure/cp-neo/020-r18-cp-3000-neo",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/product-detail-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/news-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "exhibitions",
+      "pathname": "/tr/fuarlar",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/exhibitions-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/certificates-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/contact-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "home",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/home-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/company-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/hydraulic-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/industrial-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/uhp-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "product-detail",
+      "pathname": "/tr/hidrolik/constant-pressure/cp-neo/020-r18-cp-3000-neo",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/product-detail-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/news-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "exhibitions",
+      "pathname": "/tr/fuarlar",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/exhibitions-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/certificates-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/contact-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "home",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/home-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/company-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/hydraulic-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/industrial-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/uhp-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "product-detail",
+      "pathname": "/tr/hidrolik/constant-pressure/cp-neo/020-r18-cp-3000-neo",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/product-detail-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/news-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "exhibitions",
+      "pathname": "/tr/fuarlar",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/exhibitions-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/certificates-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/contact-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "home",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/home-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/company-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/hydraulic-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/industrial-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/uhp-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "product-detail",
+      "pathname": "/tr/hidrolik/constant-pressure/cp-neo/020-r18-cp-3000-neo",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/product-detail-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/news-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "exhibitions",
+      "pathname": "/tr/fuarlar",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/exhibitions-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/certificates-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/contact-390x844.png"
+    },
+    {
+      "type": "menu",
+      "key": "company",
+      "label": "Kurumsal",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/mega-menu-company-1920x1080.png"
+    },
+    {
+      "type": "menu",
+      "key": "hydraulic",
+      "label": "Hidrolik",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/mega-menu-hydraulic-1920x1080.png"
+    },
+    {
+      "type": "menu",
+      "key": "industrial",
+      "label": "Endüstriyel",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/mega-menu-industrial-1920x1080.png"
+    },
+    {
+      "type": "menu",
+      "key": "uhp",
+      "label": "UHP",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/local-final/mega-menu-uhp-1920x1080.png"
+    },
+    {
+      "type": "arabic-mobile",
+      "pathname": "/ar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "direction": "rtl",
+      "screenshot": "docs/reference/screenshots/local-final/arabic-mobile-390x844.png"
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

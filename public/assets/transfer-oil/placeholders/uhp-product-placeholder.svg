@@ -1,0 +1,12 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#3B4046"/>
+  <path d="M-80 672C122 376 264 743 448 474C610 237 756 482 958 196C1045 73 1112 89 1266 -31" stroke="#DCE1E5" stroke-width="112"/>
+  <path d="M-80 672C122 376 264 743 448 474C610 237 756 482 958 196C1045 73 1112 89 1266 -31" stroke="#17222D" stroke-width="78"/>
+  <path d="M-80 672C122 376 264 743 448 474C610 237 756 482 958 196C1045 73 1112 89 1266 -31" stroke="#7B858E" stroke-width="7" stroke-dasharray="12 14"/>
+  <rect x="718" y="236" width="274" height="118" rx="8" fill="#DDE3E6"/>
+  <path d="M742 250V340M786 250V340M830 250V340M874 250V340M918 250V340" stroke="#9AA5AD" stroke-width="11"/>
+  <rect x="992" y="258" width="112" height="74" fill="#E57A22"/>
+  <path d="M62 67H258" stroke="#E57A22" stroke-width="5"/>
+  <text x="62" y="116" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="4">UHP / HELIX</text>
+  <text x="62" y="154" fill="#D5DDE2" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">TRANSFER OIL TÜRKİYE</text>
+</svg>

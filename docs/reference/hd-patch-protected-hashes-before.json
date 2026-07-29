@@ -1,0 +1,75 @@
+{
+    "generatedAt":  "2026-07-27T20:03:02.7475291Z",
+    "files":  [
+                  {
+                      "path":  "transferoil_link_manifest.json",
+                      "bytes":  254321,
+                      "sha256":  "5a949080642f8083e4f092f93e643279e663bb47740747e91fd619895bbbfbd6"
+                  },
+                  {
+                      "path":  "messages\\tr.json",
+                      "bytes":  29313,
+                      "sha256":  "7e6f652d18fdf08a4d02e08ba1b8930b01f3366a7d002a59b83eb6108fe13534"
+                  },
+                  {
+                      "path":  "messages\\en.json",
+                      "bytes":  28546,
+                      "sha256":  "657efc0d4122f4a56a9c1a084d9b69ed7df822c61e1dbad170d2ce11a28614f0"
+                  },
+                  {
+                      "path":  "messages\\ru.json",
+                      "bytes":  37930,
+                      "sha256":  "7c52901780dba4f4446fd8f01d2fbd44f7977c60193d1c9dbf8af686e333b439"
+                  },
+                  {
+                      "path":  "messages\\ar.json",
+                      "bytes":  34960,
+                      "sha256":  "ad591554e054212767336ef789063482cd60df4400287f5c4caaae8c6474ac43"
+                  },
+                  {
+                      "path":  "src\\data\\transferoil\\routes.generated.json",
+                      "bytes":  510126,
+                      "sha256":  "511f5d15f09c3fb90be23df399f32dfb22a054d6eee2a3f7861d986eac758f33"
+                  },
+                  {
+                      "path":  "src\\data\\transferoil\\source-map.generated.json",
+                      "bytes":  890341,
+                      "sha256":  "0e2b489330ee68a96ef8a2283c82f74c2af1ab8130fa2916c5380703d94bd612"
+                  },
+                  {
+                      "path":  "src\\content\\transferoil\\pages.generated.json",
+                      "bytes":  3561962,
+                      "sha256":  "daa90537e065936672b9e3cc368bf6b73bcf14ccf30898c3ccc6f912783d4133"
+                  },
+                  {
+                      "path":  "src\\data\\uhpProducts.ts",
+                      "bytes":  7557,
+                      "sha256":  "079e96a81112c757c8be171a0baf8674deb2dfd00700d57c9bd517647869cda4"
+                  },
+                  {
+                      "path":  "src\\app\\[locale]\\iletisim\\page.tsx",
+                      "bytes":  4339,
+                      "sha256":  "5230892c3cabca6d70b4ef9239b942e38b6a587bc1d2ebeadf5ce1864e28c3ad"
+                  },
+                  {
+                      "path":  "src\\components\\WhatsAppFloatingButton.tsx",
+                      "bytes":  737,
+                      "sha256":  "9803d45d3aaa161f7256c25518ae7e3255a152f69b7fbcc2532acfbe126aaa0d"
+                  },
+                  {
+                      "path":  "src\\components\\Footer.tsx",
+                      "bytes":  3301,
+                      "sha256":  "138deca1c64b91aacd795d7adcc92463861cf4e4cd9f8ad8064a32fd3b8c20fa"
+                  },
+                  {
+                      "path":  "src\\components\\layout\\TransferOilTopBar.tsx",
+                      "bytes":  3321,
+                      "sha256":  "86165581dfd4ecc7ba44a73ed40d0b360d159fba4f481914eb2f862984c3e70f"
+                  },
+                  {
+                      "path":  "netlify.toml",
+                      "bytes":  131,
+                      "sha256":  "7652b8489789b2079bda7599e22e5e59000f5ee1ab597e830e2f5fb733100898"
+                  }
+              ]
+}

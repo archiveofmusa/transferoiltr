@@ -1,0 +1,1007 @@
+{
+  "generatedAt": "2026-07-28T20:06:04.413Z",
+  "scope": "font and animation parity only",
+  "reference": {
+    "page": "https://www.transferoil.com/en/default.aspx",
+    "cachedHtml": ".cache/transferoil/source-html/085.html",
+    "note": "Measured public behavior was recreated; no proprietary CSS or JavaScript was copied."
+  },
+  "inspected": {
+    "cssFiles": [
+      "src/app/globals.css",
+      "src/styles/transferoil-motion.css",
+      "src/styles/transferoil-theme.css",
+      "src/styles/transferoil-typography.css"
+    ],
+    "fontFiles": [
+      "public/assets/fonts/transferoil/montserrat/montserrat-cyrillic-ext.woff2",
+      "public/assets/fonts/transferoil/montserrat/montserrat-cyrillic.woff2",
+      "public/assets/fonts/transferoil/montserrat/montserrat-latin-ext.woff2",
+      "public/assets/fonts/transferoil/montserrat/montserrat-latin.woff2",
+      "public/assets/fonts/transferoil/noto-sans-arabic/noto-sans-arabic-arabic.woff2",
+      "public/assets/fonts/transferoil/noto-sans-arabic/noto-sans-arabic-latin-ext.woff2",
+      "public/assets/fonts/transferoil/noto-sans-arabic/noto-sans-arabic-latin.woff2",
+      "public/assets/transfer-oil/hd/fonts/montserrat/montserrat-cyrillic-ext.woff2",
+      "public/assets/transfer-oil/hd/fonts/montserrat/montserrat-cyrillic.woff2",
+      "public/assets/transfer-oil/hd/fonts/montserrat/montserrat-latin-ext.woff2",
+      "public/assets/transfer-oil/hd/fonts/montserrat/montserrat-latin.woff2",
+      "public/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-arabic.woff2",
+      "public/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-latin-ext.woff2",
+      "public/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-latin.woff2"
+    ],
+    "typography": "src/styles/transferoil-typography.css",
+    "fontAudit": "docs/reference/transferoil-font-audit.json"
+  },
+  "tolerances": {
+    "typography": {
+      "fontSizePx": 1,
+      "lineHeightPx": 1,
+      "letterSpacingPx": 0.1,
+      "fontWeight": "same computed or functional weight"
+    },
+    "animation": {
+      "durationMs": 30,
+      "delayMs": 30,
+      "translatePx": 2,
+      "opacity": 0.03,
+      "easing": "same cubic-bezier or measured visual equivalent"
+    }
+  },
+  "typographyComparisons": [
+    {
+      "id": "utility",
+      "metric": "font-size",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "utility",
+      "metric": "line-height",
+      "actual": 18,
+      "expected": 18,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "utility",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "utility",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "main-nav",
+      "metric": "font-size",
+      "actual": 18,
+      "expected": 18,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "main-nav",
+      "metric": "line-height",
+      "actual": 27,
+      "expected": 27,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "main-nav",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "main-nav",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "mega-heading",
+      "metric": "font-size",
+      "actual": 17,
+      "expected": 17,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-heading",
+      "metric": "line-height",
+      "actual": 19.55,
+      "expected": 19.55,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-heading",
+      "metric": "font-weight",
+      "actual": 500,
+      "expected": 500,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-heading",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "mega-item",
+      "metric": "font-size",
+      "actual": 15,
+      "expected": 15,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-item",
+      "metric": "line-height",
+      "actual": 15,
+      "expected": 15,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-item",
+      "metric": "font-weight",
+      "actual": 300,
+      "expected": 300,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-item",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "mega-description",
+      "metric": "font-size",
+      "actual": 10,
+      "expected": 10,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-description",
+      "metric": "line-height",
+      "actual": 15,
+      "expected": 15,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-description",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "mega-description",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "section-title",
+      "metric": "font-size",
+      "actual": 24,
+      "expected": 24,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "section-title",
+      "metric": "line-height",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "section-title",
+      "metric": "font-weight",
+      "actual": 700,
+      "expected": 700,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "section-title",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "product-title",
+      "metric": "font-size",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "product-title",
+      "metric": "line-height",
+      "actual": 36,
+      "expected": 36,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "product-title",
+      "metric": "font-weight",
+      "actual": 500,
+      "expected": 500,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "product-title",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "body",
+      "metric": "font-size",
+      "actual": 16,
+      "expected": 16,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "body",
+      "metric": "line-height",
+      "actual": 24,
+      "expected": 24,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "body",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "body",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "caption",
+      "metric": "font-size",
+      "actual": 12,
+      "expected": 12,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "caption",
+      "metric": "line-height",
+      "actual": 18,
+      "expected": 18,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "caption",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "caption",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "hero-title-desktop",
+      "metric": "font-size",
+      "actual": 52,
+      "expected": 52,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-desktop",
+      "metric": "line-height",
+      "actual": 56,
+      "expected": 56,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-desktop",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-desktop",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "hero-title-mobile",
+      "metric": "font-size",
+      "actual": 25,
+      "expected": 25,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-mobile",
+      "metric": "line-height",
+      "actual": 29,
+      "expected": 29,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-mobile",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-title-mobile",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-desktop",
+      "metric": "font-size",
+      "actual": 18,
+      "expected": 18,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-desktop",
+      "metric": "line-height",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-desktop",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-desktop",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-mobile",
+      "metric": "font-size",
+      "actual": 16,
+      "expected": 16,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-mobile",
+      "metric": "line-height",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 1,
+      "unit": "px",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-mobile",
+      "metric": "font-weight",
+      "actual": 400,
+      "expected": 400,
+      "tolerance": 0,
+      "unit": "",
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "id": "hero-subtitle-mobile",
+      "metric": "letter-spacing",
+      "actual": "normal",
+      "expected": "normal",
+      "tolerance": 0.1,
+      "unit": "px",
+      "delta": null,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 75,
+    "passed": 75,
+    "failed": 0,
+    "status": "pass"
+  },
+  "checks": [
+    {
+      "id": "slider-home-duration",
+      "expected": "32000ms",
+      "pass": true
+    },
+    {
+      "id": "slider-standard-duration",
+      "expected": "5000ms",
+      "pass": true
+    },
+    {
+      "id": "slider-fade-duration",
+      "expected": "800ms",
+      "pass": true
+    },
+    {
+      "id": "slider-rendered-height",
+      "expected": "436px mobile portrait and 480px desktop",
+      "pass": true
+    },
+    {
+      "id": "slider-item-entry-duration",
+      "expected": "1000ms",
+      "pass": true
+    },
+    {
+      "id": "slider-copy-entry-duration",
+      "expected": "1500ms",
+      "pass": true
+    },
+    {
+      "id": "slider-link-entry-duration",
+      "expected": "1800ms",
+      "pass": true
+    },
+    {
+      "id": "slider-easing",
+      "expected": "fade ease; copy uses jQuery swing visual equivalent cubic-bezier(.445,.05,.55,.95)",
+      "pass": true
+    },
+    {
+      "id": "slider-independent-pause-sources",
+      "expected": "hover, focus-within, and reduced-motion independently pause autoplay",
+      "pass": true
+    },
+    {
+      "id": "slider-deterministic-hooks",
+      "expected": "root active key and indexed controls",
+      "pass": true
+    },
+    {
+      "id": "slider-reduced-motion",
+      "expected": "dynamic media-query subscription, timer pause, video pause/resume, and CSS motion removal",
+      "pass": true
+    },
+    {
+      "id": "slider-copy-after-fade",
+      "expected": "incoming title, subtitle, and CTA start after the 800ms fade",
+      "pass": true
+    },
+    {
+      "id": "slider-copy-exit",
+      "expected": "reference title/subtitle 1500ms and link 1800ms exit layer",
+      "pass": true
+    },
+    {
+      "id": "slider-copy-no-multiplied-opacity",
+      "expected": "no whole-copy opacity animation multiplying child opacity curves",
+      "pass": true
+    },
+    {
+      "id": "mega-menu-overlay",
+      "expected": "rgba(152,152,152,.97)",
+      "pass": true
+    },
+    {
+      "id": "mega-menu-shadow",
+      "expected": "0 1px 4px rgba(30,30,30,.7)",
+      "pass": true
+    },
+    {
+      "id": "mega-menu-immediate-open-close",
+      "expected": "0ms/none desktop entry and 0ms scheduled close",
+      "pass": true
+    },
+    {
+      "id": "main-nav-active-underline",
+      "expected": "immediate state change with no invented transition",
+      "pass": true
+    },
+    {
+      "id": "button-arrow-hover",
+      "expected": "direction-aware 4px arrow motion",
+      "pass": true
+    },
+    {
+      "id": "font-montserrat-family",
+      "expected": "Montserrat declared in local CSS",
+      "pass": true
+    },
+    {
+      "id": "font-arabic-fallback",
+      "expected": "Noto Sans Arabic declared in local CSS",
+      "pass": true
+    },
+    {
+      "id": "font-local-files",
+      "expected": "at least one locally hosted webfont file",
+      "pass": true
+    },
+    {
+      "id": "font-no-proprietary-transferoil-font",
+      "expected": "no local proprietary TransferOil icon/font binary",
+      "pass": true
+    },
+    {
+      "id": "font-utility-font-size",
+      "expected": "12px (±1px)",
+      "actual": "12px",
+      "pass": true
+    },
+    {
+      "id": "font-utility-line-height",
+      "expected": "18px (±1px)",
+      "actual": "18px",
+      "pass": true
+    },
+    {
+      "id": "font-utility-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-utility-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-main-nav-font-size",
+      "expected": "18px (±1px)",
+      "actual": "18px",
+      "pass": true
+    },
+    {
+      "id": "font-main-nav-line-height",
+      "expected": "27px (±1px)",
+      "actual": "27px",
+      "pass": true
+    },
+    {
+      "id": "font-main-nav-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-main-nav-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-mega-heading-font-size",
+      "expected": "17px (±1px)",
+      "actual": "17px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-heading-line-height",
+      "expected": "19.55px (±1px)",
+      "actual": "19.55px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-heading-font-weight",
+      "expected": "500 (±0)",
+      "actual": "500",
+      "pass": true
+    },
+    {
+      "id": "font-mega-heading-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-mega-item-font-size",
+      "expected": "15px (±1px)",
+      "actual": "15px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-item-line-height",
+      "expected": "15px (±1px)",
+      "actual": "15px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-item-font-weight",
+      "expected": "300 (±0)",
+      "actual": "300",
+      "pass": true
+    },
+    {
+      "id": "font-mega-item-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-mega-description-font-size",
+      "expected": "10px (±1px)",
+      "actual": "10px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-description-line-height",
+      "expected": "15px (±1px)",
+      "actual": "15px",
+      "pass": true
+    },
+    {
+      "id": "font-mega-description-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-mega-description-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-section-title-font-size",
+      "expected": "24px (±1px)",
+      "actual": "24px",
+      "pass": true
+    },
+    {
+      "id": "font-section-title-line-height",
+      "expected": "30px (±1px)",
+      "actual": "30px",
+      "pass": true
+    },
+    {
+      "id": "font-section-title-font-weight",
+      "expected": "700 (±0)",
+      "actual": "700",
+      "pass": true
+    },
+    {
+      "id": "font-section-title-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-product-title-font-size",
+      "expected": "30px (±1px)",
+      "actual": "30px",
+      "pass": true
+    },
+    {
+      "id": "font-product-title-line-height",
+      "expected": "36px (±1px)",
+      "actual": "36px",
+      "pass": true
+    },
+    {
+      "id": "font-product-title-font-weight",
+      "expected": "500 (±0)",
+      "actual": "500",
+      "pass": true
+    },
+    {
+      "id": "font-product-title-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-body-font-size",
+      "expected": "16px (±1px)",
+      "actual": "16px",
+      "pass": true
+    },
+    {
+      "id": "font-body-line-height",
+      "expected": "24px (±1px)",
+      "actual": "24px",
+      "pass": true
+    },
+    {
+      "id": "font-body-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-body-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-caption-font-size",
+      "expected": "12px (±1px)",
+      "actual": "12px",
+      "pass": true
+    },
+    {
+      "id": "font-caption-line-height",
+      "expected": "18px (±1px)",
+      "actual": "18px",
+      "pass": true
+    },
+    {
+      "id": "font-caption-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-caption-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-desktop-font-size",
+      "expected": "52px (±1px)",
+      "actual": "52px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-desktop-line-height",
+      "expected": "56px (±1px)",
+      "actual": "56px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-desktop-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-desktop-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-mobile-font-size",
+      "expected": "25px (±1px)",
+      "actual": "25px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-mobile-line-height",
+      "expected": "29px (±1px)",
+      "actual": "29px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-mobile-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-hero-title-mobile-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-desktop-font-size",
+      "expected": "18px (±1px)",
+      "actual": "18px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-desktop-line-height",
+      "expected": "30px (±1px)",
+      "actual": "30px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-desktop-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-desktop-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-mobile-font-size",
+      "expected": "16px (±1px)",
+      "actual": "16px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-mobile-line-height",
+      "expected": "30px (±1px)",
+      "actual": "30px",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-mobile-font-weight",
+      "expected": "400 (±0)",
+      "actual": "400",
+      "pass": true
+    },
+    {
+      "id": "font-hero-subtitle-mobile-letter-spacing",
+      "expected": "normalpx",
+      "actual": "normalpx",
+      "pass": true
+    }
+  ]
+}

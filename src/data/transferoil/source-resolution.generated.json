@@ -1,0 +1,1529 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-27T11:01:34.829Z",
+  "sourceManifest": "transferoil_link_manifest.json",
+  "summary": {
+    "canonicalResolutionRequired": 34,
+    "resolved": 34,
+    "unresolved": 0,
+    "unresolvedIds": [],
+    "snapshotCount": 34
+  },
+  "records": [
+    {
+      "id": 13,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn---or-din-24-female--heavy.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn--or-din-24-female--heavy.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn---or-din-24-female--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn---or-din-24-female--heavy.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn--or-din-24-female--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn--or-din-24-female--heavy.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn--or-din-24-female--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbn--or-din-24-female--heavy.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/013.html"
+    },
+    {
+      "id": 14,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo---or-din-24-female--light.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo--or-din-24-female-light.aspx",
+      "finalStatus": "resolved_parent_discovery",
+      "resolutionNote": "Resolved from manifest parent id 12 using the official product-code link.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo---or-din-24-female--light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo---or-din-24-female--light.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo--or-din-24-female--light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo--or-din-24-female--light.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The normalized variant redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 3,
+          "strategy": "parent-page:12",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidates-found",
+          "details": "1 allowlisted candidate link(s) matched the product code/hierarchy."
+        },
+        {
+          "sequence": 4,
+          "strategy": "parent-candidate:12",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo--or-din-24-female-light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sbo--or-din-24-female-light.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "Candidate score 210."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/014.html"
+    },
+    {
+      "id": 15,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci---f90-dkol-c--light.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci--f90-dkol-c--light.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci---f90-dkol-c--light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci---f90-dkol-c--light.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci--f90-dkol-c--light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci--f90-dkol-c--light.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci--f90-dkol-c--light.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/sci--f90-dkol-c--light.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/015.html"
+    },
+    {
+      "id": 16,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl---f90-dkos-c--heavy.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl--f90-dkos-c--heavy.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl---f90-dkos-c--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl---f90-dkos-c--heavy.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl--f90-dkos-c--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl--f90-dkos-c--heavy.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl--f90-dkos-c--heavy.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-din-2353-3865-24/scl--f90-dkos-c--heavy.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/016.html"
+    },
+    {
+      "id": 18,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea---standpipe-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea--standpipe-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea---standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea---standpipe-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea--standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea--standpipe-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea--standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sea--standpipe-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/018.html"
+    },
+    {
+      "id": 19,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec---standpipe-90c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec--standpipe-90c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec---standpipe-90c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec---standpipe-90c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec--standpipe-90c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec--standpipe-90c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec--standpipe-90c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-metric-standpipe/sec--standpipe-90c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/019.html"
+    },
+    {
+      "id": 21,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2---f-pgauge-iso228-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2--f-pgauge-iso228-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2---f-pgauge-iso228-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2---f-pgauge-iso228-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2--f-pgauge-iso228-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2--f-pgauge-iso228-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2--f-pgauge-iso228-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sb2--f-pgauge-iso228-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/021.html"
+    },
+    {
+      "id": 22,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz---f-gauge-flat-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz--f-gauge-flat-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz---f-gauge-flat-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz---f-gauge-flat-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz--f-gauge-flat-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz--f-gauge-flat-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz--f-gauge-flat-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/micro-bore-inserts/micro-bore-other-inserts/sbz--f-gauge-flat-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/022.html"
+    },
+    {
+      "id": 27,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/sva---f-bspp-push-on.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/sva--f-bspp-push-on.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/sva---f-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/sva---f-bspp-push-on.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/sva--f-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/sva--f-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/sva--f-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/sva--f-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/027.html"
+    },
+    {
+      "id": 28,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svb---male-bspp-push-on.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svb--male-bspp-push-on.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svb---male-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svb---male-bspp-push-on.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svb--male-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svb--male-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svb--male-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svb--male-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/028.html"
+    },
+    {
+      "id": 29,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svf---f90-bspp-push-on.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svf--f90-bspp-push-on.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svf---f90-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-%28bspp%29/svf---f90-bspp-push-on.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svf--f90-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svf--f90-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svf--f90-bspp-push-on.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/push-on/push-on-british-standard-pipe-parallel-(bspp)/svf--f90-bspp-push-on.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/029.html"
+    },
+    {
+      "id": 35,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa1--ferrule-tp-1.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa1--ferrule-tp-1.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa1--ferrule-tp-1.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa1--ferrule-tp-1.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/035.html"
+    },
+    {
+      "id": 36,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa5--ferrule-tp-5.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa5--ferrule-tp-5.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa5--ferrule-tp-5.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sa5--ferrule-tp-5.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/036.html"
+    },
+    {
+      "id": 37,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sab--ferrule-tp-b.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sab--ferrule-tp-b.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sab--ferrule-tp-b.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sab--ferrule-tp-b.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/037.html"
+    },
+    {
+      "id": 38,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sac--ferrule-tp-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sac--ferrule-tp-c.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sac--ferrule-tp-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sac--ferrule-tp-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/038.html"
+    },
+    {
+      "id": 39,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sag--ferrule-tp-g.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sag--ferrule-tp-g.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sag--ferrule-tp-g.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sag--ferrule-tp-g.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/039.html"
+    },
+    {
+      "id": 40,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sai--1ssb-ptfe-conv.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sai--1ssb-ptfe-conv.aspx",
+      "finalStatus": "resolved_source",
+      "resolutionNote": "The manifest source URL returned a valid official product page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sai--1ssb-ptfe-conv.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-ferrules/sai--1ssb-ptfe-conv.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": null
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/040.html"
+    },
+    {
+      "id": 43,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea---standpipe-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea--standpipe-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea---standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea---standpipe-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea--standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea--standpipe-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea--standpipe-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sea--standpipe-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/043.html"
+    },
+    {
+      "id": 44,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec---standpipe-90-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec--standpipe-90-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec---standpipe-90-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec---standpipe-90-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec--standpipe-90-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec--standpipe-90-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec--standpipe-90-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/sec--standpipe-90-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/044.html"
+    },
+    {
+      "id": 45,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see---standpipe-45-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see--standpipe-45-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see---standpipe-45-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see---standpipe-45-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see--standpipe-45-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see--standpipe-45-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see--standpipe-45-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/metric-standpipe/see--standpipe-45-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/045.html"
+    },
+    {
+      "id": 66,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp---f-met60-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp--f-met60-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp---f-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp---f-met60-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp--f-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp--f-met60-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp--f-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/sbp--f-met60-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/066.html"
+    },
+    {
+      "id": 67,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc---f90-met60-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc--f90-met60-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc---f90-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc---f90-met60-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc--f90-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc--f90-met60-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc--f90-met60-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-metric-din-3863-60/scc--f90-met60-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/067.html"
+    },
+    {
+      "id": 74,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scf---f90-orfs-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scf--f90-orfs-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scf---f90-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scf---f90-orfs-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scf--f90-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scf--f90-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scf--f90-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scf--f90-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/074.html"
+    },
+    {
+      "id": 75,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scr----f45-orfs-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scr--f45-orfs-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scr----f45-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/scr----f45-orfs-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scr--f45-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scr--f45-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scr--f45-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/scr--f45-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/075.html"
+    },
+    {
+      "id": 76,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/sdb---m-orfs-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/sdb--m-orfs-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/sdb---m-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-%28orfs%29/sdb---m-orfs-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/sdb--m-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/sdb--m-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/sdb--m-orfs-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j1453-o-ring-face-seal-(orfs)/sdb--m-orfs-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/076.html"
+    },
+    {
+      "id": 78,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbc---f-jic-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbc--f-jic-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbc---f-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbc---f-jic-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbc--f-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbc--f-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbc--f-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbc--f-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/078.html"
+    },
+    {
+      "id": 79,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbm---f-jic-dh-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbm--f-jic-dh-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbm---f-jic-dh-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sbm---f-jic-dh-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbm--f-jic-dh-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbm--f-jic-dh-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbm--f-jic-dh-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sbm--f-jic-dh-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/079.html"
+    },
+    {
+      "id": 80,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scd---f90-jic-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scd--f90-jic-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scd---f90-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scd---f90-jic-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scd--f90-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scd--f90-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scd--f90-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scd--f90-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/080.html"
+    },
+    {
+      "id": 81,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scp----f45-jic-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scp--f45-jic-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scp----f45-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/scp----f45-jic-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scp--f45-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scp--f45-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scp--f45-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/scp--f45-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/081.html"
+    },
+    {
+      "id": 82,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sdd---m-jic-c.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sdd--m-jic-c.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sdd---m-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-%28jic%29/sdd---m-jic-c.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sdd--m-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sdd--m-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sdd--m-jic-c.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/to-fittings-products/standard-inserts/standard-sae-j514-37-(jic)/sdd--m-jic-c.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/082.html"
+    },
+    {
+      "id": 105,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-%7C-steel-braid.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-steel-braid.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-%7C-steel-braid.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-%7C-steel-braid.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-steel-braid.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-steel-braid.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-steel-braid.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/1sb-steel-braid.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/105.html"
+    },
+    {
+      "id": 106,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-%7C-two-steel-braids.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-two-steel-braids.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-%7C-two-steel-braids.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-%7C-two-steel-braids.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-two-steel-braids.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-two-steel-braids.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-two-steel-braids.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/high-pressure/2sb-two-steel-braids.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/106.html"
+    },
+    {
+      "id": 176,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/sos---femmina-orfs.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/sos--femmina-orfs.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/sos---femmina-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/sos---femmina-orfs.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/sos--femmina-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/sos--femmina-orfs.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/sos--femmina-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/sos--femmina-orfs.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/176.html"
+    },
+    {
+      "id": 177,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/soy---maschio-orfs.aspx",
+      "resolvedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/soy--maschio-orfs.aspx",
+      "finalStatus": "resolved_normalized_url",
+      "resolutionNote": "A controlled encoding and legacy-hyphen normalization resolved and verified the official page.",
+      "resolutionAttempts": [
+        {
+          "sequence": 1,
+          "strategy": "source-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/soy---maschio-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/website/default.aspx",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-%28orfs%29/soy---maschio-orfs.aspx",
+              "to": "https://www.transferoil.com/website/default.aspx"
+            }
+          ],
+          "cachedResponse": false,
+          "outcome": "rejected",
+          "details": "The source URL redirected to a generic Transfer Oil landing page."
+        },
+        {
+          "sequence": 2,
+          "strategy": "normalized-url",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/soy--maschio-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/soy--maschio-orfs.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "candidate-resolved",
+          "details": null
+        },
+        {
+          "sequence": 3,
+          "strategy": "normalized-url-verification",
+          "requestedUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/soy--maschio-orfs.aspx",
+          "status": 200,
+          "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/very-high-pressure/vhp-inserts/vhp-sae-j1453-o-ring-face-seal-(orfs)/soy--maschio-orfs.aspx",
+          "redirects": [],
+          "cachedResponse": false,
+          "outcome": "resolved",
+          "details": "The normalized official target was verified with a separate request."
+        }
+      ],
+      "snapshotPath": ".cache/transferoil/source-html/177.html"
+    }
+  ]
+}

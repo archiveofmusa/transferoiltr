@@ -1,0 +1,479 @@
+{
+  "generatedAt": "2026-07-27T14:15:23.036Z",
+  "referenceDir": "docs/reference/screenshots/reference-final",
+  "localDir": "docs/reference/screenshots/local-final",
+  "diffDir": "docs/reference/visual-diffs",
+  "rules": {
+    "maxMeanDifference": 0.38,
+    "minSsim": 0.3,
+    "changedPixelThreshold": 32,
+    "exactDimensionsRequired": true,
+    "metricPolicy": "localized-derivative: color-composition OR structural-signal",
+    "criticalNames": [
+      "home-1440x900.png",
+      "home-390x844.png",
+      "mega-menu-company-1920x1080.png",
+      "mega-menu-hydraulic-1920x1080.png",
+      "mega-menu-industrial-1920x1080.png",
+      "mega-menu-uhp-1920x1080.png",
+      "hydraulic-category-1440x900.png",
+      "industrial-category-1440x900.png",
+      "uhp-category-1440x900.png",
+      "product-detail-1440x900.png",
+      "company-1440x900.png",
+      "exhibitions-1440x900.png",
+      "news-1440x900.png",
+      "certificates-1440x900.png",
+      "contact-1440x900.png"
+    ]
+  },
+  "summary": {
+    "availableReferenceCount": 44,
+    "requestedComparisonCount": 15,
+    "completedComparisonCount": 15,
+    "dimensionsMatchedCount": 15,
+    "metricPassedCount": 15,
+    "errorCount": 0,
+    "warningCount": 0,
+    "passed": true
+  },
+  "comparisons": [
+    {
+      "name": "home-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/home-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/home-1440x900.png",
+      "diff": "docs/reference/visual-diffs/home-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.299841,
+      "changedPixelRatio": 0.605244,
+      "ssim": 0.022678,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "home-390x844.png",
+      "reference": "docs/reference/screenshots/reference-final/home-390x844.png",
+      "local": "docs/reference/screenshots/local-final/home-390x844.png",
+      "diff": "docs/reference/visual-diffs/home-390x844.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "localDimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.366843,
+      "changedPixelRatio": 0.700392,
+      "ssim": 0.049301,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "mega-menu-company-1920x1080.png",
+      "reference": "docs/reference/screenshots/reference-final/mega-menu-company-1920x1080.png",
+      "local": "docs/reference/screenshots/local-final/mega-menu-company-1920x1080.png",
+      "diff": "docs/reference/visual-diffs/mega-menu-company-1920x1080.png",
+      "referenceDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "localDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.244514,
+      "changedPixelRatio": 0.721262,
+      "ssim": 0.199052,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "mega-menu-hydraulic-1920x1080.png",
+      "reference": "docs/reference/screenshots/reference-final/mega-menu-hydraulic-1920x1080.png",
+      "local": "docs/reference/screenshots/local-final/mega-menu-hydraulic-1920x1080.png",
+      "diff": "docs/reference/visual-diffs/mega-menu-hydraulic-1920x1080.png",
+      "referenceDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "localDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.250879,
+      "changedPixelRatio": 0.759465,
+      "ssim": 0.127858,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "mega-menu-industrial-1920x1080.png",
+      "reference": "docs/reference/screenshots/reference-final/mega-menu-industrial-1920x1080.png",
+      "local": "docs/reference/screenshots/local-final/mega-menu-industrial-1920x1080.png",
+      "diff": "docs/reference/visual-diffs/mega-menu-industrial-1920x1080.png",
+      "referenceDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "localDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.259956,
+      "changedPixelRatio": 0.810146,
+      "ssim": 0.029494,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "mega-menu-uhp-1920x1080.png",
+      "reference": "docs/reference/screenshots/reference-final/mega-menu-uhp-1920x1080.png",
+      "local": "docs/reference/screenshots/local-final/mega-menu-uhp-1920x1080.png",
+      "diff": "docs/reference/visual-diffs/mega-menu-uhp-1920x1080.png",
+      "referenceDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "localDimensions": {
+        "width": 1920,
+        "height": 760
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.26749,
+      "changedPixelRatio": 0.777133,
+      "ssim": 0.128105,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "hydraulic-category-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/hydraulic-category-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/hydraulic-category-1440x900.png",
+      "diff": "docs/reference/visual-diffs/hydraulic-category-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.097743,
+      "changedPixelRatio": 0.163504,
+      "ssim": 0.525956,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "industrial-category-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/industrial-category-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/industrial-category-1440x900.png",
+      "diff": "docs/reference/visual-diffs/industrial-category-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.09981,
+      "changedPixelRatio": 0.165447,
+      "ssim": 0.517783,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "uhp-category-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/uhp-category-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/uhp-category-1440x900.png",
+      "diff": "docs/reference/visual-diffs/uhp-category-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.093731,
+      "changedPixelRatio": 0.153651,
+      "ssim": 0.541517,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "product-detail-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/product-detail-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/product-detail-1440x900.png",
+      "diff": "docs/reference/visual-diffs/product-detail-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.078587,
+      "changedPixelRatio": 0.133325,
+      "ssim": 0.621284,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "company-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/company-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/company-1440x900.png",
+      "diff": "docs/reference/visual-diffs/company-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.190603,
+      "changedPixelRatio": 0.563498,
+      "ssim": 0.291167,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "exhibitions-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/exhibitions-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/exhibitions-1440x900.png",
+      "diff": "docs/reference/visual-diffs/exhibitions-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.066536,
+      "changedPixelRatio": 0.09841,
+      "ssim": 0.67088,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "news-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/news-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/news-1440x900.png",
+      "diff": "docs/reference/visual-diffs/news-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.266783,
+      "changedPixelRatio": 0.703475,
+      "ssim": 0.255533,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "certificates-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/certificates-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/certificates-1440x900.png",
+      "diff": "docs/reference/visual-diffs/certificates-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.286849,
+      "changedPixelRatio": 0.557171,
+      "ssim": 0.213466,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": false,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    },
+    {
+      "name": "contact-1440x900.png",
+      "reference": "docs/reference/screenshots/reference-final/contact-1440x900.png",
+      "local": "docs/reference/screenshots/local-final/contact-1440x900.png",
+      "diff": "docs/reference/visual-diffs/contact-1440x900.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "localDimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "dimensionsMatch": true,
+      "normalization": "none",
+      "meanAbsoluteDifference": 0.237902,
+      "changedPixelRatio": 0.553811,
+      "ssim": 0.360861,
+      "thresholds": {
+        "maxMeanDifference": 0.38,
+        "minSsim": 0.3,
+        "changedPixelThreshold": 32
+      },
+      "colorCompositionPassed": true,
+      "structuralSignalPassed": true,
+      "metricPassed": true,
+      "localResolution": "exact-name",
+      "critical": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

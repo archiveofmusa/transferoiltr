@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 720" role="img" aria-labelledby="title desc">
+  <title id="title">Hidrolik hortum hero görseli</title>
+  <desc id="desc">Hidrolik hortum ve bağlantı bileşeni yer tutucu görseli.</desc>
+  <rect width="1920" height="720" fill="#3f464d"/>
+  <g opacity=".15" stroke="#fff"><path d="M0 130h1920M0 300h1920M0 470h1920M0 640h1920"/><path d="M300 0v720M650 0v720M1000 0v720M1350 0v720M1700 0v720"/></g>
+  <path d="M-160 500C220 250 555 260 850 485c260 198 602 112 1210-145" fill="none" stroke="#12161a" stroke-width="78" stroke-linecap="round" opacity=".55"/>
+  <path d="M-160 470C220 220 555 230 850 455c260 198 602 112 1210-145" fill="none" stroke="#2b3036" stroke-width="58" stroke-linecap="round"/>
+  <path d="M-150 440C220 205 548 215 850 435c252 183 586 102 1190-150" fill="none" stroke="#7d858e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1120 385l210-105 48 95-210 105z" fill="#d9dde3"/>
+  <path d="M1184 352l152-74" stroke="#767e87" stroke-width="12"/>
+  <rect width="1920" height="720" fill="#000" opacity=".18"/>
+</svg>

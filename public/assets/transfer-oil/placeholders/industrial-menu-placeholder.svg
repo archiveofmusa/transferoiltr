@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">TO Industrial placeholder</title>
+  <desc id="desc">Endüstriyel hortum sistemi görsel yer tutucusu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#626971"/>
+      <stop offset="1" stop-color="#343a40"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="0" x2="1">
+      <stop offset="0" stop-color="#e5e7eb"/>
+      <stop offset=".5" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#f3f4f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" fill="url(#bg)"/>
+  <rect x="34" y="78" width="222" height="28" rx="14" fill="url(#pipe)" opacity=".95"/>
+  <rect x="214" y="68" width="58" height="48" rx="7" fill="#ff7300"/>
+  <rect x="232" y="58" width="64" height="68" rx="8" fill="#d1d5db"/>
+  <circle cx="252" cy="92" r="18" fill="#4b5563"/>
+  <circle cx="252" cy="92" r="9" fill="#ff7300"/>
+  <path d="M38 129h244" stroke="#ff7300" stroke-width="6" stroke-linecap="round"/>
+  <g opacity=".15" stroke="#fff">
+    <path d="M32 48h256"/>
+    <path d="M32 146h256"/>
+    <path d="M72 36v116"/>
+    <path d="M150 36v116"/>
+  </g>
+  <text x="22" y="34" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">TO Industrial</text>
+</svg>

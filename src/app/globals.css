@@ -1,0 +1,76 @@
+@import '../styles/transferoil-theme.css';
+@import '../styles/transferoil-typography.css';
+@import '../styles/transferoil-motion.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: var(--to-body-text);
+  background: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--to-body-text);
+  font-family: var(--to-font-primary);
+  text-rendering: optimizeLegibility;
+}
+
+html[dir='rtl'] body {
+  font-family: var(--to-font-arabic);
+  letter-spacing: normal;
+}
+
+html[dir='rtl'] input,
+html[dir='rtl'] textarea,
+html[dir='rtl'] select {
+  text-align: right;
+}
+
+html[dir='rtl'] [dir='ltr'] {
+  text-align: left;
+}
+
+::selection { background: #ff7300; color: #0b1f33; }
+
+a { text-underline-offset: 3px; }
+
+/* Dark industrial panels use the lighter accent so small technical labels keep
+   AA contrast while the brand-orange bars remain unchanged. */
+[class*='bg-graphiteDark'] .text-signal {
+  color: #ffb066;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: rise 500ms ease-out both; }
+
+@keyframes accent-slide {
+  from { transform: scaleX(0); transform-origin: left; }
+  to { transform: scaleX(1); transform-origin: left; }
+}
+
+.accent-reveal { animation: accent-slide 620ms ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

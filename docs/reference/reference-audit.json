@@ -1,0 +1,1566 @@
+{
+  "generatedAt": "2026-07-27T13:42:00.683Z",
+  "startedAt": "2026-07-27T13:40:23.409Z",
+  "policy": {
+    "sourceOfTruth": "transferoil_link_manifest.json",
+    "officialPageNavigation": "Manifest allowlist only",
+    "copiedCssOrJs": false,
+    "screenshotMode": "Viewport screenshot; animations disabled only during capture"
+  },
+  "manifest": {
+    "schemaVersion": 1,
+    "expectedSourceRows": 343,
+    "mappedSourceRows": 343,
+    "uniqueSourceUrls": 343,
+    "selectedReferencePages": 10
+  },
+  "measuredFrom": "https://www.transferoil.com/en/default.aspx",
+  "computed": {
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "colors": {
+      "topBarOrange": {
+        "rgb": "rgb(255, 115, 0)",
+        "hex": "#FF7300"
+      },
+      "lowerNavGrey": {
+        "rgb": "rgb(52, 58, 64)",
+        "hex": "#343A40"
+      },
+      "activeOrange": {
+        "rgb": "rgb(255, 115, 0)",
+        "hex": "#FF7300"
+      },
+      "mainText": {
+        "rgb": "rgb(33, 37, 41)",
+        "hex": "#212529"
+      },
+      "mutedText": {
+        "rgb": "NEEDS_MANUAL_PICK",
+        "hex": "NEEDS_MANUAL_PICK"
+      },
+      "border": {
+        "rgb": "rgb(33, 37, 41)",
+        "hex": "#212529"
+      },
+      "heroTitle": {
+        "rgb": "rgb(33, 37, 41)",
+        "hex": "#212529"
+      },
+      "heroSubtitle": {
+        "rgb": "NEEDS_MANUAL_PICK",
+        "hex": "NEEDS_MANUAL_PICK"
+      },
+      "buttonBackground": {
+        "rgb": "rgba(0, 0, 0, 0)",
+        "hex": "#000000 @ 0"
+      },
+      "buttonText": {
+        "rgb": "rgb(0, 123, 255)",
+        "hex": "#007BFF"
+      }
+    },
+    "typography": {
+      "body": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 4427
+        },
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(33, 37, 41)",
+        "borderColor": "rgb(33, 37, 41)",
+        "borderBottomColor": "rgb(33, 37, 41)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "utilityLink": {
+        "rect": {
+          "x": 1301,
+          "y": 32,
+          "width": 58,
+          "height": 14
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(102, 102, 102)",
+        "borderColor": "rgb(102, 102, 102)",
+        "borderBottomColor": "rgb(102, 102, 102)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "navLink": {
+        "rect": {
+          "x": 88,
+          "y": 77,
+          "width": 77,
+          "height": 54
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderBottomColor": "rgb(255, 255, 255)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "27px",
+        "letterSpacing": "normal",
+        "padding": "17px 0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "heroHeading": {
+        "rect": {
+          "x": 405,
+          "y": 622,
+          "width": 1110,
+          "height": 36
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(33, 37, 41)",
+        "borderColor": "rgb(33, 37, 41)",
+        "borderBottomColor": "rgb(33, 37, 41)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "4px 0px 30px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "heroParagraph": null,
+      "button": {
+        "rect": {
+          "x": 405,
+          "y": 719,
+          "width": 193,
+          "height": 17
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 123, 255)",
+        "borderColor": "rgb(0, 123, 255)",
+        "borderBottomColor": "rgb(0, 123, 255)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "loadedFonts": [
+        {
+          "family": "TransferOil",
+          "style": "normal",
+          "weight": "normal",
+          "status": "loading"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "100",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "100",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "100",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "100",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "100",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "200",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "200",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "200",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "200",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "200",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "300",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "300",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "300",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "300",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "300",
+          "status": "error"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "400",
+          "status": "error"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "500",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "500",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "500",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "500",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "500",
+          "status": "error"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "600",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "600",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "600",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "600",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "600",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "700",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "700",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "700",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "700",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "700",
+          "status": "error"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "800",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Montserrat",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        },
+        {
+          "family": "Font Awesome 5 Brands",
+          "style": "normal",
+          "weight": "normal",
+          "status": "loading"
+        },
+        {
+          "family": "Font Awesome 5 Free",
+          "style": "normal",
+          "weight": "400",
+          "status": "unloaded"
+        },
+        {
+          "family": "Font Awesome 5 Free",
+          "style": "normal",
+          "weight": "900",
+          "status": "unloaded"
+        }
+      ],
+      "stylesheetSources": [
+        "https://www.transferoil.com/website/css/bootstrap-4.3.1.css",
+        "https://www.transferoil.com/website/css/jqRangeSlider/iThing.css",
+        "https://www.transferoil.com/website/css/font.css",
+        "https://www.transferoil.com/website/css/jquery-ui.css",
+        "https://www.transferoil.com/website/css/gfont.css",
+        "https://www.transferoil.com/website/css/to-styles.css",
+        "https://www.transferoil.com/website/css/menu-styles.css",
+        "https://www.transferoil.com/website/css/fontawesome570.css",
+        "https://www.transferoil.com/website/css/ekko-lightbox.css",
+        "https://unpkg.com/aos@2.3.1/dist/aos.css",
+        "https://www.transferoil.com/website/css/solana/flexslider.css"
+      ]
+    },
+    "geometry": {
+      "topBar": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 76
+        },
+        "backgroundColor": "rgb(255, 115, 0)",
+        "color": "rgb(33, 37, 41)",
+        "borderColor": "rgb(33, 37, 41)",
+        "borderBottomColor": "rgb(33, 37, 41)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "8px 16px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "lowerNav": {
+        "rect": {
+          "x": 0,
+          "y": 76,
+          "width": 1920,
+          "height": 62
+        },
+        "backgroundColor": "rgb(52, 58, 64)",
+        "color": "rgb(33, 37, 41)",
+        "borderColor": "rgb(33, 37, 41)",
+        "borderBottomColor": "rgb(33, 37, 41)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "logo": {
+        "rect": {
+          "x": 31,
+          "y": 18,
+          "width": 255,
+          "height": 40
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 123, 255)",
+        "borderColor": "rgb(0, 123, 255)",
+        "borderBottomColor": "rgb(0, 123, 255)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "10px 0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "slider": {
+        "rect": {
+          "x": 0,
+          "y": 138,
+          "width": 1920,
+          "height": 480
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(33, 37, 41)",
+        "borderColor": "rgb(33, 37, 41)",
+        "borderBottomColor": "rgb(33, 37, 41)",
+        "fontFamily": "Montserrat, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "transitionDuration": "0s",
+        "transitionTimingFunction": "ease",
+        "opacity": "1"
+      },
+      "navHorizontalGaps": [
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "motion": {
+      "slider": {
+        "duration": "0s",
+        "easing": "ease"
+      },
+      "button": {
+        "duration": "0s",
+        "easing": "ease"
+      }
+    },
+    "breakpoints": {
+      "note": "Responsive breakpoint değerleri dört zorunlu viewport görüntüsü ve görünür navigasyon durumu ile ölçülür.",
+      "currentDesktopNavVisible": true
+    }
+  },
+  "captures": [
+    {
+      "id": 85,
+      "sourceUrl": "https://www.transferoil.com/en/default.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/home-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 85,
+      "sourceUrl": "https://www.transferoil.com/en/default.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/home-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 85,
+      "sourceUrl": "https://www.transferoil.com/en/default.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/home-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 85,
+      "sourceUrl": "https://www.transferoil.com/en/default.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/home-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 335,
+      "sourceUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/company-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "title": "Thermoplastic Hose Manufacturer - Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 335,
+      "sourceUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/company-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "title": "Thermoplastic Hose Manufacturer - Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 335,
+      "sourceUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/company-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "title": "Thermoplastic Hose Manufacturer - Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 335,
+      "sourceUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/company-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us.aspx",
+      "title": "Thermoplastic Hose Manufacturer - Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 86,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/hydraulic-category-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "title": "Quality Thermoplastic Hydraulic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 86,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/hydraulic-category-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "title": "Quality Thermoplastic Hydraulic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 86,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/hydraulic-category-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "title": "Quality Thermoplastic Hydraulic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 86,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/hydraulic-category-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products.aspx",
+      "title": "Quality Thermoplastic Hydraulic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 180,
+      "sourceUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/industrial-category-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "title": "Transfer Oil thermoplastic High-Pressure hoses for industrial applications",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 180,
+      "sourceUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/industrial-category-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "title": "Transfer Oil thermoplastic High-Pressure hoses for industrial applications",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 180,
+      "sourceUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/industrial-category-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "title": "Transfer Oil thermoplastic High-Pressure hoses for industrial applications",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 180,
+      "sourceUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/industrial-category-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-industrial-products.aspx",
+      "title": "Transfer Oil thermoplastic High-Pressure hoses for industrial applications",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 233,
+      "sourceUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/uhp-category-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "title": "Ultra High-Pressure thermoplastic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 233,
+      "sourceUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/uhp-category-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "title": "Ultra High-Pressure thermoplastic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 233,
+      "sourceUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/uhp-category-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "title": "Ultra High-Pressure thermoplastic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 233,
+      "sourceUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/uhp-category-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-uhp-products.aspx",
+      "title": "Ultra High-Pressure thermoplastic Hoses by Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 89,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/product-detail-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "title": "R18 CP 3000 NEO - Constant Pressure Hydraulic Hose",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 89,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/product-detail-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "title": "R18 CP 3000 NEO - Constant Pressure Hydraulic Hose",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 89,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/product-detail-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "title": "R18 CP 3000 NEO - Constant Pressure Hydraulic Hose",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 89,
+      "sourceUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/product-detail-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/to-hydraulic-products/constant-pressure/cp-neo/020--r18-cp-3000-neo.aspx",
+      "title": "R18 CP 3000 NEO - Constant Pressure Hydraulic Hose",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 334,
+      "sourceUrl": "https://www.transferoil.com/en/news.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/news-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/news.aspx",
+      "title": "News & Events | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 334,
+      "sourceUrl": "https://www.transferoil.com/en/news.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/news-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/news.aspx",
+      "title": "News & Events | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 334,
+      "sourceUrl": "https://www.transferoil.com/en/news.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/news-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/news.aspx",
+      "title": "News & Events | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 334,
+      "sourceUrl": "https://www.transferoil.com/en/news.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/news-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/news.aspx",
+      "title": "News & Events | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 333,
+      "sourceUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/exhibitions-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "title": "Exhibitions",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 333,
+      "sourceUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/exhibitions-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "title": "Exhibitions",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 333,
+      "sourceUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/exhibitions-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "title": "Exhibitions",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 333,
+      "sourceUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/exhibitions-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/exhibitions.aspx",
+      "title": "Exhibitions",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 338,
+      "sourceUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/certificates-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "title": "R&D | Quality | Certificates | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 338,
+      "sourceUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/certificates-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "title": "R&D | Quality | Certificates | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 338,
+      "sourceUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/certificates-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "title": "R&D | Quality | Certificates | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 338,
+      "sourceUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/certificates-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx",
+      "title": "R&D | Quality | Certificates | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    {
+      "id": 331,
+      "sourceUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/contact-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "title": "Contact Us | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1920,
+        "clientWidth": 1920
+      }
+    },
+    {
+      "id": 331,
+      "sourceUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/contact-1440x900.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "title": "Contact Us | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    {
+      "id": 331,
+      "sourceUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/contact-1366x768.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "title": "Contact Us | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": true,
+        "bodyDirection": "ltr",
+        "scrollWidth": 1366,
+        "clientWidth": 1366
+      }
+    },
+    {
+      "id": 331,
+      "sourceUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/reference-final/contact-390x844.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/website/contacts.aspx",
+      "title": "Contact Us | Transfer Oil",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "responsiveState": {
+        "desktopNavVisible": false,
+        "bodyDirection": "ltr",
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    }
+  ],
+  "menus": [
+    {
+      "key": "company",
+      "label": "Company",
+      "screenshot": "docs/reference/screenshots/reference-final/mega-menu-company-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "metrics": {
+        "label": "Company",
+        "overlay": {
+          "x": 12,
+          "y": 138,
+          "width": 1897,
+          "height": 479,
+          "opacity": "1",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "visibleChildColumns": 1,
+          "columnWidths": [
+            1897
+          ]
+        }
+      }
+    },
+    {
+      "key": "hydraulic",
+      "label": "Hydraulic",
+      "screenshot": "docs/reference/screenshots/reference-final/mega-menu-hydraulic-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "metrics": {
+        "label": "Hydraulic",
+        "overlay": {
+          "x": 12,
+          "y": 138,
+          "width": 1897,
+          "height": 544,
+          "opacity": "1",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "visibleChildColumns": 1,
+          "columnWidths": [
+            1897
+          ]
+        }
+      }
+    },
+    {
+      "key": "industrial",
+      "label": "Industrial",
+      "screenshot": "docs/reference/screenshots/reference-final/mega-menu-industrial-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "metrics": {
+        "label": "Industrial",
+        "overlay": {
+          "x": 12,
+          "y": 138,
+          "width": 1897,
+          "height": 621,
+          "opacity": "1",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "visibleChildColumns": 1,
+          "columnWidths": [
+            1897
+          ]
+        }
+      }
+    },
+    {
+      "key": "uhp",
+      "label": "UHP",
+      "screenshot": "docs/reference/screenshots/reference-final/mega-menu-uhp-1920x1080.png",
+      "status": 200,
+      "finalUrl": "https://www.transferoil.com/en/default.aspx",
+      "title": "Transfer Oil S.p.A. - Thermoplastic hoses & Fittings",
+      "acquisitionMode": "direct-playwright",
+      "directError": null,
+      "metrics": {
+        "label": "UHP",
+        "overlay": {
+          "x": 12,
+          "y": 138,
+          "width": 1897,
+          "height": 479,
+          "opacity": "1",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "transitionDuration": "0s",
+          "transitionTimingFunction": "ease",
+          "visibleChildColumns": 1,
+          "columnWidths": [
+            1897
+          ]
+        }
+      }
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "expectedScreenshots": 44,
+    "screenshotsCreated": 44,
+    "failedCaptures": 0,
+    "pass": true
+  }
+}

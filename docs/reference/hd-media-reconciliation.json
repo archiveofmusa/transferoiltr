@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-07-28T19:40:15.811Z",
+  "mappedStandardLargeAliases": 3,
+  "remainingUnmappedVisibleMedia": 0,
+  "missingMedia": 0,
+  "videoMetadata": {
+    "/assets/transfer-oil/hd/videos/hd-0179-085-ana-sayfa-video-to-home.mp4": {
+      "width": 1440,
+      "height": 810,
+      "durationSeconds": 34.24,
+      "frameRate": 25,
+      "bitrateKbps": 869.59,
+      "inspectionNote": "Parsed generically from local ISO BMFF/MP4 moov, mvhd, trak/tkhd, mdhd and stts boxes; bitrate is the exact file-size average. Bundled Playwright ffmpeg was retained as the first probe but its stripped build could not demux these MP4 inputs."
+    },
+    "/assets/transfer-oil/hd/videos/hd-0280-232-sustainability-leaf-drop-falling.mp4": {
+      "width": 1920,
+      "height": 500,
+      "durationSeconds": 16.466667,
+      "frameRate": 30,
+      "bitrateKbps": 8257.95,
+      "inspectionNote": "Parsed generically from local ISO BMFF/MP4 moov, mvhd, trak/tkhd, mdhd and stts boxes; bitrate is the exact file-size average. Bundled Playwright ffmpeg was retained as the first probe but its stripped build could not demux these MP4 inputs."
+    },
+    "/assets/transfer-oil/hd/videos/hd-0528-342-quality-r-d-trasferoil-produzione4.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "durationSeconds": 6.848,
+      "frameRate": 25,
+      "bitrateKbps": 5534.32,
+      "inspectionNote": "Parsed generically from local ISO BMFF/MP4 moov, mvhd, trak/tkhd, mdhd and stts boxes; bitrate is the exact file-size average. Bundled Playwright ffmpeg was retained as the first probe but its stripped build could not demux these MP4 inputs."
+    },
+    "/assets/transfer-oil/hd/videos/hd-0983-to-quality-v8-sub-1.mp4": {
+      "width": 1280,
+      "height": 720,
+      "durationSeconds": 207.786667,
+      "frameRate": 25,
+      "bitrateKbps": 6227.85,
+      "inspectionNote": "Parsed generically from local ISO BMFF/MP4 moov, mvhd, trak/tkhd, mdhd and stts boxes; bitrate is the exact file-size average. Bundled Playwright ffmpeg was retained as the first probe but its stripped build could not demux these MP4 inputs."
+    }
+  }
+}

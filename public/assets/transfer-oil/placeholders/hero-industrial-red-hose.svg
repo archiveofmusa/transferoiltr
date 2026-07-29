@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 720" role="img" aria-labelledby="title desc">
+  <title id="title">Endüstriyel kırmızı hortum hero görseli</title>
+  <desc id="desc">Kırmızı endüstriyel hortum ve bağlantı bileşeni yer tutucu görseli.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#23272b"/>
+      <stop offset=".46" stop-color="#4d545b"/>
+      <stop offset="1" stop-color="#1f2327"/>
+    </linearGradient>
+    <linearGradient id="redhose" x1="0" x2="1">
+      <stop offset="0" stop-color="#6a1010"/>
+      <stop offset=".18" stop-color="#b71c1c"/>
+      <stop offset=".55" stop-color="#e63324"/>
+      <stop offset="1" stop-color="#7a1111"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#e5e7eb"/>
+      <stop offset=".45" stop-color="#8a9098"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="720" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#fff" stroke-width="1">
+    <path d="M0 120h1920M0 240h1920M0 360h1920M0 480h1920M0 600h1920"/>
+    <path d="M220 0v720M520 0v720M820 0v720M1120 0v720M1420 0v720M1720 0v720"/>
+  </g>
+  <path d="M-120 592C180 340 460 318 782 526c258 166 522 161 860-76 116-81 248-142 398-178" fill="none" stroke="#000" stroke-width="94" stroke-linecap="round" opacity=".28" filter="url(#shadow)"/>
+  <path d="M-120 560C185 310 468 294 792 500c253 160 510 160 848-74 115-80 249-142 400-178" fill="none" stroke="url(#redhose)" stroke-width="64" stroke-linecap="round"/>
+  <path d="M-120 524C185 284 466 270 784 470c252 158 504 158 835-70 113-78 250-140 421-180" fill="none" stroke="#ff8a00" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+  <g transform="translate(1295 300) rotate(-24)" filter="url(#shadow)">
+    <rect x="0" y="0" width="250" height="88" rx="12" fill="url(#metal)"/>
+    <rect x="32" y="-14" width="48" height="116" fill="#7b8189"/>
+    <rect x="172" y="-14" width="48" height="116" fill="#7b8189"/>
+    <path d="M250 8h110v72H250z" fill="#d8dde3"/>
+    <path d="M286 8v72M324 8v72" stroke="#777f88" stroke-width="8"/>
+  </g>
+  <rect width="1920" height="720" fill="url(#bg)" opacity=".18"/>
+</svg>

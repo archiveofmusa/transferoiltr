@@ -1,0 +1,247 @@
+{
+  "Meta": {
+    "home": { "title": "Transfer Oil Türkiye | Thermoplastic Hose and Fitting Solutions", "description": "The authorised Transfer Oil distributor in Türkiye for product information and technical support on hydraulic, industrial and UHP thermoplastic hoses, fittings and connection solutions." },
+    "products": { "title": "UHP Products", "description": "Transfer Oil Türkiye UHP and HELIX hose, insert, adapter, ferrule and accessory product families." },
+    "applications": { "title": "UHP Applications", "description": "UHP solutions for water jetting, industrial cleaning, shipyard maintenance, offshore work and high-pressure fluid transfer." },
+    "catalogues": { "title": "Catalogues and Certificates", "description": "Requests for Transfer Oil UHP catalogues, technical documentation and certificates." },
+    "corporate": { "title": "Company", "description": "Information about Transfer Oil Türkiye distribution, quality approach and technical support." },
+    "exhibitions": { "title": "Exhibitions", "description": "Transfer Oil Türkiye exhibition and industry event information." },
+    "news": { "title": "News", "description": "Transfer Oil Türkiye UHP product and application news." },
+    "certificates": { "title": "Certificates", "description": "Certificate and technical documentation requests for Transfer Oil UHP products." },
+    "contact": { "title": "Contact", "description": "Transfer Oil Türkiye contact details, quotation requests and technical support." },
+    "support": { "title": "UHP Technical Support", "description": "Technical support requests for Transfer Oil Türkiye UHP and HELIX product selection." },
+    "notFound": { "title": "Page not found", "description": "The page you requested could not be found." }
+  },
+  "LocaleSwitcher": {
+    "label": "Select language",
+    "current": "Current language: English",
+    "toggle": "Open language menu",
+    "options": {
+      "tr": { "label": "Türkçe — TR", "aria": "Select Turkish" },
+      "en": { "label": "English — United States", "aria": "Select English" },
+      "ru": { "label": "Русский — RU", "aria": "Select Russian" },
+      "ar": { "label": "العربية — AR", "aria": "Select Arabic" }
+    }
+  },
+  "Common": {
+    "home": "Home",
+    "breadcrumb": "Breadcrumb",
+    "readMore": "Read More",
+    "viewDetails": "View Details",
+    "details": "Details",
+    "requestQuote": "Request a Quote",
+    "requestQuoteLong": "Request Quote",
+    "contactUs": "Contact Us",
+    "technicalSupport": "Technical Support",
+    "requestTechnicalSupport": "Request Technical Support",
+    "technicalInformation": "Request Technical Information",
+    "downloadPdf": "Download PDF",
+    "pdfSoon": "PDF file will be added",
+    "loading": "Loading",
+    "close": "Close",
+    "back": "Back",
+    "all": "All",
+    "documentation": "Documentation",
+    "certificates": "Certificates",
+    "applications": "Applications"
+  },
+  "Header": {
+    "logoHome": "Transfer Oil Türkiye home page",
+    "mainMenu": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "utility": { "exhibitions": "Exhibitions", "news": "News", "certificates": "Certificates", "contact": "Contact" },
+    "main": { "corporate": "Company", "hydraulic": "Hydraulic", "industrial": "Industrial", "uhp": "UHP" },
+    "corporate": {
+      "title": "Company",
+      "intro": "Company information about distribution, quality principles and technical support processes.",
+      "about": "About Us",
+      "divisions": "Divisions",
+      "manufacturing": "Manufacturing Model",
+      "quality": "R&D, Quality and Certificates",
+      "benefits": "Benefits of Thermoplastic Hoses",
+      "ethics": "Code of Ethics"
+    },
+    "mega": {
+      "hydraulicEyebrow": "TO HYDRAULIC",
+      "hydraulicTitle": "Hydraulic Products",
+      "hydraulicDescription": "Thermoplastic hose and connection solutions for hydraulic applications.",
+      "industrialEyebrow": "TO INDUSTRIAL",
+      "industrialTitle": "Industrial Products",
+      "industrialDescription": "Hose solutions for industrial automation, gas, fuel, chemical and water applications.",
+      "uhpDescription": "Ultra-high-pressure hose and connection solutions.",
+      "technicalInformation": "Request technical information",
+      "overview": "View group",
+      "menuImage": "{title} menu visual",
+      "hoses": "Hoses",
+      "fittings": "Fittings",
+      "adapters": "Adapters",
+      "other": "Other",
+      "contactHint": "Contact our technical support team for this product group.",
+      "hydraulicGroups": ["Medium Pressure", "High Pressure", "Constant Pressure", "Very High Pressure", "Specialties"],
+      "industrialGroups": ["Industrial Automation", "Gas", "Fuel", "Chemicals", "Water"],
+      "accessories": "Accessories",
+      "uhpCertificates": "UHP Certificates"
+    }
+  },
+  "Hero": {
+    "productFinder": "Product Finder",
+    "productFinderPanel": {
+      "eyebrow": "LOCAL TECHNICAL CATALOGUE",
+      "title": "Product Finder",
+      "description": "Search 343 source records by product code, category, series, pressure and connection standard.",
+      "close": "Close Product Finder",
+      "queryLabel": "Product name or code",
+      "queryPlaceholder": "E.g. HR8, 4SW, ferrule",
+      "sectionLabel": "Section",
+      "allSections": "All sections",
+      "familyLabel": "Category / series",
+      "familyPlaceholder": "E.g. HELIX, High Pressure",
+      "pressureLabel": "Pressure",
+      "pressurePlaceholder": "E.g. 350 bar or 5000 psi",
+      "connectionLabel": "Connection type",
+      "allConnections": "All connection types",
+      "clear": "Clear filters",
+      "showing": "Showing {shown} of {total} results · {catalog} local records",
+      "resultsLabel": "Product Finder results",
+      "openResult": "Open details",
+      "emptyTitle": "No matching record found",
+      "emptyText": "Simplify your search or clear the filters. Contact us if you need technical product selection support.",
+      "keyboardHint": "Press Esc to close. Result links open the local page in the active language.",
+      "sections": {
+        "fittings": "Fittings",
+        "general": "General",
+        "hydraulic": "Hydraulic",
+        "industrial": "Industrial",
+        "sustainability": "Sustainability",
+        "uhp": "UHP",
+        "legal": "Legal",
+        "contact": "Contact",
+        "content": "Resources",
+        "company": "Company"
+      }
+    },
+    "readMore": "READ MORE",
+    "productGroup": "Product Group",
+    "slideAria": "Go to {title} slide",
+    "imageAlt": "{title} hero image",
+    "categoryAlt": "{title} category image",
+    "slides": {
+      "home": { "title": "THERMOPLASTIC HOSE SOLUTIONS", "subtitle": "A technical product portfolio for hydraulic, industrial and ultra-high-pressure applications." },
+      "industrial": { "title": "INDUSTRIAL PRODUCTS", "subtitle": "Hose and connection solutions for industrial applications." },
+      "hydraulic": { "title": "HYDRAULIC PRODUCTS", "subtitle": "Hose and connection solutions for hydraulic applications." },
+      "uhp": { "title": "UHP PRODUCTS", "subtitle": "Hose and connection solutions for ultra-high-pressure applications." }
+    },
+    "categories": { "hydraulic": "Hydraulic", "industrial": "Industrial", "uhp": "UHP" },
+    "categoryDescriptions": {
+      "hydraulic": "Thermoplastic hoses and compatible fittings for hydraulic power transmission.",
+      "industrial": "Industrial hose and connection solutions for fluid and gas conveyance.",
+      "uhp": "HELIX hoses and system components for ultra-high-pressure applications."
+    },
+    "intro": {
+      "eyebrow": "PRODUCT PORTFOLIO",
+      "title": "Thermoplastic hose solutions",
+      "description": "Explore hydraulic, industrial and ultra-high-pressure product families according to your application conditions.",
+      "button": "Discover the product range"
+    }
+  },
+  "Home": {
+    "families": {
+      "eyebrow": "PRODUCT FAMILIES",
+      "title": "A complete approach from hydraulic to UHP systems",
+      "description": "Explore the Transfer Oil portfolio by its principal technical application areas.",
+      "items": {
+        "hydraulic": { "label": "TO HYDRAULIC", "title": "Hydraulic", "description": "Thermoplastic hoses, ferrules and inserts for hydraulic power transmission.", "link": "Explore hydraulic products" },
+        "industrial": { "label": "TO INDUSTRIAL", "title": "Industrial", "description": "Product groups for gas, fuel, chemical, water and automation applications.", "link": "Explore industrial products" },
+        "uhp": { "label": "TO UHP", "title": "Ultra High Pressure", "description": "HELIX hoses, UHP fittings, adapters and accessories.", "link": "Explore UHP products" },
+        "fittings": { "label": "TO FITTINGS", "title": "Fittings", "description": "Standard, VHP and micro-bore connection components for hose systems.", "link": "Explore fittings" }
+      }
+    },
+    "applications": { "eyebrow": "APPLICATION AREAS", "title": "Technical solutions for different working conditions", "description": "Evaluate the right product family based on fluid, pressure, temperature and connection standard." },
+    "why": {
+      "eyebrow": "WHY TRANSFER OIL TÜRKİYE",
+      "title": "Clear technical communication for your hose system",
+      "description": "Share your application, connection type and working conditions so that we can assess the right product family.",
+      "items": [
+        { "title": "Official distributor channel", "text": "A direct contact point in Türkiye for sales and technical information processes." },
+        { "title": "Technical product selection support", "text": "Evaluate hose and connection components together with the application conditions." },
+        { "title": "Catalogue and certificate guidance", "text": "Submit your request for product-specific technical documentation or certificates." },
+        { "title": "Fast local communication", "text": "Start quotation and technical support requests through the local team in Türkiye." }
+      ]
+    },
+    "resources": { "eyebrow": "TECHNICAL RESOURCES", "title": "Catalogue and certificate requests", "description": "Send our team your requests for catalogues, technical documents and certificates by product family." }
+  },
+  "CTA": { "eyebrow": "TECHNICAL SUPPORT", "title": "Share your application data to identify the correct hose and connection combination.", "button": "Contact the Technical Team" },
+  "Footer": {
+    "intro": "Distributor contact point in Türkiye for Transfer Oil thermoplastic hose and connection solutions.",
+    "corporate": "Company",
+    "products": "Products",
+    "resources": "Resources",
+    "contact": "Contact",
+    "links": { "about": "About Us", "support": "Technical Support", "contact": "Contact", "hydraulic": "Hydraulic", "industrial": "Industrial", "uhp": "UHP", "fittings": "Fittings", "hoses": "HELIX Hoses", "adapters": "Adapters", "ferrules": "Ferrules and Accessories", "applications": "Applications", "catalogues": "Catalogues", "certificates": "Certificates", "legal": "Legal", "sustainability": "Sustainability", "cookiePolicy": "Cookie Policy", "legalNotice": "Legal Notice", "privacy": "Privacy", "salesConditions": "Sales Conditions" },
+    "address": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / Istanbul, Türkiye"],
+    "legal": "The Transfer Oil trademark and product names belong to their respective owners. This website has been prepared for information within the scope of distribution activities in Türkiye.",
+    "copyright": "© {year} Transfer Oil Türkiye."
+  },
+  "Products": {
+    "page": { "breadcrumb": "UHP Products", "eyebrow": "UHP / HELIX CATALOGUE", "title": "Ultra-high-pressure products", "description": "HELIX hoses, UHP inserts, adapters, ferrules and accessories must always be evaluated together with the technical conditions of your application.", "noteEyebrow": "TECHNICAL NOTE", "noteTitle": "Identify the suitable product family with our team", "noteDescription": "Share pressure, fluid, temperature, connection type and working environment data so our UHP technical team can make an initial assessment." },
+    "filters": { "title": "UHP filters", "productName": "Product name", "searchPlaceholder": "Search UHP products", "family": "Product family", "allFamilies": "All product families", "pressure": "Pressure information", "application": "Application", "allApplications": "All applications", "clear": "Clear filters", "show": "Filter", "hide": "Hide filters", "sort": "Sort", "reference": "Reference order", "sortFamily": "Product family", "sortPressure": "Pressure", "sortName": "Name", "count": "{count} UHP products listed", "emptyTitle": "No UHP products match your search.", "emptyText": "Our technical support team can help you." },
+    "pressure": { "all": "All pressure levels", "upTo1500": "Up to 1,500 bar", "upTo2200": "Up to 2,200 bar", "technical": "According to technical documentation", "documentRequest": "Documentation request", "upTo": "Up to {bar} bar" },
+    "families": {
+      "helix": { "label": "HELIX Hoses", "short": "{name} is a HELIX hose solution for ultra-high-pressure applications.", "description": "Selection of {name} must be validated against manufacturer documentation based on pressure class, fluid, temperature, connection type and site conditions.", "benefits": ["UHP hose solution within the HELIX family", "Fitting and accessory compatibility assessment", "Technical selection support", "Catalogue and documentation guidance"] },
+      "inserts": { "label": "UHP Fittings / Inserts", "short": "{name} is a connection solution that requires technical evaluation for UHP hose systems.", "description": "For {name}, hose type, connection standard, sealing approach, pressure class and working conditions must be validated together.", "benefits": ["Technical compatibility check for the connection standard", "Hose and insert matching support", "Catalogue and documentation guidance"] },
+      "adapters": { "label": "Adapters", "short": "{name} is an adapter solution for connection transitions in UHP lines.", "description": "{name} should be assessed after validating the connection standard, mating component, pressure class and working environment.", "benefits": ["System compatibility across connection transitions", "Technical selection support", "Suitability check based on application conditions"] },
+      "ferrules": { "label": "Ferrules", "short": "{name} is a technical component family used in UHP hose assemblies.", "description": "For {name}, the hose and insert combination, assembly procedure and application conditions must be validated against manufacturer documentation.", "benefits": ["Hose and fitting matching", "Technical information for assembly", "Documentation guidance"] },
+      "accessories": { "label": "Accessories", "short": "{name} is a complementary accessory group for UHP hose systems.", "description": "{name} should be evaluated with technical support according to the hose system, site conditions and safe-use requirements.", "benefits": ["Guidance based on system requirements", "Application-focused technical support", "Documentation guidance"] },
+      "certificates": { "label": "Certificates", "short": "Certificate and technical documentation requests for UHP products.", "description": "UHP product certificates and technical documentation are evaluated according to the product and application scope. Contact us with your document request.", "benefits": ["Local contact for certificate requests", "Product- and application-specific document guidance", "Technical information for quality processes"] }
+    },
+    "applications": { "waterJet": "Water jetting", "industrialCleaning": "Industrial cleaning", "shipyardMaintenance": "Shipyard maintenance", "fluidTransfer": "High-pressure fluid transfer", "hoseConnections": "UHP hose connections", "waterJetSystems": "Water jet systems", "highPressureLines": "High-pressure lines", "cleaningEquipment": "Industrial cleaning equipment", "lineTransitions": "UHP line transitions", "connectionAdaptation": "Connection adaptation", "testLines": "High-pressure test lines", "hoseAssemblies": "UHP hose assemblies", "highPressureConnections": "High-pressure connections", "waterJetEquipment": "Water jet equipment", "systemAccessories": "UHP system accessories", "certificateRequest": "Certificate request", "technicalDocumentation": "Technical documentation", "procurementQuality": "Procurement and quality processes" }
+  },
+  "ProductDetail": { "pressureInfo": "PRESSURE INFORMATION", "overview": "Technical overview", "technicalDisclaimer": "Technical values and product suitability must be validated for the application conditions. Manufacturer information and technical documentation govern the final selection.", "benefits": "Key benefits", "applications": "Applications", "compatibilityEyebrow": "CONNECTION COMPATIBILITY", "compatibilityTitle": "Hose, insert and adapter assessment", "compatibilityText": "Validate the hose, insert, adapter and ferrule combination with our technical team.", "compatibilityLink": "Request compatibility support", "documentationEyebrow": "DOCUMENTATION", "documentationTitle": "Catalogue and certificate request", "documentationText": "Contact us for UHP product documents and certificate requests.", "documentationLink": "Create a certificate request", "supportEyebrow": "UHP PROJECT SUPPORT", "supportTitle": "Request technical support for this product", "supportText": "Submit your request together with pressure, connection type, fluid and working conditions.", "related": "Related UHP products", "imageAlt": "Representative image for {name}", "notFound": "Product not found" },
+  "Applications": {
+    "page": { "breadcrumb": "Applications", "eyebrow": "UHP APPLICATIONS", "title": "The right system approach under critical pressure conditions", "description": "UHP product selection is not limited to pressure; fluid, temperature, connection standard and working environment must be considered together.", "link": "Related UHP products" },
+    "items": {
+      "waterJet": { "title": "Water jetting", "description": "Hose and connection selection for surface preparation, cutting and similar water-jet operations must be technically validated." },
+      "industrialCleaning": { "title": "Industrial cleaning", "description": "Pressure, temperature, movement and abrasion conditions are considered together in high-pressure cleaning lines." },
+      "marine": { "title": "Marine and shipyard maintenance", "description": "UHP system components for shipyard maintenance and surface preparation are selected according to site conditions." },
+      "offshore": { "title": "Offshore", "description": "Technical suitability of hoses, fittings and adapters for demanding environments is checked against application data." },
+      "heavyIndustry": { "title": "Heavy industry", "description": "System components are assessed together for critical maintenance and high-pressure operations." },
+      "fluidTransfer": { "title": "High-pressure fluid transfer", "description": "Technical product selection is based on fluid type, temperature, pressure and connection standard." }
+    }
+  },
+  "Catalogues": {
+    "page": { "breadcrumb": "Catalogues and Certificates", "eyebrow": "TECHNICAL DOCUMENTATION", "title": "UHP catalogues and certificate requests", "description": "Contact our technical team for current product documents, catalogues and certificate requests.", "requestTitle": "Tell us which document you need", "requestText": "Share the product code, application and required document type.", "requestButton": "Contact us for documentation" },
+    "items": {
+      "catalogue": { "label": "UHP CATALOGUE", "title": "UHP Catalogue Request", "description": "Request the current catalogue for the Transfer Oil UHP product family." },
+      "helix": { "label": "HELIX HOSES", "title": "HELIX Hose Documentation", "description": "Request technical documentation and product information for the HELIX hose family." },
+      "fittings": { "label": "UHP FITTINGS", "title": "UHP Connection Documentation", "description": "Request technical information for UHP inserts, adapters and ferrules." },
+      "certificates": { "label": "CERTIFICATES", "title": "Certificate Request", "description": "Request certificate documentation for a specific product or project." }
+    }
+  },
+  "Corporate": {
+    "breadcrumb": "Company",
+    "eyebrow": "TRANSFER OIL TÜRKİYE",
+    "title": "Distribution and technical communication",
+    "description": "Contact us for sales, technical support and supply processes for Transfer Oil products in Türkiye.",
+    "sections": [
+      { "id": "hakkimizda", "eyebrow": "ABOUT US", "title": "Your local contact point in Türkiye", "body": "We manage product selection, quotations, technical documents and after-sales communication for UHP applications with a professional approach." },
+      { "id": "bolumler", "eyebrow": "DIVISIONS", "title": "Technical guidance by application", "body": "We assess hoses, fittings, adapters, ferrules and accessories together with the actual operating conditions." },
+      { "id": "uretim-modeli", "eyebrow": "MANUFACTURING MODEL", "title": "Selection based on manufacturer documentation", "body": "We use current manufacturer information for technical values and suitability and do not make unverified performance or stock claims." },
+      { "id": "arge-kalite", "eyebrow": "R&D, QUALITY AND CERTIFICATES", "title": "Verifiable technical information", "body": "We direct catalogue and certificate requests according to product and application scope and recommend using manufacturer documents for final selection." },
+      { "id": "termoplastik-hortum", "eyebrow": "BENEFITS OF THERMOPLASTIC HOSES", "title": "An application-specific system approach", "body": "Thermoplastic hoses must be evaluated for each application with regard to construction, pressure class and fluid compatibility." },
+      { "id": "etik-kurallar", "eyebrow": "CODE OF ETHICS", "title": "Clear and responsible communication", "body": "We regard clear communication of technical limits, document status and quotation scope as a core principle." }
+    ],
+    "cta": "Send your corporate or technical request"
+  },
+  "Exhibitions": { "breadcrumb": "Exhibitions", "eyebrow": "INDUSTRY EVENTS", "title": "Exhibitions and events", "description": "Request current information about industry events featuring Transfer Oil and UHP solutions.", "cardTitle": "Current exhibition programme", "cardText": "Participation, venue and date details will be published here after verification.", "button": "Request exhibition information", "notice": "Contact us for current exhibition information." },
+  "News": { "breadcrumb": "News", "eyebrow": "TECHNICAL UPDATES", "title": "News and application notes", "description": "Short technical content about UHP product families and high-pressure applications.", "readMore": "Read More", "items": [ { "title": "Transfer Oil Türkiye distributor contact", "text": "A local channel in Türkiye for product information, technical support and quotations." }, { "title": "Technical selection of HELIX hoses", "text": "Why pressure, fluid, temperature and connection type must be assessed together." }, { "title": "Connection compatibility in UHP systems", "text": "Assessing hoses, inserts, adapters and ferrules within the same technical framework." } ] },
+  "Certificates": { "breadcrumb": "Certificates", "eyebrow": "QUALITY AND DOCUMENTATION", "title": "UHP certificate and document requests", "description": "If you need current certificate information for a specific product, contact us with the product code and application details.", "request": "Contact us for certificate documentation.", "button": "Request Certificate" },
+  "Contact": { "breadcrumb": "Contact", "eyebrow": "TRANSFER OIL TÜRKİYE", "title": "Contact and technical support", "description": "Contact our distributor point in Türkiye for quotations, product suitability, catalogue and certificate requests.", "info": "CONTACT DETAILS", "person": "Contact person", "phone": "Phone", "email": "Email", "address": "Address", "coordinates": "Coordinates", "formTitle": "Request form", "formText": "Send your quotation, catalogue, certificate or technical support request.", "formLoading": "Loading contact form", "mapTitle": "Transfer Oil Türkiye location", "addressLines": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / Istanbul, Türkiye"] },
+  "Forms": {
+    "contact": { "aria": "Contact form", "name": "Full Name", "company": "Company", "phone": "Phone", "email": "Email", "requestType": "Request type", "message": "Message", "send": "Send Request", "required": "Please complete all required fields.", "invalidEmail": "Please enter a valid email address.", "successTitle": "Your request has been received.", "successText": "We will contact you as soon as possible.", "newRequest": "Create a new request", "demo": "This form is currently a demonstration; your information is not sent to a server.", "productMessage": "I would like information about {product}.", "types": ["Quotation", "Technical support", "Catalogue", "Certificate", "Other"] },
+    "support": { "aria": "UHP technical support form", "name": "Full Name", "company": "Company", "phone": "Phone", "email": "Email", "application": "Application", "pressure": "Target working pressure", "fluid": "Fluid type", "diameter": "Hose size / DN", "connection": "Connection type", "message": "Message", "applicationPlaceholder": "For example, water jetting or shipyard maintenance", "pressurePlaceholder": "For example, 1,500 bar", "fluidPlaceholder": "For example, water, oil or a special fluid", "diameterPlaceholder": "DN or dash information", "connectionPlaceholder": "For example, BSPP, JIC or metric", "messagePlaceholder": "Share application, temperature, connection and working environment data.", "send": "Send Technical Support Request", "required": "Please complete all required fields.", "invalidEmail": "Please enter a valid email address.", "successTitle": "Your request has been received.", "successText": "Our UHP technical support team will contact you as soon as possible.", "newRequest": "Create a new request", "file": "File upload", "fileSoon": "File upload will be added soon", "chooseFile": "Choose file (coming soon)", "demo": "This form is currently a demonstration; your information is not sent to a server." }
+  },
+  "Support": { "breadcrumb": "Technical Support", "eyebrow": "UHP TECHNICAL TEAM", "title": "Technical support for UHP hose and connection selection", "description": "The correct solution is assessed using fluid, temperature, connection type, environment and application data, not pressure alone.", "topicsEyebrow": "SUPPORT TOPICS", "topicsTitle": "Let us clarify the technical requirements together", "topicsDescription": "Sharing the following information about your UHP system supports the initial technical assessment.", "topics": [ { "title": "Pressure class selection", "text": "Assess the UHP product family based on target working pressure, duty cycle and safety requirements." }, { "title": "Hose size / DN selection", "text": "Make the initial assessment using flow requirements, line geometry and existing system data." }, { "title": "Fitting and adapter compatibility", "text": "Technically confirm the hose, insert, adapter and ferrule match." }, { "title": "Application environment", "text": "Share abrasion, movement, confined-space, shipyard or offshore conditions." }, { "title": "Fluid and temperature", "text": "Consider fluid type, temperature and working conditions together with product selection." }, { "title": "Document and certificate request", "text": "Specify the catalogue, technical information or certificate details you need." } ], "formEyebrow": "UHP SUPPORT FORM", "formTitle": "Tell us about your application", "formDescription": "Target pressure, connection type and working environment data are important for identifying the correct product family.", "fastTitle": "Fast contact", "fastText": "Contact our technical team by phone, email or WhatsApp.", "whatsapp": "Contact via WhatsApp" },
+  "WhatsApp": { "message": "Hello, I am contacting you through the Transfer Oil Türkiye website.", "aria": "Contact us on WhatsApp" },
+  "NotFound": { "title": "The page you requested was not found", "text": "The link may have changed or the content may have been removed.", "button": "Return to the home page" }
+}

@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-27T14:21:55.979Z",
+  "status": "pass",
+  "summary": {
+    "manifestRoutes": 18,
+    "localizedManifestRoutes": 72,
+    "namedRoutes": 6,
+    "news": 5,
+    "exhibitions": 1,
+    "certificates": 11,
+    "localListImages": 6
+  },
+  "errors": []
+}

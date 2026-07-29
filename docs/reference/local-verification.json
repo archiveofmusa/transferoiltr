@@ -1,0 +1,28 @@
+{
+  "header": {
+    "utilityItems": [
+      "Fuarlar",
+      "Haberler",
+      "Sertifikalar",
+      "İletişim"
+    ],
+    "mainItems": [
+      "Kurumsal",
+      "Hidrolik",
+      "Endüstriyel",
+      "UHP"
+    ],
+    "bannedVisible": [],
+    "hasUserIconClass": false,
+    "hasSearchClass": false,
+    "hasHeroVisual": true
+  },
+  "contact": {
+    "hasCompany": true,
+    "hasPerson": true,
+    "hasPhone": true,
+    "hasEmail": true,
+    "hasAddress": true,
+    "hasCoordinates": true
+  }
+}

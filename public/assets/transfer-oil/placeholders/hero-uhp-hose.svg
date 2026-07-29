@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 720" role="img" aria-labelledby="title desc">
+  <title id="title">UHP hortum hero görseli</title>
+  <desc id="desc">Ultra yüksek basınç hortum ve bağlantı sistemi yer tutucu görseli.</desc>
+  <rect width="1920" height="720" fill="#3e454c"/>
+  <g opacity=".14" stroke="#fff"><path d="M0 160h1920M0 320h1920M0 480h1920M0 640h1920"/><path d="M220 0v720M540 0v720M860 0v720M1180 0v720M1500 0v720"/></g>
+  <path d="M-120 545C270 260 650 258 965 480c254 179 510 134 1115-180" fill="none" stroke="#062335" stroke-width="78" stroke-linecap="round" opacity=".45"/>
+  <path d="M-120 510C270 230 650 232 965 452c254 177 510 132 1115-180" fill="none" stroke="#0ea5e9" stroke-width="54" stroke-linecap="round"/>
+  <path d="M-120 482C270 208 647 210 960 424c250 170 510 130 1100-180" fill="none" stroke="#7dd3fc" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+  <g transform="translate(1270 296) rotate(-23)">
+    <rect width="275" height="84" rx="10" fill="#e5e7eb"/>
+    <rect x="46" y="-16" width="52" height="116" fill="#9ca3af"/>
+    <rect x="160" y="-16" width="52" height="116" fill="#9ca3af"/>
+    <path d="M275 9h112v66H275z" fill="#cbd5e1"/>
+    <path d="M310 9v66M350 9v66" stroke="#6b7280" stroke-width="8"/>
+  </g>
+  <rect width="1920" height="720" fill="#000" opacity=".2"/>
+</svg>

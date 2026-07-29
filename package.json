@@ -1,0 +1,67 @@
+{
+  "name": "transfer-oil-turkiye",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "fetch:uhp-assets": "node scripts/fetch-transferoil-uhp-assets.mjs",
+    "fetch:reference-assets": "node scripts/fetch-transferoil-reference-assets.mjs",
+    "fetch:final-assets": "node scripts/fetch-transferoil-final-assets.mjs",
+    "source:resolve": "node scripts/resolve-transferoil-canonicals.mjs",
+    "source:build": "node scripts/build-transferoil-registry.mjs",
+    "source:audit": "node scripts/audit-source-map.mjs",
+    "assets:fetch": "node scripts/fetch-transferoil-assets.mjs",
+    "assets:reconcile": "node scripts/reconcile-transferoil-asset-manifest.mjs",
+    "assets:check": "node scripts/check-assets.mjs",
+    "content:extract": "node scripts/extract-transferoil-content.mjs",
+    "content:special": "node scripts/extract-transferoil-special-content.mjs",
+    "product-finder:build": "node scripts/build-product-finder-data.mjs",
+    "product-finder:audit": "node scripts/audit-product-finder.mjs",
+    "navigation:audit": "node scripts/audit-navigation-i18n.mjs",
+    "audit:transferoil-header": "node scripts/audit-transferoil-header.mjs",
+    "audit:transferoil-visual": "node scripts/audit-transferoil-visual.mjs",
+    "audit:reference-final": "node scripts/audit-transferoil-reference-final.mjs",
+    "audit:special": "node scripts/audit-transferoil-special-pages.mjs",
+    "media:audit": "node scripts/audit-transferoil-media.mjs --live",
+    "media:hd-audit": "node scripts/check-hd-media.mjs",
+    "font:audit": "node scripts/audit-transferoil-fonts.mjs",
+    "animation:audit": "node scripts/audit-transferoil-animations.mjs",
+    "parity:audit": "node scripts/check-font-animation-parity.mjs",
+    "i18n:audit": "node scripts/audit-translations.mjs && node scripts/audit-i18n-route-coverage.mjs && node scripts/audit-navigation-i18n.mjs",
+    "routes:check": "node scripts/check-local-routes.mjs",
+    "links:check": "node scripts/check-links.mjs",
+    "capture:local-final": "node scripts/capture-local-final.mjs",
+    "visual:check": "node scripts/visual-regression.mjs",
+    "capture:hd-parity": "node scripts/capture-hd-font-animation-final.mjs",
+    "capture:slider-parity": "node scripts/capture-slider-parity-videos.mjs"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "next-intl": "^4.13.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.10",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.12",
+    "playwright": "1.58.2",
+    "postcss": "8.5.18",
+    "sharp": "0.35.3",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.7.2"
+  },
+  "overrides": {
+    "postcss": "8.5.18",
+    "sharp": "0.35.3"
+  }
+}

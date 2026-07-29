@@ -1,0 +1,172 @@
+:root {
+  /* Public-reference motion measurements, recreated with local CSS/React. */
+  --to-slider-fade-duration: 800ms;
+  --to-slider-item-duration: 1000ms;
+  --to-slider-copy-duration: 1500ms;
+  --to-slider-link-duration: 1800ms;
+  --to-slider-fade-easing: ease;
+  --to-slider-copy-easing: cubic-bezier(.445, .05, .55, .95);
+  --to-mega-motion-duration: 0ms;
+  --to-mega-overlay: rgb(152 152 152 / 97%);
+  --to-mega-shadow: 0 1px 4px rgb(30 30 30 / 70%);
+}
+
+.to-hero-slide {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--to-slider-fade-duration) var(--to-slider-fade-easing);
+  will-change: opacity;
+}
+
+.to-hero-slide[data-active='true'] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.to-hero-copy[data-copy-state='active'] .to-hero-copy-title {
+  animation: toHeroTitleIn var(--to-slider-copy-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-copy[data-copy-state='active'] .to-hero-copy-subtitle {
+  animation: toHeroSubtitleIn var(--to-slider-copy-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-copy[data-copy-state='active'] .to-hero-copy-link {
+  animation: toHeroLinkIn var(--to-slider-link-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-copy[data-copy-state='active'][data-entry-phase='after-fade'] .to-hero-copy-title,
+.to-hero-copy[data-copy-state='active'][data-entry-phase='after-fade'] .to-hero-copy-subtitle,
+.to-hero-copy[data-copy-state='active'][data-entry-phase='after-fade'] .to-hero-copy-link {
+  animation-delay: var(--to-slider-fade-duration);
+}
+
+.to-hero-copy[data-copy-state='outgoing'] .to-hero-copy-title {
+  animation: toHeroTitleOut var(--to-slider-copy-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-copy[data-copy-state='outgoing'] .to-hero-copy-subtitle {
+  animation: toHeroSubtitleOut var(--to-slider-copy-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-copy[data-copy-state='outgoing'] .to-hero-copy-link {
+  animation: toHeroLinkOut var(--to-slider-link-duration) var(--to-slider-copy-easing) both;
+}
+
+.to-hero-pagination-button {
+  transition: background-color 190ms ease;
+}
+
+.to-dropdown-panel,
+.to-mega-menu {
+  background: var(--to-mega-overlay);
+  box-shadow: var(--to-mega-shadow);
+  animation: none;
+}
+
+.to-main-link::after {
+  transition: none;
+}
+
+.to-mobile-menu {
+  animation: toMobileMenuIn 220ms cubic-bezier(.22, .7, .25, 1) both;
+}
+
+.to-hero-cta-arrow {
+  transition: transform 180ms ease;
+}
+
+.to-hero-cta:hover .to-hero-cta-arrow,
+.to-hero-cta:focus-visible .to-hero-cta-arrow {
+  transform: translateX(4px);
+}
+
+.to-home-category-card {
+  transition: filter 300ms ease, transform 300ms ease;
+}
+
+.to-home-category-card:hover,
+.to-home-category-card:focus-visible {
+  filter: brightness(1.04);
+  outline: none;
+  transform: translateY(-3px);
+}
+
+@keyframes toHeroTitleIn {
+  from { opacity: 0; transform: translateY(-100%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toHeroSubtitleIn {
+  from { opacity: 0; transform: translateY(50%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toHeroLinkIn {
+  from { opacity: 0; transform: translateX(-100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toHeroTitleOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-100%); }
+}
+
+@keyframes toHeroSubtitleOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(50%); }
+}
+
+@keyframes toHeroLinkOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-100%); }
+}
+
+@keyframes toMobileMenuIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+html[dir='rtl'] .to-hero-copy-link {
+  animation-name: toHeroLinkInRtl;
+}
+
+html[dir='rtl'] .to-hero-copy[data-copy-state='outgoing'] .to-hero-copy-link {
+  animation-name: toHeroLinkOutRtl;
+}
+
+html[dir='rtl'] .to-hero-cta:hover .to-hero-cta-arrow,
+html[dir='rtl'] .to-hero-cta:focus-visible .to-hero-cta-arrow {
+  transform: translateX(-4px) scaleX(-1);
+}
+
+@keyframes toHeroLinkInRtl {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toHeroLinkOutRtl {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .to-hero-slide {
+    transform: none;
+    transition: none;
+  }
+
+  .to-hero-copy,
+  .to-hero-copy-title,
+  .to-hero-copy-subtitle,
+  .to-hero-copy-link,
+  .to-dropdown-panel,
+  .to-mega-menu,
+  .to-mobile-menu {
+    animation: none !important;
+  }
+
+  .to-hero-copy[data-copy-state='outgoing'] {
+    display: none;
+  }
+}

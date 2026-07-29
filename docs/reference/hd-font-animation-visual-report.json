@@ -1,0 +1,878 @@
+{
+  "generatedAt": "2026-07-28T19:54:42.103Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "viewports": [
+    {
+      "name": "1920x1080",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "1440x900",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "1366x768",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "name": "390x844",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "expectedCaptureCount": 73,
+  "capturedCount": 73,
+  "captures": [
+    {
+      "type": "hero-slide",
+      "slide": 1,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-1-1920x1080.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 2,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-2-1920x1080.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 3,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-3-1920x1080.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "company",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-company-1920x1080.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "hydraulic",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-hydraulic-1920x1080.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "industrial",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-industrial-1920x1080.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "uhp",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-uhp-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/company-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/hydraulic-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/industrial-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-category-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "steel-braid-product",
+      "pathname": "/tr/hidrolik/high-pressure/1sb-steel-braid",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/steel-braid-product-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-metric-product",
+      "pathname": "/tr/uhp/fittings/metric-24-derece-60",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-metric-product-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/news-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/certificates-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/contact-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "russian-home",
+      "pathname": "/ru",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/russian-home-1920x1080.png"
+    },
+    {
+      "type": "page",
+      "key": "arabic-home",
+      "pathname": "/ar",
+      "viewport": {
+        "name": "1920x1080",
+        "width": 1920,
+        "height": 1080
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/arabic-home-1920x1080.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 1,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-1-1440x900.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 2,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-2-1440x900.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 3,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-3-1440x900.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "company",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-company-1440x900.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "hydraulic",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-hydraulic-1440x900.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "industrial",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-industrial-1440x900.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "uhp",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-uhp-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/company-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/hydraulic-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/industrial-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-category-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "steel-braid-product",
+      "pathname": "/tr/hidrolik/high-pressure/1sb-steel-braid",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/steel-braid-product-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-metric-product",
+      "pathname": "/tr/uhp/fittings/metric-24-derece-60",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-metric-product-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/news-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/certificates-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/contact-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "russian-home",
+      "pathname": "/ru",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/russian-home-1440x900.png"
+    },
+    {
+      "type": "page",
+      "key": "arabic-home",
+      "pathname": "/ar",
+      "viewport": {
+        "name": "1440x900",
+        "width": 1440,
+        "height": 900
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/arabic-home-1440x900.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 1,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-1-1366x768.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 2,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-2-1366x768.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 3,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-3-1366x768.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "company",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-company-1366x768.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "hydraulic",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-hydraulic-1366x768.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "industrial",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-industrial-1366x768.png"
+    },
+    {
+      "type": "mega-menu",
+      "menu": "uhp",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mega-menu-uhp-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/company-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/hydraulic-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/industrial-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-category-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "steel-braid-product",
+      "pathname": "/tr/hidrolik/high-pressure/1sb-steel-braid",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/steel-braid-product-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-metric-product",
+      "pathname": "/tr/uhp/fittings/metric-24-derece-60",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-metric-product-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/news-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/certificates-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/contact-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "russian-home",
+      "pathname": "/ru",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/russian-home-1366x768.png"
+    },
+    {
+      "type": "page",
+      "key": "arabic-home",
+      "pathname": "/ar",
+      "viewport": {
+        "name": "1366x768",
+        "width": 1366,
+        "height": 768
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/arabic-home-1366x768.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 1,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-1-390x844.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 2,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-2-390x844.png"
+    },
+    {
+      "type": "hero-slide",
+      "slide": 3,
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/home-slide-3-390x844.png"
+    },
+    {
+      "type": "mobile-menu",
+      "menu": "company",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mobile-menu-company-390x844.png"
+    },
+    {
+      "type": "mobile-menu",
+      "menu": "hydraulic",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mobile-menu-hydraulic-390x844.png"
+    },
+    {
+      "type": "mobile-menu",
+      "menu": "industrial",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mobile-menu-industrial-390x844.png"
+    },
+    {
+      "type": "mobile-menu",
+      "menu": "uhp",
+      "pathname": "/tr",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/mobile-menu-uhp-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "company",
+      "pathname": "/tr/kurumsal/about-us",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/company-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "hydraulic-category",
+      "pathname": "/tr/hidrolik",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/hydraulic-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "industrial-category",
+      "pathname": "/tr/endustriyel",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/industrial-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-category",
+      "pathname": "/tr/uhp",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-category-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "steel-braid-product",
+      "pathname": "/tr/hidrolik/high-pressure/1sb-steel-braid",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/steel-braid-product-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "uhp-metric-product",
+      "pathname": "/tr/uhp/fittings/metric-24-derece-60",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/uhp-metric-product-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "news",
+      "pathname": "/tr/haberler",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/news-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "certificates",
+      "pathname": "/tr/sertifikalar",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/certificates-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "contact",
+      "pathname": "/tr/iletisim",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/contact-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "russian-home",
+      "pathname": "/ru",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/russian-home-390x844.png"
+    },
+    {
+      "type": "page",
+      "key": "arabic-home",
+      "pathname": "/ar",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/arabic-home-390x844.png"
+    },
+    {
+      "type": "arabic-mobile-menu",
+      "pathname": "/ar",
+      "viewport": {
+        "name": "390x844",
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "docs/reference/screenshots/hd-font-animation-final/arabic-mobile-menu-390x844.png"
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

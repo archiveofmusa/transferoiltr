@@ -1,0 +1,256 @@
+/*
+ * Typography values in this file come from the live Playwright/CDP audit at
+ * docs/reference/transferoil-font-audit.json. Montserrat and Noto Sans Arabic
+ * are self-hosted under their SIL Open Font License. The TransferOil webfont
+ * found on the reference site is an icon font and is intentionally excluded.
+ */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/montserrat/montserrat-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/montserrat/montserrat-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/montserrat/montserrat-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/montserrat/montserrat-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/assets/transfer-oil/hd/fonts/noto-sans-arabic/noto-sans-arabic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --to-font-primary: 'Montserrat', Arial, Helvetica, sans-serif;
+  --to-font-cyrillic: 'Montserrat', Arial, Helvetica, sans-serif;
+  --to-font-arabic: 'Noto Sans Arabic', 'Montserrat', Tahoma, Arial, sans-serif;
+  --to-font-weight-light: 300;
+  --to-font-weight-regular: 400;
+  --to-font-weight-medium: 500;
+  --to-font-weight-semibold: 600;
+  --to-font-weight-bold: 700;
+  --to-text-utility: 12px;
+  --to-text-main-nav: 18px;
+  --to-text-mega-heading: 17px;
+  --to-text-mega-item: 15px;
+  --to-text-mega-description: 10px;
+  --to-text-hero-title: 52px;
+  --to-text-hero-subtitle: 18px;
+  --to-text-section-title: 24px;
+  --to-text-product-title: 30px;
+  --to-text-body: 16px;
+  --to-text-caption: 12px;
+  --to-leading-utility: 18px;
+  --to-leading-main-nav: 27px;
+  --to-leading-mega-heading: 19.55px;
+  --to-leading-mega-item: 15px;
+  --to-leading-mega-description: 15px;
+  --to-leading-hero-title: 56px;
+  --to-leading-hero-subtitle: 30px;
+  --to-leading-section-title: 30px;
+  --to-leading-product-title: 36px;
+  --to-leading-body: 24px;
+  --to-leading-caption: 18px;
+  --to-header-font: var(--to-font-primary);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--to-font-primary);
+}
+
+body {
+  font-size: var(--to-text-body);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-body);
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+}
+
+html[lang='ru'] body,
+html[lang='ru'] button,
+html[lang='ru'] input,
+html[lang='ru'] select,
+html[lang='ru'] textarea {
+  font-family: var(--to-font-cyrillic);
+}
+
+html[dir='rtl'] body,
+html[dir='rtl'] button,
+html[dir='rtl'] input,
+html[dir='rtl'] select,
+html[dir='rtl'] textarea {
+  font-family: var(--to-font-arabic);
+  letter-spacing: normal;
+}
+
+.to-utility-link,
+.to-language-label,
+.to-language-trigger,
+.to-language-option {
+  font-family: var(--to-header-font);
+  font-size: var(--to-text-utility);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-utility);
+  letter-spacing: normal;
+}
+
+.to-main-link {
+  font-family: var(--to-header-font);
+  font-size: var(--to-text-main-nav);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-main-nav);
+  letter-spacing: normal;
+}
+
+.to-mega-heading {
+  font-size: var(--to-text-mega-heading);
+  font-weight: var(--to-font-weight-medium);
+  line-height: var(--to-leading-mega-heading);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.to-mega-link,
+.to-dropdown-link,
+.to-mega-summary {
+  font-size: var(--to-text-mega-item);
+  font-weight: var(--to-font-weight-light);
+  line-height: var(--to-leading-mega-item);
+  letter-spacing: normal;
+}
+
+.to-mega-disabled {
+  font-size: var(--to-text-mega-description);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-mega-description);
+  letter-spacing: normal;
+}
+
+.to-hero-copy-title h1 {
+  font-size: var(--to-text-hero-title);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-hero-title);
+  letter-spacing: normal;
+}
+
+.to-hero-copy-subtitle p {
+  font-size: var(--to-text-hero-subtitle);
+  font-weight: var(--to-font-weight-regular);
+  line-height: var(--to-leading-hero-subtitle);
+  letter-spacing: normal;
+}
+
+.to-hero-cta {
+  font-size: 14px;
+  font-weight: var(--to-font-weight-regular);
+  letter-spacing: normal;
+}
+
+.to-section-title {
+  font-size: var(--to-text-section-title);
+  font-weight: var(--to-font-weight-bold);
+  line-height: var(--to-leading-section-title);
+  letter-spacing: normal;
+}
+
+.to-product-title {
+  font-size: var(--to-text-product-title);
+  font-weight: var(--to-font-weight-medium);
+  line-height: var(--to-leading-product-title);
+  letter-spacing: normal;
+}
+
+/* The compact UHP detail template predates the generated manifest template.
+   Bind its existing, unique heading hook without changing product data or copy. */
+h1[dir='auto'].text-4xl.font-extrabold.text-navy {
+  font-size: var(--to-text-product-title);
+  font-weight: var(--to-font-weight-medium);
+  line-height: var(--to-leading-product-title);
+  letter-spacing: normal;
+}
+
+form input,
+form select,
+form textarea {
+  font-size: 14px;
+  font-weight: var(--to-font-weight-light);
+  line-height: 21px;
+  letter-spacing: normal;
+}
+
+footer h2 {
+  font-size: var(--to-text-caption);
+  font-weight: var(--to-font-weight-bold);
+  line-height: var(--to-leading-caption);
+  letter-spacing: normal;
+}
+
+footer li a {
+  font-size: var(--to-text-caption);
+  font-weight: var(--to-font-weight-light);
+  line-height: var(--to-leading-caption);
+  letter-spacing: normal;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --to-text-hero-title: 25px;
+    --to-leading-hero-title: 29px;
+    --to-text-hero-subtitle: 16px;
+    --to-leading-hero-subtitle: 30px;
+  }
+}

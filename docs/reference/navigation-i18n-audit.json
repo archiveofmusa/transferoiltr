@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-28T20:06:33.937Z",
+  "summary": {
+    "expectedRoutes": 343,
+    "routes": 343,
+    "pages": 343,
+    "sourceRows": 343,
+    "locales": [
+      "tr",
+      "en",
+      "ru",
+      "ar"
+    ],
+    "localizedTitleChecks": 1372,
+    "productOrPartRows": 219,
+    "technicalNameChecks": 876,
+    "navigationUsesGeneratedTranslations": true,
+    "errors": 0,
+    "passed": true
+  },
+  "errors": []
+}

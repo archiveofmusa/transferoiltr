@@ -1,0 +1,382 @@
+{
+  "generatedAt": "2026-07-28T18:55:55.488Z",
+  "schemaVersion": 1,
+  "scope": "Public-reference animation measurements and local React/CSS equivalents",
+  "legalMethod": "Only public rendered behavior, computed styles and timing values were measured. No proprietary CSS or JavaScript was copied into the project.",
+  "mode": "live-plus-cached-evidence",
+  "reference": {
+    "url": "https://www.transferoil.com/en/default.aspx",
+    "sliderConfigurationUrl": "https://www.transferoil.com/website/js/solana/flex-slider.js",
+    "cachedHtml": ".cache/transferoil/source-html/085.html",
+    "evidence": [
+      {
+        "field": "homeSlideDurationMs",
+        "value": 32000,
+        "source": ".cache/transferoil/source-html/085.html:577"
+      },
+      {
+        "field": "standardSlideDurationMs",
+        "value": 5000,
+        "source": ".cache/transferoil/source-html/085.html:592,604,615,627"
+      },
+      {
+        "field": "megaMenuSurface",
+        "value": "rgb(152 152 152 / 97%)",
+        "source": ".cache/transferoil/source-html/085.html:243"
+      },
+      {
+        "field": "megaMenuShadow",
+        "value": "0px 1px 4px rgba(30, 30, 30, 0.7)",
+        "source": ".cache/transferoil/source-html/085.html:243"
+      }
+    ]
+  },
+  "measured": {
+    "slider": {
+      "transition": "fade",
+      "transitionDurationMs": 800,
+      "homeSlideDurationMs": 32000,
+      "standardSlideDurationMs": 5000,
+      "pauseOnHover": true,
+      "pauseOnAction": true,
+      "itemEntryDurationMs": 1000,
+      "titleEntryDurationMs": 1500,
+      "subtitleEntryDurationMs": 1500,
+      "linkEntryDurationMs": 1800,
+      "itemStart": "translateX(100%) equivalent and opacity 0",
+      "titleStart": "translateY(-100%) and opacity 0",
+      "subtitleStart": "translateY(50%) and opacity 0",
+      "linkStart": "translateX(-100%) and opacity 0",
+      "desktopMinHeightPx": 480,
+      "mobilePortraitMinHeightPx": 436,
+      "easing": "FlexSlider fade computes to CSS ease; copy entry uses jQuery swing, approximated locally by cubic-bezier(.445,.05,.55,.95)"
+    },
+    "megaMenu": {
+      "surface": "rgb(152 152 152 / 97%)",
+      "shadow": "0px 1px 4px rgba(30, 30, 30, 0.7)",
+      "localEntryDurationMs": 0,
+      "localCloseDelayMs": 0,
+      "localEntryEasing": "none",
+      "entry": "immediate display; live computed transitionDuration and animationDuration are both 0s"
+    }
+  },
+  "tolerances": {
+    "typography": {
+      "fontSizePx": 1,
+      "lineHeightPx": 1,
+      "letterSpacingPx": 0.1,
+      "fontWeight": "same computed or functional weight"
+    },
+    "animation": {
+      "durationMs": 30,
+      "delayMs": 30,
+      "translatePx": 2,
+      "opacity": 0.03,
+      "easing": "same cubic-bezier or measured visual equivalent"
+    }
+  },
+  "requiredInteractions": [
+    "main slider transition",
+    "slider title entry",
+    "slider subtitle entry",
+    "slider button entry",
+    "slider media motion",
+    "category strip hover",
+    "corporate mega menu open/close",
+    "hydraulic mega menu open/close",
+    "industrial mega menu open/close",
+    "UHP mega menu open/close",
+    "active orange underline",
+    "menu hover color",
+    "product card hover",
+    "button arrow motion",
+    "scroll reveal",
+    "news and certificate card hover",
+    "mobile menu open"
+  ],
+  "liveSamples": {
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "slider": {
+      "root": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": "1",
+        "transform": "none",
+        "transitionDuration": "0s",
+        "transitionDelay": "0s",
+        "transitionTimingFunction": "ease",
+        "animationDuration": "0s",
+        "animationDelay": "0s",
+        "animationTimingFunction": "ease",
+        "backgroundColor": "rgb(153, 157, 161)",
+        "boxShadow": "none",
+        "zIndex": "auto",
+        "transformOrigin": "960px 240px",
+        "boundingBox": {
+          "x": 0,
+          "y": 130,
+          "width": 1920,
+          "height": 480
+        },
+        "animations": []
+      },
+      "slide": null,
+      "title": null,
+      "subtitle": null,
+      "link": null
+    },
+    "megaMenus": [
+      {
+        "name": "kurumsal",
+        "triggerSelector": "#fm-company",
+        "panelSelector": ".company-menu",
+        "start": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 262px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 524
+          },
+          "animations": []
+        },
+        "settled": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 262px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 524
+          },
+          "animations": []
+        }
+      },
+      {
+        "name": "hidrolik",
+        "triggerSelector": "#fm-hydraulic",
+        "panelSelector": ".hydraulic-menu",
+        "start": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 272px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 544
+          },
+          "animations": []
+        },
+        "settled": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 272px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 544
+          },
+          "animations": []
+        }
+      },
+      {
+        "name": "endustriyel",
+        "triggerSelector": "#fm-industria",
+        "panelSelector": ".industrial-menu",
+        "start": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 272px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 544
+          },
+          "animations": []
+        },
+        "settled": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 272px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 544
+          },
+          "animations": []
+        }
+      },
+      {
+        "name": "uhp",
+        "triggerSelector": "#fm-up",
+        "panelSelector": ".uhp-menu",
+        "start": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 310.5px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 621
+          },
+          "animations": []
+        },
+        "settled": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "transform": "none",
+          "transitionDuration": "0s",
+          "transitionDelay": "0s",
+          "transitionTimingFunction": "ease",
+          "animationDuration": "0s",
+          "animationDelay": "0s",
+          "animationTimingFunction": "ease",
+          "backgroundColor": "rgba(152, 152, 152, 0.97)",
+          "boxShadow": "rgba(30, 30, 30, 0.7) 0px 1px 4px 0px",
+          "zIndex": "99999",
+          "transformOrigin": "948.477px 310.5px",
+          "boundingBox": {
+            "x": 11.515625,
+            "y": 138,
+            "width": 1896.953125,
+            "height": 621
+          },
+          "animations": []
+        }
+      }
+    ],
+    "activeUnderline": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "height": "auto",
+      "transform": "none",
+      "transformOrigin": "50% 50%",
+      "transitionDuration": "0s",
+      "transitionTimingFunction": "ease"
+    }
+  },
+  "localImplementation": {
+    "component": "src/components/Hero.tsx",
+    "motionStyles": "src/styles/transferoil-motion.css",
+    "menuComponent": "src/components/layout/TransferOilProductMegaMenu.tsx",
+    "copyEntryDelayMsAfterFirstSlide": 800,
+    "copyExit": {
+      "titleMs": 1500,
+      "subtitleMs": 1500,
+      "linkMs": 1800
+    },
+    "independentPauseSources": [
+      "hover",
+      "focus-within",
+      "prefers-reduced-motion"
+    ],
+    "reducedMotion": {
+      "dynamicMediaQuery": true,
+      "autoplayTimerPaused": true,
+      "heroVideoPaused": true
+    },
+    "rtlDirectionAware": true,
+    "deterministicHooks": [
+      "data-hero-slider",
+      "data-active-slide",
+      "data-hero-slide-index"
+    ]
+  },
+  "automatedAudit": {
+    "script": "scripts/check-font-animation-parity.mjs",
+    "report": "docs/reference/font-animation-parity-report.json"
+  },
+  "videoEvidence": {
+    "reference": "docs/reference/reference-slider.webm",
+    "local": "docs/reference/local-slider-after.webm",
+    "captureScript": "scripts/capture-slider-parity-videos.mjs"
+  }
+}

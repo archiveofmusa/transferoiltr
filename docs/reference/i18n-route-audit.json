@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-07-28T20:06:33.669Z",
+  "expectedManifestRows": 343,
+  "manifestRows": 343,
+  "uniqueSourceUrls": 343,
+  "uniqueRouteHints": 343,
+  "supportedLocales": [
+    "tr",
+    "en",
+    "ru",
+    "ar"
+  ],
+  "expectedLocalizedRoutes": 1372,
+  "localizedRoutes": 1372,
+  "namedRouteOwners": [
+    {
+      "id": 85,
+      "route": "/",
+      "file": "src/app/[locale]/page.tsx"
+    },
+    {
+      "id": 331,
+      "route": "/iletisim",
+      "file": "src/app/[locale]/iletisim/page.tsx"
+    }
+  ],
+  "catchAllCandidateRows": 341,
+  "expectedCatchAllCandidateRows": 341,
+  "routeRegistryRows": 343,
+  "contentRegistryRows": 343,
+  "messageLeafCounts": {
+    "tr": 513,
+    "en": 513,
+    "ru": 513,
+    "ar": 513
+  },
+  "rtl": {
+    "locale": "ar",
+    "expected": "rtl",
+    "configured": true
+  },
+  "errors": [],
+  "warnings": []
+}

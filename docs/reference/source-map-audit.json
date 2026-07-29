@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-28T20:06:32.893Z",
+  "strictResolution": true,
+  "passed": true,
+  "expectedSourceRows": 343,
+  "mappedSourceRows": 343,
+  "missingSourceRows": 0,
+  "uniqueSourceUrls": 343,
+  "duplicateSourceUrls": 0,
+  "routeMappings": 343,
+  "orphanRouteMappings": 0,
+  "hierarchyMappingErrors": 0,
+  "localeRouteCounts": {
+    "tr": 343,
+    "en": 343,
+    "ru": 343,
+    "ar": 343
+  },
+  "localizedRouteCount": 1372,
+  "uniqueLocalizedRouteCount": 1372,
+  "canonicalResolutionRequired": 34,
+  "canonicalResolutionResolved": 34,
+  "canonicalResolutionUnresolved": 0,
+  "unresolvedCanonicalIds": [],
+  "insufficientCanonicalAttemptIds": [],
+  "preservedStatusAndNotes": true,
+  "rowsWithNotes": 41,
+  "failures": [],
+  "warnings": []
+}

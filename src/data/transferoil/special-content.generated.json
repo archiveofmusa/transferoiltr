@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-27T12:55:41.851Z",
+  "rules": {
+    "listSourcesRestrictedToManifestIds": [
+      333,
+      334,
+      338
+    ],
+    "detailDepth": 1,
+    "longFormBodyCopied": false,
+    "unverifiedClaimsAdded": false
+  },
+  "sources": {
+    "downloads": "https://www.transferoil.com/en/download.aspx",
+    "exhibitions": "https://www.transferoil.com/en/exhibitions.aspx",
+    "news": "https://www.transferoil.com/en/news.aspx",
+    "certificates": "https://www.transferoil.com/en/about-us/rd-quality-certificates.aspx"
+  },
+  "news": [
+    {
+      "id": "news-1",
+      "title": "2025 Sustainability Report",
+      "summary": "From the circular economy project and emissions reduction to stronger governance and skills development, discover the results and priorities shaping Transfer Oil’s ESG journey.",
+      "publishedDate": "2026-07-17",
+      "dateText": "17 Jul 2026",
+      "detailUrl": "https://www.transferoil.com/en/news/2025-sustainability-report.aspx",
+      "localImage": "/assets/transfer-oil/news/334-news-icona-def.webp"
+    },
+    {
+      "id": "news-2",
+      "title": "IFAT exhibition 2026",
+      "summary": "Transfer Oil concludes IFAT Munich 2026 with positive feedback, and growing interest in thermoplastic hose technology for sewer cleaning and water blasting applications.",
+      "publishedDate": "2026-05-08",
+      "dateText": "08 May 2026",
+      "detailUrl": "https://www.transferoil.com/en/news/ifat-exhibition-2026.aspx",
+      "localImage": "/assets/transfer-oil/news/334-news-icona.webp"
+    },
+    {
+      "id": "news-3",
+      "title": "Transfer Oil acquires the Astrolyne business unit",
+      "summary": "Transfer Oil S.p.A. Acquires the Astrolyne® Lubrication Hose Assemblies Business Unit Strengthening value-added assembly capabilities for the greasing and lubrication equipment market",
+      "publishedDate": "2026-02-02",
+      "dateText": "02 Feb 2026",
+      "detailUrl": "https://www.transferoil.com/en/news/transfer-oil-acquires-the-astrolyne-business-unit.aspx",
+      "localImage": "/assets/transfer-oil/news/334-news-astrolyne.webp"
+    },
+    {
+      "id": "news-4",
+      "title": "Transfer Oil achieves EcoVadis Silver Medal",
+      "summary": "Another great result towards sustainability: Transfer Oil earns EcoVadis Silver Medal certification.",
+      "publishedDate": "2025-11-11",
+      "dateText": "11 Nov 2025",
+      "detailUrl": "https://www.transferoil.com/en/news/transfer-oil-achieves-ecovadis-silver-medal.aspx",
+      "localImage": "/assets/transfer-oil/final/news/news-reference.webp"
+    },
+    {
+      "id": "news-5",
+      "title": "Inside the Helix® range",
+      "summary": "Insights from Transfer Oil experts: the technology, applications, and safety features of Helix® Ultra High Pressure hoses",
+      "publishedDate": "2025-11-05",
+      "dateText": "05 Nov 2025",
+      "detailUrl": "https://www.transferoil.com/en/news/inside-the-helix(r)-range.aspx",
+      "localImage": "/assets/transfer-oil/news/334-news-miniatura-helix.webp"
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "exhibition-1",
+      "title": "Bauma China",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-27",
+      "dateText": "November 24-27, 2026",
+      "summary": "November 24-27, 2026 The leading trade fair in China for construction and mining equipment",
+      "location": "Shanghai New International Expo Centre - Shanghai",
+      "stand": "Booth 651, Hall W5",
+      "detailUrl": "https://www.transferoil.com/en/exhibitions/bauma-china.aspx",
+      "localImage": "/assets/transfer-oil/exhibitions/333-exhibitions-baumachina.webp"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "certificate-1",
+      "title": "ISO 9001:2015",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=212"
+    },
+    {
+      "id": "certificate-2",
+      "title": "ISO 14001:2015",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=213"
+    },
+    {
+      "id": "certificate-3",
+      "title": "ISO 45001:2018",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=214"
+    },
+    {
+      "id": "certificate-4",
+      "title": "DNV (Det Norske Veritas) CO₂ Fire Extinguishing Systems",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=137"
+    },
+    {
+      "id": "certificate-5",
+      "title": "DNV (Det Norske Veritas) Flexible Hoses of Non-Metallic Material",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=206"
+    },
+    {
+      "id": "certificate-6",
+      "title": "MSHA (Mine Safety and Health Administration)",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=207"
+    },
+    {
+      "id": "certificate-7",
+      "title": "ABS (American Bureau of Shipping)",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=209"
+    },
+    {
+      "id": "certificate-8",
+      "title": "CSA (Canadian Standards Association)",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=208"
+    },
+    {
+      "id": "certificate-9",
+      "title": "E7 67R01",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=211"
+    },
+    {
+      "id": "certificate-10",
+      "title": "E7 110R04",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=794"
+    },
+    {
+      "id": "certificate-11",
+      "title": "Integrated Management System Policy",
+      "documentUrl": "https://www.transferoil.com/website/get_download.aspx?ctrb_id=1063"
+    }
+  ]
+}

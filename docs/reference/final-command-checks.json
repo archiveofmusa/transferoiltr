@@ -1,0 +1,32 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-07-27T14:30:06.2448338Z",
+    "overallStatus":  "pass",
+    "productionBuild":  {
+                            "command":  "npm run build",
+                            "exitCode":  0,
+                            "nextVersion":  "16.2.12",
+                            "staticPages":  1508,
+                            "buildId":  "w3CTjjqs4sy6PGm8N4Ojb",
+                            "verifiedBy":  "successful build command followed by HTTP route validation"
+                        },
+    "lint":  {
+                 "command":  "npm run lint",
+                 "exitCode":  0,
+                 "status":  "pass",
+                 "output":  "\n\u003e transfer-oil-turkiye@1.0.0 lint\n\u003e eslint .\n"
+             },
+    "typeScript":  {
+                       "command":  "tsc --noEmit",
+                       "exitCode":  0,
+                       "status":  "pass",
+                       "output":  ""
+                   },
+    "httpRoutes":  {
+                       "source":  "docs/reference/local-route-check.json",
+                       "mode":  "http",
+                       "localizedRoutes":  1372,
+                       "errors":  0,
+                       "passed":  true
+                   }
+}

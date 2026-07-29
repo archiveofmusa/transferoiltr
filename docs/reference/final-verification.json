@@ -1,0 +1,293 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-07-27T14:30:26.9094241Z",
+    "purpose":  "Final evidence summary sourced only from the current JSON audit reports.",
+    "evidencePolicy":  {
+                           "rule":  "Only counts and explicit status fields present in the source JSON files are copied.",
+                           "buildAndLint":  "Recorded in docs/reference/final-command-checks.json after successful command execution."
+                       },
+    "overall":  {
+                    "status":  "pass",
+                    "explicitAuditFailures":  0,
+                    "note":  "All listed audits, lint, TypeScript, the production build, and HTTP route validation passed."
+                },
+    "sourceMapping":  {
+                          "source":  "docs/reference/source-map-audit.json",
+                          "generatedAt":  "2026-07-27T14:21:24.497Z",
+                          "reportedPassed":  true,
+                          "expectedSourceRows":  343,
+                          "mappedSourceRows":  343,
+                          "missingSourceRows":  0,
+                          "uniqueSourceUrls":  343,
+                          "duplicateSourceUrls":  0,
+                          "routeMappings":  343,
+                          "orphanRouteMappings":  0,
+                          "hierarchyMappingErrors":  0,
+                          "localizedRouteCount":  1372,
+                          "uniqueLocalizedRouteCount":  1372,
+                          "localeRouteCounts":  {
+                                                    "tr":  343,
+                                                    "en":  343,
+                                                    "ru":  343,
+                                                    "ar":  343
+                                                },
+                          "failureCount":  0,
+                          "warningCount":  0
+                      },
+    "canonicalResolution":  {
+                                "source":  "docs/reference/canonical-resolution-report.json",
+                                "generatedAt":  "2026-07-27T11:01:34.829Z",
+                                "required":  34,
+                                "resolved":  34,
+                                "unresolvedCount":  0,
+                                "unresolvedIds":  [
+
+                                                  ],
+                                "snapshotCount":  34
+                            },
+    "i18nRoutes":  {
+                       "source":  "docs/reference/i18n-route-audit.json",
+                       "generatedAt":  "2026-07-27T14:21:56.345Z",
+                       "supportedLocales":  [
+                                                "tr",
+                                                "en",
+                                                "ru",
+                                                "ar"
+                                            ],
+                       "manifestRows":  343,
+                       "expectedLocalizedRoutes":  1372,
+                       "localizedRoutes":  1372,
+                       "messageLeafCounts":  {
+                                                 "tr":  513,
+                                                 "en":  513,
+                                                 "ru":  513,
+                                                 "ar":  513
+                                             },
+                       "rtl":  {
+                                   "locale":  "ar",
+                                   "expected":  "rtl",
+                                   "configured":  true
+                               },
+                       "errorCount":  0,
+                       "warningCount":  0,
+                       "reportedPassed":  null,
+                       "note":  "The source report has no passed field; only its error and warning counts are recorded."
+                   },
+    "navigationI18n":  {
+                           "source":  "docs/reference/navigation-i18n-audit.json",
+                           "generatedAt":  "2026-07-27T14:21:56.549Z",
+                           "reportedPassed":  true,
+                           "routes":  343,
+                           "locales":  [
+                                           "tr",
+                                           "en",
+                                           "ru",
+                                           "ar"
+                                       ],
+                           "localizedTitleChecks":  1372,
+                           "technicalNameChecks":  876,
+                           "errorCount":  0
+                       },
+    "httpRouteValidation":  {
+                                "source":  "docs/reference/local-route-check.json",
+                                "generatedAt":  "2026-07-27T14:27:31.587Z",
+                                "validationMode":  "http",
+                                "baseUrl":  "http://127.0.0.1:3000",
+                                "reportedPassed":  true,
+                                "sourceRows":  343,
+                                "localizedRoutes":  1372,
+                                "uniqueLocalizedRoutes":  1372,
+                                "checked":  1372,
+                                "failed":  0,
+                                "statusCounts":  {
+                                                     "200":  1372
+                                                 },
+                                "errorCount":  0
+                            },
+    "referenceAndLocalCaptures":  {
+                                      "reference":  {
+                                                        "source":  "docs/reference/reference-audit.json",
+                                                        "generatedAt":  "2026-07-27T13:42:00.683Z",
+                                                        "reportedPass":  true,
+                                                        "expectedScreenshots":  44,
+                                                        "screenshotsCreated":  44,
+                                                        "failedCaptures":  0
+                                                    },
+                                      "local":  {
+                                                    "source":  "docs/reference/local-capture-report.json",
+                                                    "generatedAt":  "2026-07-27T14:14:11.459Z",
+                                                    "reportedPassed":  true,
+                                                    "referenceMatchedCaptures":  44,
+                                                    "expectedReferenceMatchedCaptures":  44,
+                                                    "arabicMobileCaptures":  1,
+                                                    "failureCount":  0
+                                                }
+                                  },
+    "visualRegression":  {
+                             "source":  "docs/reference/visual-regression-report.json",
+                             "generatedAt":  "2026-07-27T14:15:23.036Z",
+                             "reportedPassed":  true,
+                             "availableReferenceCount":  44,
+                             "requestedComparisonCount":  15,
+                             "completedComparisonCount":  15,
+                             "dimensionsMatchedCount":  15,
+                             "metricPassedCount":  15,
+                             "errorCount":  0,
+                             "warningCount":  0
+                         },
+    "assets":  {
+                   "audit":  {
+                                 "source":  "docs/reference/asset-check.json",
+                                 "generatedAt":  "2026-07-27T14:21:24.614Z",
+                                 "reportedPassed":  true,
+                                 "publicFileCount":  822,
+                                 "manifestCount":  2,
+                                 "manifestEntryCount":  848,
+                                 "trackedAssetCount":  815,
+                                 "inspectedAssetCount":  848,
+                                 "referencedPublicAssetCount":  364,
+                                 "runtimeHotlinkCount":  0,
+                                 "untrackedTransferOilAssetCount":  0,
+                                 "errorCount":  0,
+                                 "warningCount":  0
+                             },
+                   "fetchManifest":  {
+                                         "source":  "public/assets/transfer-oil/asset-manifest.json",
+                                         "generatedAt":  "2026-07-27T13:08:21.247Z",
+                                         "expectedSourceRows":  343,
+                                         "processedSourceRows":  343,
+                                         "fetchedSourceRows":  343,
+                                         "failedSourceRows":  0,
+                                         "downloadedUniqueAssets":  602,
+                                         "reconciledLegacyAssets":  213,
+                                         "trackedLocalAssets":  815,
+                                         "placeholderAssetsCreated":  8,
+                                         "failedAssetDownloads":  0,
+                                         "untrackedLocalMediaFiles":  0
+                                     }
+               },
+    "contentExtraction":  {
+                              "source":  "docs/reference/content-extraction-report.json",
+                              "generatedAt":  "2026-07-27T13:20:46.092Z",
+                              "expectedPageCount":  343,
+                              "pageCount":  343,
+                              "translationLocaleCount":  4,
+                              "translationRecordCount":  1372,
+                              "requiredTranslationFieldsComplete":  true,
+                              "extractionCompleteCount":  343,
+                              "sourceUnavailableCount":  0,
+                              "tableCount":  100,
+                              "technicalFactCount":  3352,
+                              "documentLinkCount":  329,
+                              "pageAssetBindingCount":  859,
+                              "placeholderBindingCount":  0,
+                              "productOrPartPages":  219,
+                              "productOrPartPagesWithLocalAssets":  179,
+                              "productOrPartPagesWithoutDiscoverableSpecificAssetCount":  40,
+                              "productOrPartPagesWithoutDiscoverableSpecificAssetIds":  [
+                                                                                            14,
+                                                                                            15,
+                                                                                            58,
+                                                                                            60,
+                                                                                            62,
+                                                                                            93,
+                                                                                            95,
+                                                                                            96,
+                                                                                            97,
+                                                                                            98,
+                                                                                            99,
+                                                                                            103,
+                                                                                            108,
+                                                                                            110,
+                                                                                            120,
+                                                                                            125,
+                                                                                            127,
+                                                                                            128,
+                                                                                            129,
+                                                                                            130,
+                                                                                            145,
+                                                                                            169,
+                                                                                            171,
+                                                                                            182,
+                                                                                            195,
+                                                                                            203,
+                                                                                            205,
+                                                                                            208,
+                                                                                            210,
+                                                                                            211,
+                                                                                            213,
+                                                                                            223,
+                                                                                            224,
+                                                                                            229,
+                                                                                            230,
+                                                                                            235,
+                                                                                            236,
+                                                                                            274,
+                                                                                            315,
+                                                                                            317
+                                                                                        ],
+                              "runtimeAssetBindingsAreLocalOnly":  true
+                          },
+    "productFinder":  {
+                          "source":  "docs/reference/product-finder-audit.json",
+                          "generatedAt":  "2026-07-27T14:21:55.921Z",
+                          "reportedPassed":  true,
+                          "manifestRecords":  343,
+                          "excludedNonCatalogRecords":  19,
+                          "records":  324,
+                          "sectionCounts":  {
+                                                "Fittings":  84,
+                                                "Hydraulic":  94,
+                                                "Industrial":  52,
+                                                "UHP":  94
+                                            },
+                          "withPressureData":  140,
+                          "withConnectionData":  209,
+                          "errorCount":  0
+                      },
+    "specialPages":  {
+                         "source":  "docs/reference/special-pages-audit.json",
+                         "generatedAt":  "2026-07-27T14:21:55.979Z",
+                         "reportedStatus":  "pass",
+                         "manifestRoutes":  18,
+                         "localizedManifestRoutes":  72,
+                         "namedRoutes":  6,
+                         "news":  5,
+                         "exhibitions":  1,
+                         "certificates":  11,
+                         "localListImages":  6,
+                         "errorCount":  0
+                     },
+    "links":  {
+                  "source":  "docs/reference/link-check.json",
+                  "generatedAt":  "2026-07-27T14:21:56.026Z",
+                  "reportedPassed":  true,
+                  "sourceFilesScanned":  64,
+                  "internalLinksChecked":  35,
+                  "externalLinksChecked":  4,
+                  "documentLinksChecked":  329,
+                  "errorCount":  0,
+                  "warningCount":  0
+              },
+    "build":  {
+                  "source":  "docs/reference/final-command-checks.json",
+                  "status":  "pass",
+                  "command":  "npm run build",
+                  "exitCode":  0,
+                  "nextVersion":  "16.2.12",
+                  "staticPages":  1508,
+                  "buildId":  "w3CTjjqs4sy6PGm8N4Ojb"
+              },
+    "lint":  {
+                 "source":  "docs/reference/final-command-checks.json",
+                 "status":  "pass",
+                 "command":  "npm run lint",
+                 "exitCode":  0
+             },
+    "typeScript":  {
+                       "source":  "docs/reference/final-command-checks.json",
+                       "status":  "pass",
+                       "command":  "tsc --noEmit",
+                       "exitCode":  0
+                   }
+}

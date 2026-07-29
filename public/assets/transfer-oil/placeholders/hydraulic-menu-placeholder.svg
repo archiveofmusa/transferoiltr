@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">TO Hydraulic placeholder</title>
+  <desc id="desc">Termoplastik hidrolik hortum görsel yer tutucusu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#5e656b"/>
+      <stop offset="1" stop-color="#343a40"/>
+    </linearGradient>
+    <linearGradient id="hose" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".55" stop-color="#6b7280"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" fill="url(#bg)"/>
+  <path d="M22 135c42-53 94-66 154-39 36 16 70 12 121-25" fill="none" stroke="#ff7300" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+  <path d="M26 118c51-28 97-28 139 0 34 23 76 20 128-8" fill="none" stroke="url(#hose)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M226 103l52-22 10 22-52 22z" fill="#c9cfd6"/>
+  <path d="M239 97l39-16" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <g opacity=".16" stroke="#fff">
+    <path d="M0 36h320"/>
+    <path d="M0 72h320"/>
+    <path d="M0 108h320"/>
+  </g>
+  <text x="22" y="34" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">TO Hydraulic</text>
+</svg>

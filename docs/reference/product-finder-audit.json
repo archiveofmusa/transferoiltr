@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-27T14:21:55.921Z",
+  "summary": {
+    "manifestRecords": 343,
+    "excludedNonCatalogRecords": 19,
+    "expectedCatalogRecords": 324,
+    "records": 324,
+    "uniqueIds": 324,
+    "uniqueRoutes": 324,
+    "sectionCounts": {
+      "Fittings": 84,
+      "Hydraulic": 94,
+      "Industrial": 52,
+      "UHP": 94
+    },
+    "withPressureData": 140,
+    "withConnectionData": 209,
+    "errors": 0,
+    "passed": true
+  },
+  "errors": []
+}

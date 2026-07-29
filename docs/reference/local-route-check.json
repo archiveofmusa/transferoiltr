@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-07-28T20:06:32.943Z",
+  "requestedMode": "auto",
+  "validationMode": "http",
+  "baseUrl": "http://127.0.0.1:3000",
+  "expected": {
+    "sourceRows": 343,
+    "locales": [
+      "tr",
+      "en",
+      "ru",
+      "ar"
+    ],
+    "localizedRoutes": 1372
+  },
+  "summary": {
+    "sourceRows": 343,
+    "uniqueSourceUrls": 343,
+    "routeMappings": 343,
+    "sourceMapRows": 343,
+    "contentPages": 343,
+    "locales": 4,
+    "localizedRoutes": 1372,
+    "uniqueLocalizedRoutes": 1372,
+    "namedOwnerCount": 2,
+    "validationMode": "http",
+    "errorCount": 0,
+    "passed": true
+  },
+  "namedRouteOwnership": {
+    "declaredOwners": [
+      "/",
+      "/iletisim"
+    ],
+    "appPagePatterns": [
+      {
+        "pattern": "/fuarlar",
+        "file": "src/app/[locale]/fuarlar/page.tsx"
+      },
+      {
+        "pattern": "/haberler",
+        "file": "src/app/[locale]/haberler/page.tsx"
+      },
+      {
+        "pattern": "/iletisim",
+        "file": "src/app/[locale]/iletisim/page.tsx"
+      },
+      {
+        "pattern": "/kataloglar-sertifikalar",
+        "file": "src/app/[locale]/kataloglar-sertifikalar/page.tsx"
+      },
+      {
+        "pattern": "/kurumsal",
+        "file": "src/app/[locale]/kurumsal/page.tsx"
+      },
+      {
+        "pattern": "/",
+        "file": "src/app/[locale]/page.tsx"
+      },
+      {
+        "pattern": "/sertifikalar",
+        "file": "src/app/[locale]/sertifikalar/page.tsx"
+      },
+      {
+        "pattern": "/teknik-destek",
+        "file": "src/app/[locale]/teknik-destek/page.tsx"
+      },
+      {
+        "pattern": "/urunler",
+        "file": "src/app/[locale]/urunler/page.tsx"
+      },
+      {
+        "pattern": "/urunler/[slug]",
+        "file": "src/app/[locale]/urunler/[slug]/page.tsx"
+      },
+      {
+        "pattern": "/uygulamalar",
+        "file": "src/app/[locale]/uygulamalar/page.tsx"
+      },
+      {
+        "pattern": "/[...slug]",
+        "file": "src/app/[locale]/[...slug]/page.tsx"
+      }
+    ],
+    "manifestIntersections": [
+      {
+        "id": 85,
+        "routePath": "/",
+        "owners": [
+          {
+            "pattern": "/",
+            "file": "src/app/[locale]/page.tsx"
+          }
+        ]
+      },
+      {
+        "id": 331,
+        "routePath": "/iletisim",
+        "owners": [
+          {
+            "pattern": "/iletisim",
+            "file": "src/app/[locale]/iletisim/page.tsx"
+          }
+        ]
+      }
+    ]
+  },
+  "build": {},
+  "http": {
+    "checked": 1372,
+    "accepted": 1372,
+    "failed": 0,
+    "statusCounts": {
+      "200": 1372
+    }
+  },
+  "errors": []
+}

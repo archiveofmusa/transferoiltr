@@ -1,0 +1,114 @@
+{
+  "sourceUrl": "https://www.transferoil.com/en/.aspx",
+  "capturedAt": "2026-07-27T13:40:33.832Z",
+  "auditMode": "playwright-computed-style",
+  "liveAuditStatus": "success",
+  "screenshotPaths": {
+    "homeFull": "docs/reference/transferoil-home-full.png",
+    "headerDesktop": "docs/reference/transferoil-header-desktop.png",
+    "uhpMegamenu": "docs/reference/transferoil-uhp-megamenu.png"
+  },
+  "headerHeights": {
+    "topBar": 76,
+    "mainNav": 62,
+    "total": 138
+  },
+  "logoSizeAndPlacement": {
+    "rect": {
+      "x": 31,
+      "y": 21,
+      "width": 217,
+      "height": 34
+    },
+    "source": "https://www.transferoil.com/website/images/TransferOil_w.svg",
+    "naturalWidth": 300,
+    "naturalHeight": 47
+  },
+  "colors": {
+    "topBarBackgroundColor": {
+      "raw": "rgb(255, 115, 0)",
+      "hex": "#FF7300"
+    },
+    "mainNavBackgroundColor": {
+      "raw": "rgba(67, 71, 76, 0.88)",
+      "hex": "#43474C @ 0.88"
+    },
+    "textColor": {
+      "raw": "rgb(255, 255, 255)",
+      "hex": "#FFFFFF"
+    },
+    "hoverColor": {
+      "raw": "rgb(255, 255, 255)",
+      "hex": "#FFFFFF"
+    },
+    "hoverAccentColor": {
+      "raw": "rgb(255, 115, 0)",
+      "hex": "#FF7300"
+    },
+    "redAccent": {
+      "raw": "rgb(255, 115, 0)",
+      "hex": "#FF7300"
+    },
+    "borderSeparatorColor": {
+      "raw": "rgb(33, 37, 41)",
+      "hex": "#212529"
+    },
+    "searchBackgroundColor": {
+      "raw": "rgb(220, 222, 226)",
+      "hex": "#DCDEE2"
+    }
+  },
+  "borderSeparatorColors": {
+    "mainNavBottom": {
+      "raw": "rgb(33, 37, 41)",
+      "hex": "#212529"
+    }
+  },
+  "font": {
+    "familyDetected": "Montserrat, sans-serif",
+    "projectFallback": "Montserrat, Arial, Helvetica, sans-serif",
+    "note": "Computed font family is recorded only; no Transfer Oil font files are copied into the project."
+  },
+  "fontSize": {
+    "mainNav": "18px",
+    "utility": "12px",
+    "search": "14px"
+  },
+  "menuItemSpacing": [
+    40,
+    40,
+    40,
+    40
+  ],
+  "searchButtonPositionAndSize": {
+    "x": 1625,
+    "y": 90,
+    "width": 270,
+    "height": 35
+  },
+  "userIconPositionAndSize": {
+    "x": 1795,
+    "y": 28,
+    "width": 21,
+    "height": 16
+  },
+  "languageSelectorPositionAndSize": {
+    "x": 1847,
+    "y": 31,
+    "width": 57,
+    "height": 15
+  },
+  "foundMainNavLabels": [
+    "Company",
+    "Sustainability",
+    "Hydraulic",
+    "Industrial",
+    "UHP"
+  ],
+  "assetSources": {
+    "logo": "https://www.transferoil.com/website/images/TransferOil_w.svg",
+    "userIcon": "https://www.transferoil.com/website/images/user_w.svg"
+  },
+  "needsManualColorPick": false,
+  "manualColorFields": []
+}
