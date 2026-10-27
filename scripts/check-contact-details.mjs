@@ -24,12 +24,15 @@ async function verifyContactLinks(route) {
   if (route.endsWith('/iletisim')) {
     assert.equal(await page.locator(`aside a[href="mailto:${email}"]`).count(), 1);
     assert((await page.locator('aside').innerText()).includes('Umut Gündoğdu'));
+    // The query-aware form is rendered after its Suspense fallback hydrates.
+    await page.locator('#contact-phone').waitFor({ state: 'visible', timeout: 30000 });
     assert.equal(await page.locator('#contact-phone').count(), 1, 'Customer phone input must stay unchanged');
     const map = await page.locator('iframe').getAttribute('src');
     assert(map.includes('40.848771688250984') && map.includes('29.295564869254044'));
   }
   if (route.endsWith('/teknik-destek')) {
     assert.equal(await page.locator(`main a[href="mailto:${email}"]`).count(), 1);
+    await page.locator('#support-phone').waitFor({ state: 'visible', timeout: 30000 });
     assert.equal(await page.locator('#support-phone').count(), 1, 'Customer phone input must stay unchanged');
     assert(!body.includes('WhatsApp'), 'Support copy must no longer advertise WhatsApp');
   }
