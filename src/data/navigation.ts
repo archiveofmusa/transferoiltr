@@ -6,6 +6,7 @@ import { transferOilAssets } from './transferOilAssets';
 import { brand } from './brand';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
+import { resolveProductDisplayName } from '@/i18n/productDisplayName';
 import type {
   MainNavigationKey,
   NavigationMenu,
@@ -35,7 +36,8 @@ const pageById = new Map(pages.map((page) => [page.id, page]));
 
 function routeLabel(route: RegistryRoute, locale: Locale): string {
   const sourceLabel = route.breadcrumbs.at(-1)?.label ?? route.routePath;
-  return pageById.get(route.id)?.translations?.[locale]?.title?.trim() || sourceLabel;
+  const translations = pageById.get(route.id)?.translations;
+  return resolveProductDisplayName(translations?.en.title?.trim() || sourceLabel, translations?.[locale]?.title?.trim() || sourceLabel, locale);
 }
 
 function routeToNode(route: RegistryRoute, locale: Locale): NavigationTreeNode {

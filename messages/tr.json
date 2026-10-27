@@ -1,7 +1,7 @@
 {
   "Meta": {
     "home": { "title": "UHPHORTUM | Termoplastik Hortum ve Bağlantı Çözümleri", "description": "UHPHORTUM, Transfer Oil ürünlerinin Türkiye yetkili distribütörü; hidrolik, endüstriyel ve UHP termoplastik hortum, fitting ve bağlantı çözümleri için ürün bilgisi ve teknik destek." },
-    "products": { "title": "UHP Ürünler", "description": "UHPHORTUM üzerinden Transfer Oil UHP ve HELIX hortum, insert, adaptör, ferrule ve aksesuar ürün ailelerini inceleyin." },
+    "products": { "title": "UHP Ürünler", "description": "UHPHORTUM üzerinden Transfer Oil UHP ve HELIX hortum, bağlantı ucu, adaptör, yüksük ve aksesuar ürün ailelerini inceleyin." },
     "applications": { "title": "UHP Uygulamaları", "description": "Su jeti, endüstriyel temizlik, tersane bakım, offshore ve yüksek basınçlı akışkan transferi için UHP çözümleri." },
     "catalogues": { "title": "Kataloglar ve Sertifikalar", "description": "Transfer Oil UHP katalog, teknik doküman ve sertifika talepleri." },
     "corporate": { "title": "Kurumsal", "description": "UHPHORTUM distribütörlük, kalite yaklaşımı ve teknik destek bilgileri." },
@@ -92,11 +92,11 @@
       "description": "343 kaynak kaydında ürün kodu, kategori, seri, basınç ve bağlantı standardına göre arama yapın.",
       "close": "Ürün Bulucu'yu kapat",
       "queryLabel": "Ürün adı veya kodu",
-      "queryPlaceholder": "Örn. HR8, 4SW, ferrule",
+      "queryPlaceholder": "Örn. HR8, 4SW, yüksük",
       "sectionLabel": "Bölüm",
       "allSections": "Tüm bölümler",
       "familyLabel": "Kategori / seri",
-      "familyPlaceholder": "Örn. HELIX, High Pressure",
+      "familyPlaceholder": "Örn. HELIX, Yüksek Basınç",
       "pressureLabel": "Basınç",
       "pressurePlaceholder": "Örn. 350 bar veya 5000 psi",
       "connectionLabel": "Bağlantı türü",
@@ -151,7 +151,7 @@
       "title": "Hidrolikten UHP sistemlerine eksiksiz ürün yaklaşımı",
       "description": "Transfer Oil ürün portföyünü ana teknik kullanım alanlarına göre inceleyin.",
       "items": {
-        "hydraulic": { "label": "TO HYDRAULIC", "title": "Hidrolik", "description": "Hidrolik güç aktarımına yönelik termoplastik hortum, ferrule ve insert çözümleri.", "link": "Hidrolik ürünleri incele" },
+        "hydraulic": { "label": "TO HYDRAULIC", "title": "Hidrolik", "description": "Hidrolik güç aktarımına yönelik termoplastik hortum, yüksük ve bağlantı ucu çözümleri.", "link": "Hidrolik ürünleri incele" },
         "industrial": { "label": "TO INDUSTRIAL", "title": "Endüstriyel", "description": "Gaz, yakıt, kimyasal, su ve otomasyon uygulamalarına yönelik ürün grupları.", "link": "Endüstriyel ürünleri incele" },
         "uhp": { "label": "TO UHP", "title": "Ultra Yüksek Basınç", "description": "HELIX hortumlar, UHP bağlantı elemanları, adaptörler ve aksesuarlar.", "link": "UHP ürünlerini incele" },
         "fittings": { "label": "TO FITTINGS", "title": "Bağlantı Elemanları", "description": "Hortum sistemleri için standart, VHP ve micro bore bağlantı bileşenleri.", "link": "Bağlantı elemanlarını incele" }
@@ -178,26 +178,26 @@
     "products": "Ürünler",
     "resources": "Kaynaklar",
     "contact": "İletişim",
-    "links": { "about": "Hakkımızda", "support": "Teknik Destek", "contact": "İletişim", "hydraulic": "Hidrolik", "industrial": "Endüstriyel", "uhp": "UHP", "fittings": "Bağlantı Elemanları", "hoses": "HELIX Hortumlar", "adapters": "Adaptörler", "ferrules": "Ferrule ve Aksesuarlar", "applications": "Uygulamalar", "catalogues": "Kataloglar", "certificates": "Sertifikalar", "legal": "Yasal", "sustainability": "Sürdürülebilirlik", "cookiePolicy": "Çerez Politikası", "legalNotice": "Yasal Bildirim", "privacy": "Gizlilik", "salesConditions": "Satış Koşulları" },
+    "links": { "about": "Hakkımızda", "support": "Teknik Destek", "contact": "İletişim", "hydraulic": "Hidrolik", "industrial": "Endüstriyel", "uhp": "UHP", "fittings": "Bağlantı Elemanları", "hoses": "HELIX Hortumlar", "adapters": "Adaptörler", "ferrules": "Yüksük ve Aksesuarlar", "applications": "Uygulamalar", "catalogues": "Kataloglar", "certificates": "Sertifikalar", "legal": "Yasal", "sustainability": "Sürdürülebilirlik", "cookiePolicy": "Çerez Politikası", "legalNotice": "Yasal Bildirim", "privacy": "Gizlilik", "salesConditions": "Satış Koşulları" },
     "address": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / İstanbul"],
     "legal": "Transfer Oil markası ve ürün adları ilgili hak sahiplerine aittir. Bu web sitesi Türkiye distribütörlük faaliyetleri kapsamında bilgilendirme amacıyla hazırlanmıştır.",
     "copyright": "© {year} UHPHORTUM."
   },
   "Products": {
-    "page": { "breadcrumb": "UHP Ürünler", "eyebrow": "UHP / HELIX KATALOĞU", "title": "Ultra yüksek basınç ürünleri", "description": "HELIX hortumlar, UHP insertler, adaptörler, ferrule ve aksesuarlar yalnızca uygulamanızın teknik koşullarıyla birlikte değerlendirilmelidir.", "noteEyebrow": "TEKNİK NOT", "noteTitle": "Uygun ürün ailesini birlikte belirleyin", "noteDescription": "Basınç, akışkan, sıcaklık, bağlantı tipi ve çalışma ortamı bilgilerinizi iletin; UHP teknik destek ekibimiz ilk değerlendirmeyi yapsın." },
+    "page": { "breadcrumb": "UHP Ürünler", "eyebrow": "UHP / HELIX KATALOĞU", "title": "Ultra yüksek basınç ürünleri", "description": "HELIX hortumlar, UHP bağlantı uçları, adaptörler, yüksükler ve aksesuarlar yalnızca uygulamanızın teknik koşullarıyla birlikte değerlendirilmelidir.", "noteEyebrow": "TEKNİK NOT", "noteTitle": "Uygun ürün ailesini birlikte belirleyin", "noteDescription": "Basınç, akışkan, sıcaklık, bağlantı tipi ve çalışma ortamı bilgilerinizi iletin; UHP teknik destek ekibimiz ilk değerlendirmeyi yapsın." },
     "filters": { "title": "UHP filtreleri", "productName": "Ürün adı", "searchPlaceholder": "UHP ürün ara", "family": "Ürün ailesi", "allFamilies": "Tüm ürün aileleri", "pressure": "Basınç bilgisi", "application": "Uygulama", "allApplications": "Tüm uygulamalar", "clear": "Filtreleri temizle", "show": "Filtrele", "hide": "Filtreleri gizle", "sort": "Sırala", "reference": "Referans sırası", "sortFamily": "Ürün ailesi", "sortPressure": "Basınç", "sortName": "İsim", "count": "{count} UHP ürün listeleniyor", "emptyTitle": "Aramanıza uygun UHP ürün bulunamadı.", "emptyText": "Teknik destek ekibimizden yardım alabilirsiniz." },
     "pressure": { "all": "Tüm basınç seviyeleri", "upTo1500": "1.500 bar’a kadar", "upTo2200": "2.200 bar’a kadar", "technical": "Teknik dokümana göre", "documentRequest": "Doküman talebi", "upTo": "{bar} bar’a kadar" },
     "families": {
-      "helix": { "label": "HELIX Hortumlar", "short": "{name}, ultra yüksek basınç uygulamaları için HELIX hortum çözümüdür.", "description": "{name} seçimi; basınç sınıfı, akışkan, sıcaklık, bağlantı tipi ve saha koşullarına göre üretici dokümanı üzerinden doğrulanmalıdır.", "benefits": ["HELIX ürün ailesi içinde UHP hortum çözümü", "Fitting ve aksesuar uyumluluğu değerlendirmesi", "Teknik seçim desteği", "Katalog ve dokümantasyon yönlendirmesi"] },
-      "inserts": { "label": "UHP Bağlantı Elemanları / Inserts", "short": "{name}, UHP hortum sistemleri için teknik olarak değerlendirilmesi gereken bir bağlantı çözümüdür.", "description": "{name} seçiminde hortum tipi, bağlantı standardı, sızdırmazlık yaklaşımı, basınç sınıfı ve çalışma koşulları birlikte doğrulanmalıdır.", "benefits": ["Bağlantı standardı için teknik uygunluk kontrolü", "Hortum ve insert eşleştirme desteği", "Katalog ve dokümantasyon yönlendirmesi"] },
+      "helix": { "label": "HELIX Hortumlar", "short": "{name}, ultra yüksek basınç uygulamaları için HELIX hortum çözümüdür.", "description": "{name} seçimi; basınç sınıfı, akışkan, sıcaklık, bağlantı tipi ve saha koşullarına göre üretici dokümanı üzerinden doğrulanmalıdır.", "benefits": ["HELIX ürün ailesi içinde UHP hortum çözümü", "Bağlantı elemanı ve aksesuar uyumluluğu değerlendirmesi", "Teknik seçim desteği", "Katalog ve dokümantasyon yönlendirmesi"] },
+      "inserts": { "label": "UHP Bağlantı Uçları", "short": "{name}, UHP hortum sistemleri için teknik olarak değerlendirilmesi gereken bir bağlantı çözümüdür.", "description": "{name} seçiminde hortum tipi, bağlantı standardı, sızdırmazlık yaklaşımı, basınç sınıfı ve çalışma koşulları birlikte doğrulanmalıdır.", "benefits": ["Bağlantı standardı için teknik uygunluk kontrolü", "Hortum ve bağlantı ucu eşleştirme desteği", "Katalog ve dokümantasyon yönlendirmesi"] },
       "adapters": { "label": "Adaptörler", "short": "{name}, UHP hatlarda bağlantı geçişleri için adaptör çözümüdür.", "description": "{name}; bağlantı standardı, karşı parça, basınç sınıfı ve çalışma ortamı doğrulanarak değerlendirilmelidir.", "benefits": ["Bağlantı geçişlerinde sistem uyumu", "Teknik seçim desteği", "Uygulama koşullarına göre uygunluk kontrolü"] },
-      "ferrules": { "label": "Ferrules", "short": "{name}, UHP hortum montajlarında kullanılan teknik bileşen ailesidir.", "description": "{name} için hortum ve insert kombinasyonu, montaj prosedürü ve uygulama koşulları üretici dokümanına göre doğrulanmalıdır.", "benefits": ["Hortum ve fitting eşleştirmesi", "Montaj süreci için teknik bilgi", "Dokümantasyon yönlendirmesi"] },
+      "ferrules": { "label": "Yüksükler", "short": "{name}, UHP hortum montajlarında kullanılan teknik bileşen ailesidir.", "description": "{name} için hortum ve bağlantı ucu kombinasyonu, montaj prosedürü ve uygulama koşulları üretici dokümanına göre doğrulanmalıdır.", "benefits": ["Hortum ve bağlantı elemanı eşleştirmesi", "Montaj süreci için teknik bilgi", "Dokümantasyon yönlendirmesi"] },
       "accessories": { "label": "Aksesuarlar", "short": "{name}, UHP hortum sistemleri için tamamlayıcı aksesuar grubudur.", "description": "{name}; hortum sistemi, saha koşulu ve güvenli kullanım ihtiyaçlarına göre teknik destekle değerlendirilmelidir.", "benefits": ["Sistem ihtiyacına göre yönlendirme", "Uygulama odaklı teknik destek", "Dokümantasyon yönlendirmesi"] },
       "certificates": { "label": "Sertifikalar", "short": "UHP ürünleri için sertifika ve teknik doküman talepleri.", "description": "UHP ürün sertifikaları ve teknik dokümanları, ürün ve uygulama kapsamına göre değerlendirilir. Belge talebiniz için iletişime geçin.", "benefits": ["Sertifika talebi için yerel iletişim", "Ürün ve uygulamaya göre doküman yönlendirmesi", "Kalite süreçleri için teknik bilgi paylaşımı"] }
     },
     "applications": { "waterJet": "Su jeti", "industrialCleaning": "Endüstriyel temizlik", "shipyardMaintenance": "Tersane bakım uygulamaları", "fluidTransfer": "Yüksek basınçlı akışkan transferi", "hoseConnections": "UHP hortum bağlantıları", "waterJetSystems": "Su jeti sistemleri", "highPressureLines": "Yüksek basınç hatları", "cleaningEquipment": "Endüstriyel temizlik ekipmanları", "lineTransitions": "UHP hat geçişleri", "connectionAdaptation": "Bağlantı adaptasyonu", "testLines": "Yüksek basınç test hatları", "hoseAssemblies": "UHP hortum montajları", "highPressureConnections": "Yüksek basınç bağlantıları", "waterJetEquipment": "Su jeti ekipmanları", "systemAccessories": "UHP sistem tamamlayıcıları", "certificateRequest": "Sertifika talebi", "technicalDocumentation": "Teknik dokümantasyon", "procurementQuality": "Satın alma ve kalite süreçleri" }
   },
-  "ProductDetail": { "pressureInfo": "BASINÇ BİLGİSİ", "overview": "Teknik genel bakış", "technicalDisclaimer": "Teknik değerler ve ürün uygunluğu uygulama koşullarına göre doğrulanmalıdır. Nihai seçim için teknik doküman ve üretici bilgileri esas alınmalıdır.", "benefits": "Öne çıkanlar", "applications": "Uygulamalar", "compatibilityEyebrow": "BAĞLANTI UYUMU", "compatibilityTitle": "Hortum, insert ve adaptör değerlendirmesi", "compatibilityText": "Hortum, insert, adaptör ve ferrule kombinasyonunu teknik ekibimizle doğrulayın.", "compatibilityLink": "Uyumluluk desteği al", "documentationEyebrow": "DOKÜMANTASYON", "documentationTitle": "Katalog ve sertifika talebi", "documentationText": "UHP ürün dokümanları ve sertifika talepleriniz için bizimle iletişime geçin.", "documentationLink": "Sertifika talebi oluştur", "supportEyebrow": "UHP PROJE DESTEĞİ", "supportTitle": "Bu ürün için teknik destek isteyin", "supportText": "Basınç, bağlantı tipi, akışkan ve çalışma koşullarıyla birlikte talebinizi iletin.", "related": "İlgili UHP ürünler", "imageAlt": "{name} ürün temsil görseli", "notFound": "Ürün bulunamadı" },
+  "ProductDetail": { "pressureInfo": "BASINÇ BİLGİSİ", "overview": "Teknik genel bakış", "technicalDisclaimer": "Teknik değerler ve ürün uygunluğu uygulama koşullarına göre doğrulanmalıdır. Nihai seçim için teknik doküman ve üretici bilgileri esas alınmalıdır.", "benefits": "Öne çıkanlar", "applications": "Uygulamalar", "compatibilityEyebrow": "BAĞLANTI UYUMU", "compatibilityTitle": "Hortum, bağlantı ucu ve adaptör değerlendirmesi", "compatibilityText": "Hortum, bağlantı ucu, adaptör ve yüksük kombinasyonunu teknik ekibimizle doğrulayın.", "compatibilityLink": "Uyumluluk desteği al", "documentationEyebrow": "DOKÜMANTASYON", "documentationTitle": "Katalog ve sertifika talebi", "documentationText": "UHP ürün dokümanları ve sertifika talepleriniz için bizimle iletişime geçin.", "documentationLink": "Sertifika talebi oluştur", "supportEyebrow": "UHP PROJE DESTEĞİ", "supportTitle": "Bu ürün için teknik destek isteyin", "supportText": "Basınç, bağlantı tipi, akışkan ve çalışma koşullarıyla birlikte talebinizi iletin.", "related": "İlgili UHP ürünler", "imageAlt": "{name} ürün temsil görseli", "notFound": "Ürün bulunamadı" },
   "Applications": {
     "page": { "breadcrumb": "Uygulamalar", "eyebrow": "UHP UYGULAMALARI", "title": "Kritik basınç koşullarında doğru sistem yaklaşımı", "description": "UHP ürün seçimi, basınç değeriyle sınırlı değildir; akışkan, sıcaklık, bağlantı standardı ve çalışma ortamı birlikte değerlendirilmelidir.", "link": "İlgili UHP ürünleri" },
     "items": {
@@ -214,7 +214,7 @@
     "items": {
       "catalogue": { "label": "UHP KATALOG", "title": "UHP Katalog Talebi", "description": "Transfer Oil UHP ürün ailesi için güncel katalog talebi." },
       "helix": { "label": "HELIX HORTUMLAR", "title": "HELIX Hortum Dokümantasyonu", "description": "HELIX hortum ailesi için teknik doküman ve ürün bilgisi talebi." },
-      "fittings": { "label": "UHP FITTINGS", "title": "UHP Bağlantı Dokümantasyonu", "description": "UHP insert, adaptör ve ferrule grupları için teknik bilgi talebi." },
+      "fittings": { "label": "UHP BAĞLANTI ELEMANLARI", "title": "UHP Bağlantı Dokümantasyonu", "description": "UHP bağlantı ucu, adaptör ve yüksük grupları için teknik bilgi talebi." },
       "certificates": { "label": "SERTİFİKALAR", "title": "Sertifika Talebi", "description": "Belirli bir ürün veya proje için sertifika dokümanı talebi." }
     }
   },

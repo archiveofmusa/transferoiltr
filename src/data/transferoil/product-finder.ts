@@ -1,4 +1,5 @@
 import finderJson from './product-finder.generated.json';
+import { resolveProductDisplayName } from '@/i18n/productDisplayName';
 
 export type ProductFinderItem = {
   /** Manifest id. */
@@ -28,4 +29,16 @@ type ProductFinderPayload = {
   items: ProductFinderItem[];
 };
 
-export const productFinderData = finderJson as ProductFinderPayload;
+const locales = ['tr', 'en', 'ru', 'ar'] as const;
+const localizeTitles = (titles: ProductFinderItem['t']): ProductFinderItem['t'] =>
+  locales.map((locale, index) => resolveProductDisplayName(titles[1], titles[index], locale)) as ProductFinderItem['t'];
+
+// Keep the source index and routes untouched; localize only display/search labels.
+export const productFinderData: ProductFinderPayload = {
+  ...finderJson,
+  items: (finderJson as ProductFinderPayload).items.map((item) => ({
+    ...item,
+    t: localizeTitles(item.t),
+    f: localizeTitles(item.f),
+  })),
+};

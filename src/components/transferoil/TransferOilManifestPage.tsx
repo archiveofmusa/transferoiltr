@@ -182,7 +182,7 @@ function TechnicalTables({ page, locale, copy }: Pick<ManifestTemplateProps, 'pa
           <div key={`${table.caption ?? copy.tableLabel}-${tableIndex}`} className="overflow-x-auto border border-line bg-white">
             <table dir="ltr" className="min-w-full border-collapse text-start text-xs text-navy">
               <caption className="border-b border-line bg-mist px-4 py-3 text-start font-extrabold">
-                {table.caption || `${copy.tableLabel} ${tableIndex + 1}`}
+                {table.caption ? localizeTechnicalLabel(table.caption, locale) : `${copy.tableLabel} ${tableIndex + 1}`}
               </caption>
               {table.headers.some(Boolean) && (
                 <thead className="bg-graphiteDark text-white">
@@ -204,8 +204,9 @@ function TechnicalTables({ page, locale, copy }: Pick<ManifestTemplateProps, 'pa
   );
 }
 
-function Documents({ page, copy }: Pick<ManifestTemplateProps, 'page' | 'copy'>) {
+function Documents({ page, locale, copy }: Pick<ManifestTemplateProps, 'page' | 'locale' | 'copy'>) {
   const documents = getManifestDocuments(page);
+  const isCatalogue = ['Hydraulic', 'Industrial', 'Fittings', 'UHP'].includes(page.mainSection);
   if (!documents.length) return null;
   return (
     <section aria-labelledby={`documents-${page.id}`}>
@@ -213,7 +214,7 @@ function Documents({ page, copy }: Pick<ManifestTemplateProps, 'page' | 'copy'>)
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {documents.map((document, index) => (
           <article key={document.href} className="border border-line bg-white p-5 shadow-card">
-            <p dir="auto" className="font-extrabold text-navy">{document.title || `${copy.document} ${index + 1}`}</p>
+            <p dir="auto" className="font-extrabold text-navy">{document.title ? (isCatalogue ? localizeTechnicalLabel(document.title, locale) : document.title) : `${copy.document} ${index + 1}`}</p>
             <p className="mt-2 text-xs leading-5 text-steel">{copy.externalNotice}</p>
             <a
               href={document.href}
@@ -312,11 +313,11 @@ function PageBody({ page, source, route, locale, copy, mode }: ManifestTemplateP
           <div className="space-y-12">
             <Overview page={page} locale={locale} copy={copy} />
             {mode === 'category' && <LinkedPages ids={childIds} locale={locale} copy={copy} title={copy.childPages} />}
-            {mode === 'document' && <Documents page={page} copy={copy} />}
+            {mode === 'document' && <Documents page={page} locale={locale} copy={copy} />}
             <TranslationLists page={page} locale={locale} copy={copy} />
             <TechnicalData page={page} locale={locale} copy={copy} showEmpty={showTechnicalEmpty} />
             <TechnicalTables page={page} locale={locale} copy={copy} />
-            {mode !== 'document' && <Documents page={page} copy={copy} />}
+            {mode !== 'document' && <Documents page={page} locale={locale} copy={copy} />}
             {mode !== 'category' && <LinkedPages ids={childIds} locale={locale} copy={copy} title={copy.childPages} />}
             <LinkedPages ids={relatedIds} locale={locale} copy={copy} title={copy.relatedPages} />
           </div>

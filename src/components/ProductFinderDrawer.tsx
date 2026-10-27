@@ -6,6 +6,7 @@ import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Messages } from '@/i18n/messages';
 import { productFinderData, type ProductFinderItem } from '@/data/transferoil/product-finder';
+import { localizeProductName } from '@/i18n/productNameTranslations';
 
 type ProductFinderCopy = Messages['Hero']['productFinderPanel'];
 
@@ -273,7 +274,7 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
               <span className="to-finder-label">{copy.connectionLabel}</span>
               <select value={connection} onChange={(event) => setConnection(event.target.value)} className="to-finder-control">
                 <option value="">{copy.allConnections}</option>
-                {connections.map((value) => <option value={value} key={value}>{value}</option>)}
+                {connections.map((value) => <option value={value} key={value}>{localizeProductName(value, locale)}</option>)}
               </select>
             </label>
           </div>
@@ -314,7 +315,7 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
                     {item.p.length || item.c.length ? (
                       <span className="mt-3 flex flex-wrap gap-1.5">
                         {item.p.slice(0, 3).map((value) => <span key={value} className="to-finder-chip">{value}</span>)}
-                        {item.c.slice(0, 4).map((value) => <span key={value} className="to-finder-chip">{value}</span>)}
+                        {item.c.slice(0, 4).map((value) => <span key={value} className="to-finder-chip">{localizeProductName(value, locale)}</span>)}
                       </span>
                     ) : null}
                   </Link>

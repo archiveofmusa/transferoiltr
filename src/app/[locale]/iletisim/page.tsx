@@ -11,7 +11,6 @@ import { siteContact } from '@/config/contact';
 
 const contact = {
   company: brand.name,
-  person: 'Umut Gündoğdu',
   email: siteContact.email,
   latitude: '40.848771688250984',
   longitude: '29.295564869254044',
@@ -44,7 +43,6 @@ export default async function ContactPage(props: Props) {
             <p className="text-xs font-extrabold tracking-[0.16em] text-signal">{copy.info}</p>
             <h2 className="mt-3 text-3xl font-extrabold text-navy">{contact.company}</h2>
             <div className="mt-8 space-y-6">
-              <ContactItem label={copy.person}><p className="text-lg font-bold text-navy">{contact.person}</p></ContactItem>
               <ContactItem label={copy.email}><a dir="ltr" className="inline-block break-words text-lg font-bold text-navy transition hover:text-signal" href={`mailto:${contact.email}`}>{contact.email}</a></ContactItem>
               <ContactItem label={copy.address}>
                 <address className="not-italic leading-7 text-steel">{copy.addressLines.map((line) => <span key={line} className="block">{line}</span>)}</address>

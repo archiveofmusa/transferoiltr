@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { chromium } from 'playwright';
 
@@ -23,7 +23,10 @@ async function verifyContactLinks(route) {
   assert.equal(await page.locator(`footer a[href="mailto:${email}"]`).innerText(), email);
   if (route.endsWith('/iletisim')) {
     assert.equal(await page.locator(`aside a[href="mailto:${email}"]`).count(), 1);
-    assert((await page.locator('aside').innerText()).includes('Umut Gündoğdu'));
+    assert(!(await page.locator('aside').innerText()).includes('Umut Gündoğdu'), 'Removed contact person is visible');
+    const locale = route.split('/')[1];
+    const messages = JSON.parse(await readFile(new URL(`../messages/${locale}.json`, import.meta.url), 'utf8'));
+    assert.equal(await page.locator('aside').getByText(messages.Contact.person, { exact: true }).count(), 0, 'Contact-person label must also be removed');
     // The query-aware form is rendered after its Suspense fallback hydrates.
     await page.locator('#contact-phone').waitFor({ state: 'visible', timeout: 30000 });
     assert.equal(await page.locator('#contact-phone').count(), 1, 'Customer phone input must stay unchanged');

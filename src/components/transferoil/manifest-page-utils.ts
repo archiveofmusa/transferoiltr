@@ -5,6 +5,9 @@ import type {
 } from '@/data/transferoil/registry';
 import { resolveTransferOilHdAssetPath } from '@/data/transferoil/hd-assets.generated';
 import { rebrandSiteText } from '@/data/brand';
+import { localizeProductName } from '@/i18n/productNameTranslations';
+import { localizeTechnicalText } from '@/i18n/technicalTextTranslations';
+import { resolveProductDisplayName } from '@/i18n/productDisplayName';
 
 export type ManifestDocumentLink = {
   title: string | null;
@@ -104,7 +107,7 @@ const technicalLabels: Record<TransferOilLocale, Record<string, string>> = {
 
 export function localizeTechnicalLabel(value: string, locale: TransferOilLocale): string {
   const normalized = value.trim().replace(/\s+/g, ' ').toLowerCase().replace(/[:.]$/, '');
-  return technicalLabels[locale][normalized] ?? value;
+  return technicalLabels[locale][normalized] ?? localizeTechnicalText(value, locale);
 }
 
 function nonEmptyText(value: unknown): string | null {
@@ -126,18 +129,42 @@ function asRecord(value: unknown): Record<string, unknown> | null {
 
 export function getManifestTranslation(page: TransferOilContentPage, locale: TransferOilLocale): TransferOilTranslation {
   const translation = page.translations[locale] ?? page.translations.tr;
-  const brandedText = (value: string | null) => value === null ? null : rebrandSiteText(value);
+  const preferredTitle = resolveProductDisplayName(page.translations.en.title, translation.title, locale);
+  // Preserve extracted source data and replace only complete known titles
+  // embedded in localized paragraphs; never translate arbitrary code tokens.
+  const sourceTitles = [...new Set([
+    translation.title,
+    page.translations.en.title,
+    typeof page.technicalData.sourceHeading === 'string' ? page.technicalData.sourceHeading : '',
+    page.hierarchy.split('→').at(-1)?.trim() ?? '',
+  ].filter(Boolean))].sort((left, right) => right.length - left.length);
+  const localizedText = (value: string): string => {
+    let result = value;
+    for (const sourceTitle of sourceTitles) {
+      const title = sourceTitle === translation.title ? preferredTitle : localizeProductName(sourceTitle, locale);
+      if (title === sourceTitle) continue;
+      const escaped = sourceTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      result = result.replace(new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'gu'), () => title);
+    }
+    return rebrandSiteText(localizeProductName(result, locale));
+  };
+  const brandedText = (value: string | null) => value === null ? null : localizedText(value);
 
   // Keep source translations intact while presenting the current distributor identity.
   return {
     ...translation,
-    title: rebrandSiteText(translation.title),
-    eyebrow: brandedText(translation.eyebrow),
+    title: rebrandSiteText(preferredTitle),
+    eyebrow: brandedText(translation.eyebrow)?.split(' · ').map((part, index) =>
+      index === 0 && ['Hydraulic', 'Industrial', 'Fittings', 'UHP'].includes(page.mainSection)
+        ? localizeProductName(page.mainSection, locale)
+        : part).join(' · ') ?? null,
     summary: brandedText(translation.summary),
     description: brandedText(translation.description),
     metadataTitle: brandedText(translation.metadataTitle),
     metadataDescription: brandedText(translation.metadataDescription),
     altText: brandedText(translation.altText),
+    benefits: translation.benefits.map(localizedText),
+    applications: translation.applications.map(localizedText),
   };
 }
 
@@ -216,7 +243,7 @@ export function getManifestTechnicalEntries(
   if (!record) return [];
   const result: ManifestTechnicalEntry[] = [];
   const heading = nonEmptyText(record.sourceHeading);
-  if (heading) result.push({ label: labels.productReference, value: heading });
+  if (heading) result.push({ label: labels.productReference, value: localizeProductName(heading, locale) });
   const measurements = Array.isArray(record.measurements)
     ? record.measurements.filter((value): value is string | number => typeof value === 'string' || typeof value === 'number')
     : [];

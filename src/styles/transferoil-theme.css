@@ -1,19 +1,19 @@
 :root {
-  /* UI palette verified from the Efes Marine SVG and its published design tokens.
-     Logo SVG fills are independent and deliberately retain their original colors. */
-  --brand-primary-rgb: 8 30 49;
-  --brand-secondary-rgb: 82 97 112;
-  --brand-accent-rgb: 108 190 87;
-  --brand-primary-hover-rgb: var(--brand-secondary-rgb);
-  --brand-primary-soft-rgb: 244 246 243;
-  --brand-navy-rgb: var(--brand-primary-rgb);
+  /* Restore the documented pre-Efes orange palette; keep logo artwork independent.
+     Navy must not alias primary, since headings and dark panels stay navy. */
+  --brand-primary-rgb: 201 80 22;
+  --brand-secondary-rgb: 16 32 51;
+  --brand-accent-rgb: var(--brand-primary-rgb);
+  --brand-primary-hover-rgb: 166 62 16;
+  --brand-primary-soft-rgb: 249 232 222;
+  --brand-navy-rgb: 16 32 51;
   --brand-primary: rgb(var(--brand-primary-rgb));
   --brand-secondary: rgb(var(--brand-secondary-rgb));
   --brand-accent: rgb(var(--brand-accent-rgb));
   --brand-primary-hover: rgb(var(--brand-primary-hover-rgb));
   --brand-primary-soft: rgb(var(--brand-primary-soft-rgb));
   --brand-on-primary: #ffffff;
-  --brand-on-accent: var(--brand-primary);
+  --brand-on-accent: #ffffff;
   --brand-focus-ring: var(--brand-primary);
   --brand-border-accent: var(--brand-accent);
   --brand-navy: rgb(var(--brand-navy-rgb));
@@ -34,7 +34,7 @@
   --to-red: var(--brand-primary);
   --to-on-orange: var(--brand-on-primary);
   --to-action-dark: var(--brand-secondary);
-  --to-focus-on-orange: var(--brand-accent);
+  --to-focus-on-orange: var(--brand-navy);
   --to-focus-on-dark: #ffffff;
   --to-border: #212529;
   --to-grey: #dcdee2;
@@ -220,7 +220,7 @@
 }
 
 .to-language-option[aria-selected='true'] .text-signal {
-  color: var(--brand-accent);
+  color: var(--brand-on-primary);
 }
 
 .to-main-bar {
@@ -816,7 +816,7 @@ html[dir='rtl'] .to-mobile-overview-link > span {
   transform: scaleX(-1);
 }
 
-/* Two-tone focus treatment stays visible on the navy utility bar and dark menus. */
+/* Two-tone focus treatment stays visible on the orange utility bar and dark menus. */
 .to-logo-link:focus-visible,
 .to-social-icon:focus-visible,
 .to-utility-link:focus-visible,

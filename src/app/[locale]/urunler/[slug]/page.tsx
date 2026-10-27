@@ -35,10 +35,10 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   }
   const localized = localizeProduct(product, locale, messages);
   const metadata = createPageMetadata(locale, messages, 'products', `/urunler/${slug}`);
-  const title = brandPageTitle(product.name);
+  const title = brandPageTitle(localized.name);
   const description = localized.shortDescription;
   const imageUrl = absoluteSiteUrl(product.image);
-  const imageAlt = messages.ProductDetail.imageAlt.replace('{name}', product.name);
+  const imageAlt = messages.ProductDetail.imageAlt.replace('{name}', localized.name);
 
   return {
     ...metadata,

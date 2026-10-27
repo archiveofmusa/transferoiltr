@@ -1,6 +1,7 @@
 import type { UhpProduct, UhpProductFamily } from '@/data/uhpProducts';
 import type { Messages } from './messages';
 import type { Locale } from './routing';
+import { localizeProductName } from './productNameTranslations';
 
 type ApplicationKey = keyof Messages['Products']['applications'];
 
@@ -34,6 +35,7 @@ function formatBar(locale: Locale, value: number) {
 
 export function localizeProduct(product: UhpProduct, locale: Locale, messages: Messages): LocalizedUhpProduct {
   const family = messages.Products.families[product.family];
+  const name = localizeProductName(product.name, locale);
   const applicationIds = familyApplications[product.family];
   const pressureText = product.pressureBar
     ? template(messages.Products.pressure.upTo, { bar: formatBar(locale, product.pressureBar) })
@@ -43,10 +45,11 @@ export function localizeProduct(product: UhpProduct, locale: Locale, messages: M
 
   return {
     ...product,
+    name,
     familyLabel: family.label,
     pressureText,
-    shortDescription: template(family.short, { name: product.name }),
-    description: template(family.description, { name: product.name }),
+    shortDescription: template(family.short, { name }),
+    description: template(family.description, { name }),
     applicationIds,
     applications: applicationIds.map((key) => messages.Products.applications[key]),
     benefits: family.benefits,

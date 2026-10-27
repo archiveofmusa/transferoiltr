@@ -1,8 +1,8 @@
 /** Website identity, separate from manufacturer and product media. */
 export const brand = {
   name: 'UHPHORTUM',
-  primaryColor: '#081E31',
-  navyColor: '#081E31',
+  primaryColor: '#C95016',
+  navyColor: '#102033',
 } as const;
 
 export const brandAssets = {

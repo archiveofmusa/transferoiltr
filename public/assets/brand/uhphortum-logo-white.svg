@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="462" height="64" viewBox="0 0 462 64" role="img" aria-labelledby="uhphortum-title">
   <title id="uhphortum-title">UHPHORTUM</title>
   <g fill="#FFFFFF">
-    <path fill-rule="evenodd" d="M14 4h29l14 14v28L43 60H14L0 46V18L14 4Zm-1 15v23l11 11h11l11-11V19h-8v20l-6 6h-5l-6-6V19h-8Z"/>
+    <path fill-rule="evenodd" d="M14 4h29l14 14v28L43 60H14L0 46V18L14 4ZM16 9h25l11 11v24L41 55H16L5 44V20L16 9ZM18.5 13h20l9.5 9.5v19L38.5 51h-20L9 41.5v-19L18.5 13ZM20 17h17l7 7v16l-7 7H20l-7-7V24l7-7ZM24 21h9c5 0 7 5 7 11s-2 11-7 11h-9c-5 0-7-5-7-11s2-11 7-11ZM26.5 25h4c3.5 0 5.5 3 5.5 7s-2 7-5.5 7h-4c-3.5 0-5.5-3-5.5-7s2-7 5.5-7Z"/>
     <path d="M76 15h8v25q0 4 4 4h9q4 0 4-4V15h8v26q0 11-11 11H87q-11 0-11-11V15Z"/>
     <path d="M119 15h8v14h18V15h8v37h-8V37h-18v15h-8V15Z"/>
     <path fill-rule="evenodd" d="M163 15h22q12 0 12 12t-12 12h-14v13h-8V15Zm8 8v8h13q5 0 5-4t-5-4h-13Z"/>
