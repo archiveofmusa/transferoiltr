@@ -33,7 +33,7 @@ export default async function NewsPage(props: Props) {
         <div className="absolute inset-0 bg-gradient-to-r from-graphiteDark/85 via-graphiteDark/48 to-graphiteDark/15" />
         <Container className="relative flex min-h-[360px] items-end py-12 sm:min-h-[430px] sm:py-16">
           <div className="max-w-3xl border-s-4 border-signal ps-6 text-white">
-            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#ffb066]">{copy.eyebrow}</p>
+            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-signalLight">{copy.eyebrow}</p>
             <h1 dir="auto" className="mt-3 text-4xl font-bold leading-tight tracking-[-0.025em] sm:text-6xl">{copy.title}</h1>
             <p dir="auto" className="mt-4 max-w-2xl text-base leading-7 text-white/85 sm:text-lg">{copy.description}</p>
           </div>

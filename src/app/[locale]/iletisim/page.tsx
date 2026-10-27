@@ -6,13 +6,13 @@ import { Container } from '@/components/Container';
 import { SectionTitle } from '@/components/SectionTitle';
 import { createPageMetadata } from '@/i18n/metadata';
 import { resolveLocale } from '@/i18n/server';
+import { brand } from '@/data/brand';
+import { siteContact } from '@/config/contact';
 
 const contact = {
-  company: 'Transfer Oil Türkiye',
+  company: brand.name,
   person: 'Umut Gündoğdu',
-  phone: '0 544 636 91 22',
-  phoneHref: 'tel:+905446369122',
-  email: 'info.trk@transferoil.com',
+  email: siteContact.email,
   latitude: '40.848771688250984',
   longitude: '29.295564869254044',
 };
@@ -45,7 +45,6 @@ export default async function ContactPage(props: Props) {
             <h2 className="mt-3 text-3xl font-extrabold text-navy">{contact.company}</h2>
             <div className="mt-8 space-y-6">
               <ContactItem label={copy.person}><p className="text-lg font-bold text-navy">{contact.person}</p></ContactItem>
-              <ContactItem label={copy.phone}><a dir="ltr" className="inline-block text-lg font-bold text-navy transition hover:text-signal" href={contact.phoneHref}>{contact.phone}</a></ContactItem>
               <ContactItem label={copy.email}><a dir="ltr" className="inline-block break-words text-lg font-bold text-navy transition hover:text-signal" href={`mailto:${contact.email}`}>{contact.email}</a></ContactItem>
               <ContactItem label={copy.address}>
                 <address className="not-italic leading-7 text-steel">{copy.addressLines.map((line) => <span key={line} className="block">{line}</span>)}</address>

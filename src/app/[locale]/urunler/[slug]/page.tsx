@@ -10,7 +10,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { Link } from '@/i18n/navigation';
 import { findUhpProduct, uhpProducts } from '@/data/uhpProducts';
 import { localizeProduct } from '@/i18n/localizeProducts';
-import { absoluteSiteUrl, createPageMetadata } from '@/i18n/metadata';
+import { absoluteSiteUrl, brandPageTitle, createPageMetadata } from '@/i18n/metadata';
 import { getMessages } from '@/i18n/messages';
 import { isLocale, locales, type Locale } from '@/i18n/routing';
 
@@ -35,7 +35,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   }
   const localized = localizeProduct(product, locale, messages);
   const metadata = createPageMetadata(locale, messages, 'products', `/urunler/${slug}`);
-  const title = `${product.name} | Transfer Oil Türkiye`;
+  const title = brandPageTitle(product.name);
   const description = localized.shortDescription;
   const imageUrl = absoluteSiteUrl(product.image);
   const imageAlt = messages.ProductDetail.imageAlt.replace('{name}', product.name);

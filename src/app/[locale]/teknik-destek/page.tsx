@@ -3,7 +3,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Container } from '@/components/Container';
 import { SectionTitle } from '@/components/SectionTitle';
 import { TechnicalSupportForm } from '@/components/TechnicalSupportForm';
-import { createWhatsAppLink } from '@/components/WhatsAppFloatingButton';
+import { siteContact } from '@/config/contact';
 import { createPageMetadata } from '@/i18n/metadata';
 import { resolveLocale } from '@/i18n/server';
 
@@ -49,8 +49,8 @@ export default async function TechnicalSupportPage(props: Props) {
             <div className="mt-7 border-s-4 border-signal bg-white p-6">
               <p className="text-sm font-extrabold text-navy">{copy.fastTitle}</p>
               <p className="mt-2 text-sm leading-6 text-steel">{copy.fastText}</p>
-              <a href={createWhatsAppLink(messages.WhatsApp.message)} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-signal">
-                {copy.whatsapp}<span aria-hidden="true">→</span>
+              <a href={`mailto:${siteContact.email}`} dir="ltr" className="mt-5 inline-flex max-w-full items-center gap-2 break-all text-sm font-bold text-signal">
+                {siteContact.email}<span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

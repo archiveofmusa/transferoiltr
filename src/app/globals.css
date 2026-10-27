@@ -38,14 +38,24 @@ html[dir='rtl'] [dir='ltr'] {
   text-align: left;
 }
 
-::selection { background: #ff7300; color: #0b1f33; }
+::selection { background: var(--brand-primary); color: var(--brand-on-primary); }
 
 a { text-underline-offset: 3px; }
 
-/* Dark industrial panels use the lighter accent so small technical labels keep
-   AA contrast while the brand-orange bars remain unchanged. */
-[class*='bg-graphiteDark'] .text-signal {
-  color: #ffb066;
+/* Light brand accents retain readable contrast on dark industrial panels. */
+[class*='bg-graphiteDark'] .text-signal,
+[class*='bg-graphiteDark'] [class~='text-[var(--to-red)]'] {
+  color: var(--brand-primary-soft);
+}
+
+/* Required-field indicators retain their semantic color during brand changes. */
+label[for^='contact-'] > span.text-signal[aria-hidden='true'],
+label[for^='support-'] > span.text-signal[aria-hidden='true'] {
+  color: var(--status-attention);
+}
+
+a[href^='https://wa.me/'].text-signal {
+  color: var(--contact-action-bg);
 }
 
 @keyframes rise {

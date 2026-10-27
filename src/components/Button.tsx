@@ -11,7 +11,7 @@ type ButtonProps = CommonProps & ButtonHTMLAttributes<HTMLButtonElement>;
 type LinkProps = CommonProps & { href: string; target?: string; rel?: string; onClick?: MouseEventHandler<HTMLAnchorElement> };
 
 const styles = {
-  primary: 'bg-signal text-white hover:bg-[#913b00] focus-visible:ring-signal',
+  primary: 'bg-signal text-white hover:bg-signalHover focus-visible:ring-signal',
   secondary: 'border border-navy/70 bg-white text-navy hover:border-signal hover:text-signal focus-visible:ring-navy',
   light: 'border border-white/50 bg-white/10 text-white hover:border-signalLight hover:bg-white hover:text-navy focus-visible:ring-white',
 };

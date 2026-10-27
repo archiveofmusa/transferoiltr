@@ -38,7 +38,7 @@ export function CataloguesPageContent({ messages, locale, certificatesOnly = fal
                 href={specialContent.sources.downloads}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 inline-flex bg-signal px-5 py-3 text-sm font-bold text-white transition hover:bg-[#c86416] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2"
+                className="mt-6 inline-flex bg-signal px-5 py-3 text-sm font-bold text-white transition hover:bg-signalHover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2"
               >
                 {copy.downloadsButton}
               </a>

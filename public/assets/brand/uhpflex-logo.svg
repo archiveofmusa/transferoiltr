@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="64" viewBox="0 0 360 64" role="img" aria-labelledby="uhpflex-title">
+  <title id="uhpflex-title">UHPFLEX</title>
+  <path fill="#C95016" fill-rule="evenodd" d="M14 4h29l14 14v28L43 60H14L0 46V18L14 4Zm-1 15v23l11 11h11l11-11V19h-8v20l-6 6h-5l-6-6V19h-8Z"/>
+  <g fill="#102033">
+    <path d="M76 15h8v25q0 4 4 4h9q4 0 4-4V15h8v26q0 11-11 11H87q-11 0-11-11V15Z"/>
+    <path d="M119 15h8v14h18V15h8v37h-8V37h-18v15h-8V15Z"/>
+    <path fill-rule="evenodd" d="M163 15h22q12 0 12 12t-12 12h-14v13h-8V15Zm8 8v8h13q5 0 5-4t-5-4h-13Z"/>
+  </g>
+  <g fill="#C95016">
+    <path d="M206 15h31v4h-27v12h24v4h-24v17h-4V15Z"/>
+    <path d="M246 15h4v33h27v4h-31V15Z"/>
+    <path d="M285 15h30v4h-26v12h24v4h-24v13h26v4h-30V15Z"/>
+    <path d="M322 15h5l13 15 13-15h5l-15.5 18L359 52h-5l-14-16-14 16h-5l16.5-19L322 15Z"/>
+  </g>
+</svg>

@@ -41,7 +41,7 @@ export function ContactForm({ messages }: { messages: Messages }) {
       </div>
       <Field id="contact-request-type" label={copy.requestType} required><select id="contact-request-type" required aria-required="true" aria-invalid={Boolean(error && !values.requestType)} aria-describedby={error ? errorId : undefined} value={values.requestType} onChange={(event) => update('requestType', event.target.value)}>{requestIds.map((id, index) => <option key={id} value={id}>{copy.types[index]}</option>)}</select></Field>
       <Field id="contact-message" label={copy.message} required><textarea id="contact-message" required aria-required="true" aria-invalid={Boolean(error && !values.message)} aria-describedby={error ? errorId : undefined} rows={5} value={values.message} onChange={(event) => update('message', event.target.value)} /></Field>
-      {error && <p id={errorId} className="text-sm font-semibold text-signal" role="alert">{error}</p>}
+      {error && <p id={errorId} className="text-sm font-semibold text-statusAttention" role="alert">{error}</p>}
       <Button type="submit">{copy.send}</Button>
       <p className="text-xs leading-5 text-steel">{copy.demo}</p>
     </form>

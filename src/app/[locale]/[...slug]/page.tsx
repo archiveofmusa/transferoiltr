@@ -13,8 +13,8 @@ import {
   type TransferOilLocale,
 } from '@/data/transferoil/registry';
 import { localeDetails } from '@/i18n/routing';
-import { siteUrl } from '@/i18n/metadata';
-import { transferOilAssets } from '@/data/transferOilAssets';
+import { brandPageTitle, siteUrl } from '@/i18n/metadata';
+import { brand, brandAssets, rebrandSiteText } from '@/data/brand';
 
 type Props = {
   params: Promise<{ locale: string; slug: string[] }>;
@@ -48,10 +48,12 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale, route, page, source } = await resolveManifestPage(props.params);
   const translation = getManifestTranslation(page, locale);
   const title = getManifestTitle(page, locale);
-  const description = translation.metadataDescription
+  const sourceDescription = translation.metadataDescription
     || getManifestDescription(page, locale)
     || source.hierarchy;
-  const metadataTitle = translation.metadataTitle || `${title} | Transfer Oil Türkiye`;
+  const description = rebrandSiteText(sourceDescription);
+  const metadataTitle = brandPageTitle(translation.metadataTitle || title);
+  const imageUrl = absoluteUrl(brandAssets.openGraph);
   const canonicalPath = route.localizedRoutes[locale];
   const languages = Object.fromEntries([
     ...transferOilLocales.map((item) => [item, absoluteUrl(route.localizedRoutes[item])]),
@@ -68,7 +70,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     openGraph: {
       type: 'website',
       url: absoluteUrl(canonicalPath),
-      siteName: 'Transfer Oil Türkiye',
+      siteName: brand.name,
       title: metadataTitle,
       description,
       locale: localeDetails[locale].openGraph,
@@ -76,11 +78,17 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
         .filter((item) => item !== locale)
         .map((item) => localeDetails[item].openGraph),
       images: [{
-        url: absoluteUrl(transferOilAssets.heroHome),
+        url: imageUrl,
         width: 1200,
         height: 630,
-        alt: translation.altText || title,
+        alt: metadataTitle,
       }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: metadataTitle,
+      description,
+      images: [{ url: imageUrl, alt: metadataTitle }],
     },
     robots: { index: true, follow: true },
     other: { 'transfer-oil-source': page.resolvedUrl || page.sourceUrl },

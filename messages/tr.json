@@ -1,15 +1,15 @@
 {
   "Meta": {
-    "home": { "title": "Transfer Oil Türkiye | Termoplastik Hortum ve Bağlantı Çözümleri", "description": "Transfer Oil ürünlerinin Türkiye yetkili distribütörü; hidrolik, endüstriyel ve UHP termoplastik hortum, fitting ve bağlantı çözümleri için ürün bilgisi ve teknik destek." },
-    "products": { "title": "UHP Ürünler", "description": "Transfer Oil Türkiye UHP ve HELIX hortum, insert, adaptör, ferrule ve aksesuar ürün aileleri." },
+    "home": { "title": "UHPHORTUM | Termoplastik Hortum ve Bağlantı Çözümleri", "description": "UHPHORTUM, Transfer Oil ürünlerinin Türkiye yetkili distribütörü; hidrolik, endüstriyel ve UHP termoplastik hortum, fitting ve bağlantı çözümleri için ürün bilgisi ve teknik destek." },
+    "products": { "title": "UHP Ürünler", "description": "UHPHORTUM üzerinden Transfer Oil UHP ve HELIX hortum, insert, adaptör, ferrule ve aksesuar ürün ailelerini inceleyin." },
     "applications": { "title": "UHP Uygulamaları", "description": "Su jeti, endüstriyel temizlik, tersane bakım, offshore ve yüksek basınçlı akışkan transferi için UHP çözümleri." },
     "catalogues": { "title": "Kataloglar ve Sertifikalar", "description": "Transfer Oil UHP katalog, teknik doküman ve sertifika talepleri." },
-    "corporate": { "title": "Kurumsal", "description": "Transfer Oil Türkiye distribütörlük, kalite yaklaşımı ve teknik destek bilgileri." },
-    "exhibitions": { "title": "Fuarlar", "description": "Transfer Oil Türkiye fuar ve sektörel etkinlik bilgilendirmeleri." },
-    "news": { "title": "Haberler", "description": "Transfer Oil Türkiye UHP ürün ve uygulama haberleri." },
+    "corporate": { "title": "Kurumsal", "description": "UHPHORTUM distribütörlük, kalite yaklaşımı ve teknik destek bilgileri." },
+    "exhibitions": { "title": "Fuarlar", "description": "UHPHORTUM fuar ve sektörel etkinlik bilgilendirmeleri." },
+    "news": { "title": "Haberler", "description": "UHPHORTUM UHP ürün ve uygulama haberleri." },
     "certificates": { "title": "Sertifikalar", "description": "Transfer Oil UHP ürünleri için sertifika ve teknik doküman talepleri." },
-    "contact": { "title": "İletişim", "description": "Transfer Oil Türkiye iletişim bilgileri, teklif ve teknik destek talepleri." },
-    "support": { "title": "UHP Teknik Destek", "description": "Transfer Oil Türkiye UHP ve HELIX ürün seçimi için teknik destek talebi." },
+    "contact": { "title": "İletişim", "description": "UHPHORTUM iletişim bilgileri, teklif ve teknik destek talepleri." },
+    "support": { "title": "UHP Teknik Destek", "description": "UHPHORTUM UHP ve HELIX ürün seçimi için teknik destek talebi." },
     "notFound": { "title": "Sayfa bulunamadı", "description": "Aradığınız sayfa bulunamadı." }
   },
   "LocaleSwitcher": {
@@ -46,7 +46,7 @@
     "applications": "Uygulamalar"
   },
   "Header": {
-    "logoHome": "Transfer Oil Türkiye ana sayfa",
+    "logoHome": "UHPHORTUM ana sayfa",
     "mainMenu": "Ana menü",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
@@ -159,7 +159,7 @@
     },
     "applications": { "eyebrow": "UYGULAMA ALANLARI", "title": "Farklı çalışma koşulları için teknik çözüm", "description": "Akışkan, basınç, sıcaklık ve bağlantı standardına göre uygun ürün ailesini değerlendirin." },
     "why": {
-      "eyebrow": "NEDEN TRANSFER OIL TÜRKİYE",
+      "eyebrow": "NEDEN UHPHORTUM",
       "title": "Hortum sisteminiz için net teknik iletişim",
       "description": "Uygulamanızı, bağlantı tipinizi ve çalışma koşullarınızı paylaşın; doğru ürün ailesini birlikte değerlendirelim.",
       "items": [
@@ -173,7 +173,7 @@
   },
   "CTA": { "eyebrow": "TEKNİK DESTEK", "title": "Doğru hortum ve bağlantı kombinasyonu için uygulama bilgilerinizi paylaşın.", "button": "Teknik Ekibe Ulaş" },
   "Footer": {
-    "intro": "Transfer Oil termoplastik hortum ve bağlantı çözümleri için Türkiye distribütör iletişim noktası.",
+    "intro": "UHPHORTUM, Transfer Oil termoplastik hortum ve bağlantı çözümleri için Türkiye distribütör iletişim noktası.",
     "corporate": "Kurumsal",
     "products": "Ürünler",
     "resources": "Kaynaklar",
@@ -181,7 +181,7 @@
     "links": { "about": "Hakkımızda", "support": "Teknik Destek", "contact": "İletişim", "hydraulic": "Hidrolik", "industrial": "Endüstriyel", "uhp": "UHP", "fittings": "Bağlantı Elemanları", "hoses": "HELIX Hortumlar", "adapters": "Adaptörler", "ferrules": "Ferrule ve Aksesuarlar", "applications": "Uygulamalar", "catalogues": "Kataloglar", "certificates": "Sertifikalar", "legal": "Yasal", "sustainability": "Sürdürülebilirlik", "cookiePolicy": "Çerez Politikası", "legalNotice": "Yasal Bildirim", "privacy": "Gizlilik", "salesConditions": "Satış Koşulları" },
     "address": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / İstanbul"],
     "legal": "Transfer Oil markası ve ürün adları ilgili hak sahiplerine aittir. Bu web sitesi Türkiye distribütörlük faaliyetleri kapsamında bilgilendirme amacıyla hazırlanmıştır.",
-    "copyright": "© {year} Transfer Oil Türkiye."
+    "copyright": "© {year} UHPHORTUM."
   },
   "Products": {
     "page": { "breadcrumb": "UHP Ürünler", "eyebrow": "UHP / HELIX KATALOĞU", "title": "Ultra yüksek basınç ürünleri", "description": "HELIX hortumlar, UHP insertler, adaptörler, ferrule ve aksesuarlar yalnızca uygulamanızın teknik koşullarıyla birlikte değerlendirilmelidir.", "noteEyebrow": "TEKNİK NOT", "noteTitle": "Uygun ürün ailesini birlikte belirleyin", "noteDescription": "Basınç, akışkan, sıcaklık, bağlantı tipi ve çalışma ortamı bilgilerinizi iletin; UHP teknik destek ekibimiz ilk değerlendirmeyi yapsın." },
@@ -220,7 +220,7 @@
   },
   "Corporate": {
     "breadcrumb": "Kurumsal",
-    "eyebrow": "TRANSFER OIL TÜRKİYE",
+    "eyebrow": "UHPHORTUM",
     "title": "Distribütörlük ve teknik iletişim",
     "description": "Transfer Oil ürünlerinin Türkiye’deki satış, teknik destek ve tedarik süreçleri için bizimle iletişime geçebilirsiniz.",
     "sections": [
@@ -234,14 +234,14 @@
     "cta": "Kurumsal veya teknik talebinizi iletin"
   },
   "Exhibitions": { "breadcrumb": "Fuarlar", "eyebrow": "SEKTÖREL BULUŞMALAR", "title": "Fuarlar ve etkinlikler", "description": "Transfer Oil ve UHP çözümlerinin yer aldığı sektörel buluşmalar için güncel bilgi talep edebilirsiniz.", "cardTitle": "Güncel fuar programı", "cardText": "Katılım, konum ve tarih bilgileri doğrulandıkça bu sayfada paylaşılacaktır.", "button": "Fuar bilgisi iste", "notice": "Güncel fuar bilgileri için bizimle iletişime geçebilirsiniz." },
-  "News": { "breadcrumb": "Haberler", "eyebrow": "TEKNİK GÜNDEM", "title": "Haberler ve uygulama notları", "description": "UHP ürün aileleri ve yüksek basınç uygulamalarına ilişkin kısa teknik içerikler.", "readMore": "Devamını Gör", "items": [ { "title": "Transfer Oil Türkiye distribütörlük iletişimi", "text": "Türkiye’de ürün bilgisi, teknik destek ve teklif süreçleri için yerel iletişim kanalı." }, { "title": "HELIX hortumlarda teknik seçim", "text": "Basınç, akışkan, sıcaklık ve bağlantı tipinin birlikte değerlendirilmesinin önemi." }, { "title": "UHP sistemlerde bağlantı uyumu", "text": "Hortum, insert, adaptör ve ferrule bileşenlerinin aynı teknik çerçevede ele alınması." } ] },
+  "News": { "breadcrumb": "Haberler", "eyebrow": "TEKNİK GÜNDEM", "title": "Haberler ve uygulama notları", "description": "UHP ürün aileleri ve yüksek basınç uygulamalarına ilişkin kısa teknik içerikler.", "readMore": "Devamını Gör", "items": [ { "title": "UHPHORTUM distribütörlük iletişimi", "text": "Türkiye’de ürün bilgisi, teknik destek ve teklif süreçleri için yerel iletişim kanalı." }, { "title": "HELIX hortumlarda teknik seçim", "text": "Basınç, akışkan, sıcaklık ve bağlantı tipinin birlikte değerlendirilmesinin önemi." }, { "title": "UHP sistemlerde bağlantı uyumu", "text": "Hortum, insert, adaptör ve ferrule bileşenlerinin aynı teknik çerçevede ele alınması." } ] },
   "Certificates": { "breadcrumb": "Sertifikalar", "eyebrow": "KALİTE VE DOKÜMANTASYON", "title": "UHP sertifika ve doküman talepleri", "description": "Belirli bir ürün için güncel sertifika bilgisi gerekiyorsa ürün kodu ve uygulama bilgisiyle iletişime geçin.", "request": "Sertifika dokümanı için iletişime geçin.", "button": "Sertifika Talep Et" },
-  "Contact": { "breadcrumb": "İletişim", "eyebrow": "TRANSFER OIL TÜRKİYE", "title": "İletişim ve teknik destek", "description": "Teklif, ürün uygunluğu, katalog ve sertifika talepleriniz için Türkiye distribütörlük iletişim noktamızla görüşebilirsiniz.", "info": "İLETİŞİM BİLGİLERİ", "person": "Yetkili kişi", "phone": "Telefon", "email": "E-posta", "address": "Adres", "coordinates": "Koordinatlar", "formTitle": "Talep formu", "formText": "Teklif, katalog, sertifika veya teknik destek talebinizi iletin.", "formLoading": "İletişim formu yükleniyor", "mapTitle": "Transfer Oil Türkiye konumu", "addressLines": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / İstanbul"] },
+  "Contact": { "breadcrumb": "İletişim", "eyebrow": "UHPHORTUM", "title": "İletişim ve teknik destek", "description": "Teklif, ürün uygunluğu, katalog ve sertifika talepleriniz için Türkiye distribütörlük iletişim noktamızla görüşebilirsiniz.", "info": "İLETİŞİM BİLGİLERİ", "person": "Yetkili kişi", "phone": "Telefon", "email": "E-posta", "address": "Adres", "coordinates": "Koordinatlar", "formTitle": "Talep formu", "formText": "Teklif, katalog, sertifika veya teknik destek talebinizi iletin.", "formLoading": "İletişim formu yükleniyor", "mapTitle": "UHPHORTUM konumu", "addressLines": ["Aydıntepe Mh. Sahil Blv.", "Alize İş Merkezi No:12", "Tuzla / İstanbul"] },
   "Forms": {
     "contact": { "aria": "İletişim formu", "name": "Ad Soyad", "company": "Firma", "phone": "Telefon", "email": "E-posta", "requestType": "Talep türü", "message": "Mesaj", "send": "Talebi Gönder", "required": "Lütfen zorunlu alanları doldurun.", "invalidEmail": "Geçerli bir e-posta adresi girin.", "successTitle": "Talebiniz alınmıştır.", "successText": "En kısa sürede sizinle iletişime geçeceğiz.", "newRequest": "Yeni talep oluştur", "demo": "Form gönderimi şu an demo amaçlıdır; bilgileriniz bir sunucuya iletilmez.", "productMessage": "{product} ürünü hakkında bilgi almak istiyorum.", "types": ["Teklif", "Teknik destek", "Katalog", "Sertifika", "Diğer"] },
     "support": { "aria": "UHP teknik destek formu", "name": "Ad Soyad", "company": "Firma", "phone": "Telefon", "email": "E-posta", "application": "Uygulama alanı", "pressure": "Hedef çalışma basıncı", "fluid": "Akışkan tipi", "diameter": "Hortum çapı / DN", "connection": "Bağlantı tipi", "message": "Mesaj", "applicationPlaceholder": "Örn. su jeti veya tersane bakım", "pressurePlaceholder": "Örn. 1.500 bar", "fluidPlaceholder": "Örn. su, yağ veya özel akışkan", "diameterPlaceholder": "DN veya dash bilgisi", "connectionPlaceholder": "Örn. BSPP, JIC veya metrik", "messagePlaceholder": "Uygulama, sıcaklık, bağlantı ve çalışma ortamı bilgilerini paylaşın.", "send": "Teknik Destek Talebi Gönder", "required": "Lütfen zorunlu alanları doldurun.", "invalidEmail": "Geçerli bir e-posta adresi girin.", "successTitle": "Talebiniz alınmıştır.", "successText": "UHP teknik destek ekibimiz en kısa sürede sizinle iletişime geçecektir.", "newRequest": "Yeni talep oluştur", "file": "Dosya yükleme", "fileSoon": "Dosya yükleme yakında eklenecek", "chooseFile": "Dosya seç (yakında)", "demo": "Form gönderimi şu an demo amaçlıdır; bilgileriniz bir sunucuya iletilmez." }
   },
-  "Support": { "breadcrumb": "Teknik Destek", "eyebrow": "UHP TEKNİK EKİP", "title": "UHP hortum ve bağlantı seçimi için teknik destek", "description": "Doğru çözüm; basınç seviyesinden önce akışkan, sıcaklık, bağlantı tipi, ortam ve uygulama verileriyle değerlendirilir.", "topicsEyebrow": "DESTEK BAŞLIKLARI", "topicsTitle": "Teknik gereksinimleri birlikte netleştirelim", "topicsDescription": "UHP sisteminizle ilgili aşağıdaki bilgileri paylaşmanız ilk teknik değerlendirmeyi güçlendirir.", "topics": [ { "title": "Basınç sınıfı seçimi", "text": "Hedef çalışma basıncı, çevrim ve güvenlik gereksinimlerine göre UHP ürün ailesini değerlendirin." }, { "title": "Hortum çapı / DN seçimi", "text": "Akış gereksinimi, hat geometrisi ve mevcut sistem verileriyle ilk değerlendirmeyi yapın." }, { "title": "Fitting ve adaptör uyumluluğu", "text": "Hortum, insert, adaptör ve ferrule eşleşmesini teknik olarak teyit edin." }, { "title": "Uygulama ortamı", "text": "Aşınma, hareket, dar alan, tersane veya offshore koşullarını paylaşın." }, { "title": "Akışkan ve sıcaklık", "text": "Akışkan tipi, sıcaklık ve çalışma koşullarını ürün seçimiyle birlikte ele alın." }, { "title": "Doküman ve sertifika talebi", "text": "İhtiyacınız olan katalog, teknik bilgi veya sertifika bilgisini belirtin." } ], "formEyebrow": "UHP DESTEK FORMU", "formTitle": "Uygulamanızı anlatın", "formDescription": "Hedef basınç, bağlantı tipi ve çalışma ortamı bilgileri doğru ürün ailesini belirlemek için önemlidir.", "fastTitle": "Hızlı iletişim", "fastText": "Telefon, e-posta veya WhatsApp üzerinden teknik ekibimizle iletişime geçebilirsiniz.", "whatsapp": "WhatsApp ile ulaş" },
-  "WhatsApp": { "message": "Merhaba, Transfer Oil Türkiye web sitesi üzerinden iletişime geçiyorum.", "aria": "WhatsApp ile iletişime geç" },
+  "Support": { "breadcrumb": "Teknik Destek", "eyebrow": "UHP TEKNİK EKİP", "title": "UHP hortum ve bağlantı seçimi için teknik destek", "description": "Doğru çözüm; basınç seviyesinden önce akışkan, sıcaklık, bağlantı tipi, ortam ve uygulama verileriyle değerlendirilir.", "topicsEyebrow": "DESTEK BAŞLIKLARI", "topicsTitle": "Teknik gereksinimleri birlikte netleştirelim", "topicsDescription": "UHP sisteminizle ilgili aşağıdaki bilgileri paylaşmanız ilk teknik değerlendirmeyi güçlendirir.", "topics": [ { "title": "Basınç sınıfı seçimi", "text": "Hedef çalışma basıncı, çevrim ve güvenlik gereksinimlerine göre UHP ürün ailesini değerlendirin." }, { "title": "Hortum çapı / DN seçimi", "text": "Akış gereksinimi, hat geometrisi ve mevcut sistem verileriyle ilk değerlendirmeyi yapın." }, { "title": "Fitting ve adaptör uyumluluğu", "text": "Hortum, insert, adaptör ve ferrule eşleşmesini teknik olarak teyit edin." }, { "title": "Uygulama ortamı", "text": "Aşınma, hareket, dar alan, tersane veya offshore koşullarını paylaşın." }, { "title": "Akışkan ve sıcaklık", "text": "Akışkan tipi, sıcaklık ve çalışma koşullarını ürün seçimiyle birlikte ele alın." }, { "title": "Doküman ve sertifika talebi", "text": "İhtiyacınız olan katalog, teknik bilgi veya sertifika bilgisini belirtin." } ], "formEyebrow": "UHP DESTEK FORMU", "formTitle": "Uygulamanızı anlatın", "formDescription": "Hedef basınç, bağlantı tipi ve çalışma ortamı bilgileri doğru ürün ailesini belirlemek için önemlidir.", "fastTitle": "Hızlı iletişim", "fastText": "Teknik ekibimizle e-posta üzerinden iletişime geçebilirsiniz.", "whatsapp": "WhatsApp ile ulaş" },
+  "WhatsApp": { "message": "Merhaba, UHPHORTUM web sitesi üzerinden iletişime geçiyorum.", "aria": "WhatsApp ile iletişime geç" },
   "NotFound": { "title": "Aradığınız sayfa bulunamadı", "text": "Bağlantı değişmiş veya içerik kaldırılmış olabilir.", "button": "Ana sayfaya dön" }
 }

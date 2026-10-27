@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
-import { transferOilAssets } from '@/data/transferOilAssets';
+import { brand, brandAssets } from '@/data/brand';
 import type { Messages } from '@/i18n/messages';
 import { LanguageSelector } from '@/components/LanguageSelector';
 
@@ -16,17 +16,16 @@ export function TransferOilTopBar({ messages }: { messages: Messages }) {
 
   return (
     <div className="to-utility-bar">
-      <div className="to-utility-row flex h-full items-center gap-5">
-        <Link href="/" aria-label={messages.Header.logoHome} className="to-logo-link" prefetch={false}>
+      <div className="to-utility-row flex h-full items-center gap-2.5 sm:gap-5">
+        <Link href="/" aria-label={messages.Header.logoHome} className="to-logo-link [unicode-bidi:isolate]" dir="ltr" prefetch={false}>
           <Image
-            src={transferOilAssets.logo}
-            alt="Transfer Oil"
-            width={217}
-            height={34}
+            src={brandAssets.logoWhite}
+            alt={brand.name}
+            width={462}
+            height={64}
             priority
-            className="h-[30px] w-[190px] object-contain object-left xl:h-[34px] xl:w-[217px]"
+            className="h-auto w-[140px] max-w-full object-contain object-left min-[390px]:w-[180px] sm:w-[244px] xl:w-[279px]"
           />
-          <span className="to-logo-country">Türkiye</span>
         </Link>
 
         <div className="ms-auto hidden items-center gap-[10px] lg:flex">

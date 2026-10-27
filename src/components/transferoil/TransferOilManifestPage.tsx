@@ -279,7 +279,7 @@ function SourcePanel({ page, source, locale, copy }: Pick<ManifestTemplateProps,
         href={sourceUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-6 inline-flex w-full items-center justify-center bg-signal px-4 py-3 text-center text-sm font-bold text-white transition hover:bg-[#c86416] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+        className="mt-6 inline-flex w-full items-center justify-center bg-signal px-4 py-3 text-center text-sm font-bold text-white transition hover:bg-signalHover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
       >
         {copy.sourceButton}
       </a>

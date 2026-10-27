@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import type { Messages } from './messages';
 import { localeDetails, locales, type Locale } from './routing';
-import { transferOilAssets } from '@/data/transferOilAssets';
+import { brand, brandAssets, rebrandSiteText } from '@/data/brand';
+import { siteUrl } from '@/config/site';
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.URL || 'http://localhost:3000';
+export { siteUrl } from '@/config/site';
 
 export function absoluteSiteUrl(pathname = '/'): string {
   const base = siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`;
@@ -17,14 +18,21 @@ export function languageAlternates(path = '') {
   ]);
 }
 
+export function brandPageTitle(title: string): string {
+  // Source catalogue titles retain their product names; only the site identity changes.
+  const pageTitle = rebrandSiteText(title).trim();
+  return pageTitle.includes(brand.name) ? pageTitle : `${pageTitle} | ${brand.name}`;
+}
+
 export function createPageMetadata(locale: Locale, messages: Messages, key: keyof Messages['Meta'], path = ''): Metadata {
   const meta = messages.Meta[key];
+  const title = brandPageTitle(meta.title);
   const canonical = absoluteSiteUrl(`/${locale}${path}`);
-  const imageUrl = absoluteSiteUrl(transferOilAssets.heroHome);
-  const imageAlt = `${meta.title} — Transfer Oil Türkiye`;
+  const imageUrl = absoluteSiteUrl(brandAssets.openGraph);
+  const imageAlt = title;
 
   return {
-    title: meta.title,
+    title,
     description: meta.description,
     alternates: { canonical, languages: languageAlternates(path) },
     openGraph: {
@@ -32,14 +40,14 @@ export function createPageMetadata(locale: Locale, messages: Messages, key: keyo
       url: canonical,
       locale: localeDetails[locale].openGraph,
       alternateLocale: locales.filter((item) => item !== locale).map((item) => localeDetails[item].openGraph),
-      siteName: 'Transfer Oil Türkiye',
-      title: meta.title,
+      siteName: brand.name,
+      title,
       description: meta.description,
       images: [{ url: imageUrl, width: 1200, height: 630, alt: imageAlt }],
     },
     twitter: {
       card: 'summary_large_image',
-      title: meta.title,
+      title,
       description: meta.description,
       images: [{ url: imageUrl, alt: imageAlt }],
     },

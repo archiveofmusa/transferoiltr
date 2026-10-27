@@ -1,3 +1,4 @@
+import { brandAssets } from './brand';
 import {
   transferOilHdRuntimeAssetPathMap,
   transferOilHdSemanticAssets,
@@ -8,7 +9,7 @@ const hd = (currentPath: string): string => (
 )[currentPath] ?? currentPath;
 
 export const transferOilAssets = {
-  logo: '/assets/transfer-oil/final/logo/transfer-oil-logo-white.svg',
+  logo: brandAssets.logoWhite,
   heroHome: transferOilHdSemanticAssets.heroHomePoster ?? hd('/assets/transfer-oil/final/hero/reference-hero.webp'),
   heroHydraulic: transferOilHdSemanticAssets.heroHydraulic ?? hd('/assets/transfer-oil/final/hero/reference-hero.webp'),
   heroIndustrial: transferOilHdSemanticAssets.heroIndustrial ?? hd('/assets/transfer-oil/menu/industrial-menu.webp'),

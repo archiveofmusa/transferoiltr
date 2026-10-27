@@ -58,7 +58,7 @@ function HeroCopy({
       data-hero-copy={slide.key}
       aria-hidden={outgoing || undefined}
     >
-      <div className="to-hero-copy-title inline-block bg-[var(--to-menu-hover)] px-6 py-4 shadow-2xl md:px-8 md:py-5">
+      <div className="to-hero-copy-title inline-block bg-[var(--brand-primary)] px-6 py-4 shadow-2xl md:px-8 md:py-5">
         {outgoing ? (
           <div className="text-[30px] font-medium uppercase leading-[1.08] tracking-[-0.02em] text-white sm:text-[42px] md:text-[52px]">
             {slide.title}
@@ -291,7 +291,7 @@ export function Hero({ messages }: { messages: Messages }) {
               key={item.key}
               href={item.href}
               className="to-home-category-card group relative flex min-h-[315px] flex-col overflow-hidden border-b border-white/20 p-7 text-white lg:border-b-0 lg:border-s lg:border-white/20"
-              style={{ backgroundColor: index === 2 ? '#ffa31a' : '#ff8b18' }}
+              style={{ backgroundColor: index === 2 ? 'var(--brand-primary-hover)' : 'var(--brand-primary)' }}
             >
               <span className="text-center text-[23px] font-medium uppercase tracking-[-0.01em]">{item.title}</span>
               <span className="relative my-2 block min-h-[130px] flex-1">
@@ -303,7 +303,7 @@ export function Hero({ messages }: { messages: Messages }) {
                   className="object-contain transition-transform duration-300 group-hover:scale-[1.04]"
                 />
               </span>
-              <span className="text-center text-[13px] leading-5 text-white/95">{item.description}</span>
+              <span className="text-center text-[13px] leading-5 text-white">{item.description}</span>
               <span aria-hidden="true" className="mx-auto mt-5 h-[2px] w-10 bg-white/75 transition-all duration-200 group-hover:w-20" />
             </Link>
           ))}

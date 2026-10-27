@@ -4,6 +4,7 @@ import type {
   TransferOilTranslation,
 } from '@/data/transferoil/registry';
 import { resolveTransferOilHdAssetPath } from '@/data/transferoil/hd-assets.generated';
+import { rebrandSiteText } from '@/data/brand';
 
 export type ManifestDocumentLink = {
   title: string | null;
@@ -124,7 +125,20 @@ function asRecord(value: unknown): Record<string, unknown> | null {
 }
 
 export function getManifestTranslation(page: TransferOilContentPage, locale: TransferOilLocale): TransferOilTranslation {
-  return page.translations[locale] ?? page.translations.tr;
+  const translation = page.translations[locale] ?? page.translations.tr;
+  const brandedText = (value: string | null) => value === null ? null : rebrandSiteText(value);
+
+  // Keep source translations intact while presenting the current distributor identity.
+  return {
+    ...translation,
+    title: rebrandSiteText(translation.title),
+    eyebrow: brandedText(translation.eyebrow),
+    summary: brandedText(translation.summary),
+    description: brandedText(translation.description),
+    metadataTitle: brandedText(translation.metadataTitle),
+    metadataDescription: brandedText(translation.metadataDescription),
+    altText: brandedText(translation.altText),
+  };
 }
 
 export function getManifestTitle(page: TransferOilContentPage, locale: TransferOilLocale): string {

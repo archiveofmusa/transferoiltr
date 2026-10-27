@@ -1,5 +1,7 @@
+import { brandAssets } from './brand';
+
 export const uhpAssets = {
-  "logo": "/assets/transfer-oil/logo/transfer-oil-logo.svg",
+  "logo": brandAssets.logo,
   "hero": "/assets/transfer-oil/uhp/hero/uhp-hero.webp",
   "helix2Spiral": "/assets/transfer-oil/uhp/hero/uhp-hero.webp",
   "helix4Spiral": "/assets/transfer-oil/uhp/hero/uhp-hero.webp",

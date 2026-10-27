@@ -87,7 +87,7 @@
 
 .to-home-category-card:hover,
 .to-home-category-card:focus-visible {
-  filter: brightness(1.04);
+  filter: brightness(.96);
   outline: none;
   transform: translateY(-3px);
 }

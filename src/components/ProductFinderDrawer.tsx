@@ -210,7 +210,7 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
         className="to-finder-panel absolute inset-y-0 start-0 flex w-full max-w-[760px] flex-col overflow-hidden border-e border-white/15 bg-[#f1f2f3] shadow-[18px_0_50px_rgb(0_0_0_/_35%)]"
       >
         <header className="relative shrink-0 bg-[var(--to-menu-bg)] px-6 py-7 text-white sm:px-9">
-          <span className="block text-[10px] font-black uppercase tracking-[0.2em] text-[var(--to-red)]">{copy.eyebrow}</span>
+          <span className="block text-[10px] font-black uppercase tracking-[0.2em] text-signalLight">{copy.eyebrow}</span>
           <h2 id={dialogTitleId} className="mt-2 text-2xl font-semibold sm:text-[30px]">{copy.title}</h2>
           <p id={dialogDescriptionId} className="mt-3 max-w-[620px] text-sm leading-6 text-white/70">{copy.description}</p>
           <button

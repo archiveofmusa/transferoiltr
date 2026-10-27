@@ -3,6 +3,7 @@ import 'server-only';
 import routesJson from './transferoil/routes.generated.json';
 import pagesJson from '@/content/transferoil/pages.generated.json';
 import { transferOilAssets } from './transferOilAssets';
+import { brand } from './brand';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import type {
@@ -88,7 +89,7 @@ function corporateMenu(locale: Locale, messages: Messages): NavigationMenu {
   return {
     key: 'kurumsal',
     label: messages.Header.main.corporate,
-    eyebrow: 'TRANSFER OIL',
+    eyebrow: brand.name,
     title: messages.Header.corporate.title,
     description: messages.Header.corporate.intro,
     href: '/kurumsal/about-us',

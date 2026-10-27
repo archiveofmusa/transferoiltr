@@ -58,7 +58,7 @@ export default async function ExhibitionsPage(props: Props) {
                       href={item.detailUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-8 inline-flex w-fit bg-signal px-5 py-3 text-sm font-bold text-white transition hover:bg-[#c86416] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2"
+                      className="mt-8 inline-flex w-fit bg-signal px-5 py-3 text-sm font-bold text-white transition hover:bg-signalHover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2"
                     >
                       {specialCopy.officialDetail}
                     </a>

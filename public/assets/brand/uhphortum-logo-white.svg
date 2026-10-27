@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="462" height="64" viewBox="0 0 462 64" role="img" aria-labelledby="uhphortum-title">
+  <title id="uhphortum-title">UHPHORTUM</title>
+  <g fill="#FFFFFF">
+    <path fill-rule="evenodd" d="M14 4h29l14 14v28L43 60H14L0 46V18L14 4Zm-1 15v23l11 11h11l11-11V19h-8v20l-6 6h-5l-6-6V19h-8Z"/>
+    <path d="M76 15h8v25q0 4 4 4h9q4 0 4-4V15h8v26q0 11-11 11H87q-11 0-11-11V15Z"/>
+    <path d="M119 15h8v14h18V15h8v37h-8V37h-18v15h-8V15Z"/>
+    <path fill-rule="evenodd" d="M163 15h22q12 0 12 12t-12 12h-14v13h-8V15Zm8 8v8h13q5 0 5-4t-5-4h-13Z"/>
+    <path d="M206 15h4v16h26V15h4v37h-4V35h-26v17h-4V15Z"/>
+    <path fill-rule="evenodd" d="M260 15h12q11 0 11 11v15q0 11-11 11h-12q-11 0-11-11V26q0-11 11-11Zm0 4q-7 0-7 7v15q0 7 7 7h12q7 0 7-7V26q0-7-7-7h-12Z"/>
+    <path fill-rule="evenodd" d="M292 15h22q12 0 12 11.5 0 9.5-10 11.2L327 52h-5l-11-14h-15v14h-4V15Zm4 4v15h18q8 0 8-7.5t-8-7.5h-18Z"/>
+    <path d="M335 15h34v4h-15v33h-4V19h-15V15Z"/>
+    <path d="M378 15h4v26q0 7 7 7h12q7 0 7-7V15h4v26q0 11-11 11h-12q-11 0-11-11V15Z"/>
+    <path d="M421 15h5l15 24 15-24h5v37h-4V22l-16 25-16-25v30h-4V15Z"/>
+  </g>
+</svg>

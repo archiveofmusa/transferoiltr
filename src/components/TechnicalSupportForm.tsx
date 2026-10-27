@@ -22,7 +22,7 @@ export function TechnicalSupportForm({ messages }: { messages: Messages }) {
     setSuccess(true);
   };
 
-  if (success) return <div className="border-t-4 border-signal bg-[#fff8f2] p-7" role="status"><p className="text-lg font-extrabold text-navy">{copy.successTitle}</p><p className="mt-2 text-sm leading-6 text-steel">{copy.successText}</p><button type="button" onClick={() => setSuccess(false)} className="mt-5 text-sm font-bold text-signal underline underline-offset-4">{copy.newRequest}</button></div>;
+  if (success) return <div className="border-t-4 border-statusSuccessAccent bg-statusSuccessSurface p-7" role="status"><p className="text-lg font-extrabold text-navy">{copy.successTitle}</p><p className="mt-2 text-sm leading-6 text-steel">{copy.successText}</p><button type="button" onClick={() => setSuccess(false)} className="mt-5 text-sm font-bold text-signal underline underline-offset-4">{copy.newRequest}</button></div>;
 
   return (
     <form noValidate onSubmit={submit} className="space-y-5" aria-label={copy.aria}>
@@ -39,7 +39,7 @@ export function TechnicalSupportForm({ messages }: { messages: Messages }) {
       </div>
       <label htmlFor="support-message" className="block text-sm font-bold text-navy">{copy.message} <span className="text-signal" aria-hidden="true">*</span><textarea id="support-message" required aria-required="true" aria-invalid={Boolean(error && !values.message)} aria-describedby={error ? errorId : undefined} rows={5} value={values.message} onChange={(event) => update('message', event.target.value)} className="mt-2 w-full border border-line bg-white p-3 text-sm font-normal outline-none transition focus:border-signal focus:ring-2 focus:ring-signal/20" placeholder={copy.messagePlaceholder} /></label>
       <div className="border border-dashed border-line bg-mist p-4"><p className="text-sm font-bold text-navy">{copy.file}</p><p className="mt-1 text-xs leading-5 text-steel">{copy.fileSoon}</p><button type="button" disabled className="mt-3 cursor-not-allowed border border-line bg-white px-3 py-2 text-xs font-bold text-steel/60">{copy.chooseFile}</button></div>
-      {error && <p id={errorId} className="text-sm font-semibold text-signal" role="alert">{error}</p>}
+      {error && <p id={errorId} className="text-sm font-semibold text-statusAttention" role="alert">{error}</p>}
       <Button type="submit">{copy.send}</Button><p className="text-xs leading-5 text-steel">{copy.demo}</p>
     </form>
   );
