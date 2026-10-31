@@ -7,6 +7,7 @@ import { Link } from '@/i18n/navigation';
 import type { Messages } from '@/i18n/messages';
 import { productFinderData, type ProductFinderItem } from '@/data/transferoil/product-finder';
 import { localizeProductName } from '@/i18n/productNameTranslations';
+import { portfolioForSection, sortPortfolio, sortRegistryPresentation } from '@/lib/productPresentation';
 
 type ProductFinderCopy = Messages['Hero']['productFinderPanel'];
 
@@ -124,23 +125,18 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
   }, [open]);
 
   const sections = useMemo(
-    () => [...new Set(productFinderData.items.map((item) => item.s))]
-      .sort((left, right) => {
-        const leftLabel = copy.sections[sectionCopyKey(left)];
-        const rightLabel = copy.sections[sectionCopyKey(right)];
-        return leftLabel.localeCompare(rightLabel, locale);
-      }),
-    [copy.sections, locale],
+    () => sortPortfolio([...new Set(productFinderData.items.map((item) => item.s))], portfolioForSection),
+    [],
   );
 
   const familySuggestions = useMemo(
     () => [...new Set(
-      productFinderData.items
-        .filter((item) => !section || item.s === section)
+      sortRegistryPresentation(productFinderData.items
+        .filter((item) => !section || item.s === section), (item) => item.i)
         .map((item) => item.f[localeIndex])
         .filter(Boolean),
-    )].sort((left, right) => left.localeCompare(right, locale)),
-    [locale, localeIndex, section],
+    )],
+    [localeIndex, section],
   );
 
   const pressureSuggestions = useMemo(
@@ -160,8 +156,7 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
   );
 
   const filteredResults = useMemo(() => {
-    const collator = new Intl.Collator(locale, { numeric: true, sensitivity: 'base' });
-    return productFinderData.items
+    const matching = productFinderData.items
       .filter((item) => {
         if (section && item.s !== section) return false;
         if (connection && !item.c.includes(connection)) return false;
@@ -169,9 +164,9 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
         if (!includesEveryTerm([...item.f, ...item.g].join(' '), family)) return false;
         if (!includesEveryTerm(item.p.join(' '), pressure)) return false;
         return true;
-      })
-      .sort((left, right) => Number(right.x) - Number(left.x) || collator.compare(left.t[localeIndex], right.t[localeIndex]));
-  }, [connection, deferredQuery, family, locale, localeIndex, pressure, section]);
+      });
+    return sortRegistryPresentation(matching, (item) => item.i);
+  }, [connection, deferredQuery, family, pressure, section]);
 
   const clearFilters = () => {
     setQuery('');
@@ -294,7 +289,7 @@ export function ProductFinderDrawer({ triggerLabel, copy }: { triggerLabel: stri
           {visibleResults.length ? (
             <ul className="grid gap-3" aria-label={copy.resultsLabel}>
               {visibleResults.map((item) => (
-                <li key={item.i}>
+                <li key={item.i} data-finder-result-id={item.i}>
                   <Link
                     href={item.r}
                     onClick={() => setOpen(false)}

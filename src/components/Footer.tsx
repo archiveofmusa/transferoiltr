@@ -7,12 +7,19 @@ import { siteContact } from '@/config/contact';
 import { sectorServiceCopy } from '@/data/sectorContent';
 import { testCenter } from '@/data/testCenter';
 import type { Locale } from '@/i18n/routing';
+import { sortPortfolio } from '@/lib/productPresentation';
 
 export function Footer({ messages, locale }: { messages: Messages; locale: Locale }) {
   const serviceLinks = sectorServiceCopy[locale].common;
+  const productLinks = sortPortfolio([
+    { key: 'hydraulic', label: messages.Footer.links.hydraulic, href: '/hidrolik' },
+    { key: 'industrial', label: messages.Footer.links.industrial, href: '/endustriyel' },
+    { key: 'uhp', label: messages.Footer.links.uhp, href: '/uhp' },
+    { key: 'fittings', label: messages.Footer.links.fittings, href: '/baglanti-elemanlari' },
+  ], (item) => item.key).map(({ label, href }) => [label, href]);
   const columns = [
     { title: messages.Footer.corporate, links: [[messages.Footer.links.about, '/kurumsal/about-us'], [messages.Footer.links.support, '/teknik-destek'], [messages.Footer.links.contact, '/iletisim']] },
-    { title: messages.Footer.products, links: [[messages.Footer.links.hydraulic, '/hidrolik'], [messages.Footer.links.industrial, '/endustriyel'], [messages.Footer.links.uhp, '/uhp'], [messages.Footer.links.fittings, '/baglanti-elemanlari']] },
+    { title: messages.Footer.products, links: productLinks },
     { title: messages.Footer.resources, links: [[serviceLinks.sectorsLabel, '/sektorler'], [serviceLinks.testCenterLabel, testCenter.path], [messages.Footer.links.applications, '/uygulamalar'], [messages.Footer.links.catalogues, '/kataloglar-sertifikalar'], [messages.Footer.links.certificates, '/sertifikalar']] },
     { title: messages.Footer.links.legal, links: [[messages.Footer.links.sustainability, '/surdurulebilirlik/sustainability'], [messages.Footer.links.cookiePolicy, '/yasal/cookie-policy'], [messages.Footer.links.legalNotice, '/yasal/copyright-legal'], [messages.Footer.links.privacy, '/yasal/privacy'], [messages.Footer.links.salesConditions, '/yasal/sales-conditions']] },
   ];

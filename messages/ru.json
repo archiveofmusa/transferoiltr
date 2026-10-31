@@ -50,8 +50,8 @@
     "mainMenu": "Главное меню",
     "openMenu": "Открыть меню",
     "closeMenu": "Закрыть меню",
-    "utility": { "exhibitions": "Выставки", "news": "Новости", "certificates": "Сертификаты", "contact": "Контакты" },
-    "main": { "corporate": "О компании", "hydraulic": "Гидравлика", "industrial": "Промышленные решения", "uhp": "UHP" },
+    "utility": { "industries": "Отрасли", "exhibitions": "Выставки", "news": "Новости", "certificates": "Сертификаты", "contact": "Контакты" },
+    "main": { "corporate": "О компании", "hydraulic": "Гидравлика", "industrial": "Промышленные решения", "uhp": "UHP", "testCenter": "Испытательный центр 4500 бар" },
     "corporate": {
       "title": "О компании",
       "intro": "Информация о дистрибуции, принципах качества и технической поддержке.",

@@ -6,9 +6,12 @@ import { useRouter } from '@/i18n/navigation';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import type { LocalizedUhpProduct } from '@/i18n/localizeProducts';
-import { uhpFamilies, type UhpProductFamily } from '@/data/uhpProducts';
+import { uhpFamilies as sourceUhpFamilies, type UhpProductFamily } from '@/data/uhpProducts';
 import { Button } from './Button';
 import { ProductCard } from './ProductCard';
+import { sortUhpFamilies, sortUhpProducts } from '@/lib/productPresentation';
+
+const uhpFamilies = sortUhpFamilies(sourceUhpFamilies);
 
 type PressureFilter = '' | '1500' | '2200' | 'technical';
 type Filters = { search: string; family: UhpProductFamily | ''; pressure: PressureFilter; application: string; sort: 'reference' | 'family' | 'pressure' | 'name' };
@@ -33,14 +36,14 @@ export function ProductExplorer({ locale, messages, products }: { locale: Locale
     return ids.map((id) => ({ id, label: messages.Products.applications[id] })).sort((a, b) => a.label.localeCompare(b.label, locale));
   }, [locale, messages, products]);
 
-  const filtered = useMemo(() => products.filter((product) => {
+  const filtered = useMemo(() => sortUhpProducts(products.filter((product) => {
     const term = filters.search.toLocaleLowerCase(locale).trim();
     const matchesText = !term || `${product.name} ${product.familyLabel} ${product.shortDescription}`.toLocaleLowerCase(locale).includes(term);
     const matchesFamily = !filters.family || product.family === filters.family;
     const matchesApplication = !filters.application || product.applicationIds.includes(filters.application as (typeof product.applicationIds)[number]);
     const matchesPressure = !filters.pressure || (filters.pressure === 'technical' && !product.pressureBar) || (filters.pressure === '1500' && product.pressureBar === 1500) || (filters.pressure === '2200' && product.pressureBar === 2200);
     return matchesText && matchesFamily && matchesApplication && matchesPressure;
-  }).sort((a, b) => filters.sort === 'name' ? a.name.localeCompare(b.name, locale) : filters.sort === 'pressure' ? (b.pressureBar ?? 0) - (a.pressureBar ?? 0) : filters.sort === 'family' ? a.familyLabel.localeCompare(b.familyLabel, locale) || a.name.localeCompare(b.name, locale) : products.findIndex((item) => item.slug === a.slug) - products.findIndex((item) => item.slug === b.slug)), [filters, locale, products]);
+  }), (a, b) => filters.sort === 'name' ? a.name.localeCompare(b.name, locale) : filters.sort === 'pressure' ? (b.pressureBar ?? 0) - (a.pressureBar ?? 0) : filters.sort === 'family' ? a.familyLabel.localeCompare(b.familyLabel, locale) || a.name.localeCompare(b.name, locale) : 0), [filters, locale, products]);
 
   const pressureOptions = [
     { value: '' as PressureFilter, label: messages.Products.pressure.all },

@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect, useRef, useState, type FocusEvent, type KeyboardEvent } from 'react';
+import { useEffect, useRef, useState, type FocusEvent, type KeyboardEvent, type MouseEventHandler } from 'react';
 import { Link } from '@/i18n/navigation';
 import type { Messages } from '@/i18n/messages';
-import type { MainNavigationKey, NavigationMenu, TransferOilNavigation } from './navigation-types';
+import { mainNavigationOrder, type MainNavigationKey, type MainNavigationItem, type TransferOilNavigation } from './navigation-types';
 import { TransferOilDropdown } from './TransferOilDropdown';
+import { testCenter } from '@/data/testCenter';
 
 type TransferOilMainNavProps = {
   pathname: string;
@@ -13,15 +14,19 @@ type TransferOilMainNavProps = {
   onNavigate: () => void;
   messages: Messages;
   navigation: TransferOilNavigation;
+  industriesOpen: boolean;
+  onOpenIndustries: MouseEventHandler<HTMLButtonElement>;
 };
 
-const menuOrder: MainNavigationKey[] = ['kurumsal', 'hidrolik', 'endustriyel', 'uhp'];
-
-function isActive(pathname: string, item: NavigationMenu) {
-  if (item.key === 'kurumsal') return pathname.startsWith('/kurumsal');
-  if (item.key === 'hidrolik') return pathname.startsWith('/hidrolik') || pathname.startsWith('/baglanti-elemanlari');
-  if (item.key === 'endustriyel') return pathname.startsWith('/endustriyel');
-  return pathname.startsWith('/uhp') || pathname.startsWith('/urunler');
+function isActive(pathname: string, key: MainNavigationItem['key']) {
+  switch (key) {
+    case 'kurumsal': return pathname.startsWith('/kurumsal');
+    case 'hidrolik': return pathname.startsWith('/hidrolik') || pathname.startsWith('/baglanti-elemanlari');
+    case 'endustriyel': return pathname.startsWith('/endustriyel');
+    case 'uhp': return pathname.startsWith('/uhp') || pathname.startsWith('/urunler');
+    case 'test-center': return pathname === testCenter.path;
+    default: return false;
+  }
 }
 
 export function TransferOilMainNav({
@@ -31,6 +36,8 @@ export function TransferOilMainNav({
   onNavigate,
   messages,
   navigation,
+  industriesOpen,
+  onOpenIndustries,
 }: TransferOilMainNavProps) {
   const [openMenu, setOpenMenu] = useState<MainNavigationKey | null>(null);
   const [mobileExpanded, setMobileExpanded] = useState<MainNavigationKey | null>(null);
@@ -41,7 +48,10 @@ export function TransferOilMainNav({
   const menuTriggerRefs = useRef<Partial<Record<MainNavigationKey, HTMLButtonElement | null>>>({});
   const openMenuRef = useRef<MainNavigationKey | null>(null);
   const mobileOpenRef = useRef(mobileOpen);
-  const items = menuOrder.map((key) => navigation[key]);
+  const items: MainNavigationItem[] = [
+    ...mainNavigationOrder.map((key) => ({ kind: 'mega' as const, key, menu: navigation[key] })),
+    { kind: 'link', key: 'test-center', label: messages.Header.main.testCenter, href: testCenter.path },
+  ];
   const mobileUtilityItems = [
     { label: messages.Header.utility.exhibitions, href: '/fuarlar' },
     { label: messages.Header.utility.news, href: '/haberler' },
@@ -152,8 +162,10 @@ export function TransferOilMainNav({
       onBlurCapture={closeWhenFocusLeaves}
     >
       <nav className="to-main-row flex h-full items-stretch" aria-label={messages.Header.mainMenu}>
-        <div className="hidden h-full items-stretch gap-10 lg:flex">
-          {items.map((item) => (
+        <div className="hidden h-full items-stretch gap-5 xl:flex 2xl:gap-10">
+          {items.map((item) => item.kind === 'link' ? (
+            <Link key={item.key} href={item.href} data-main-key={item.key} data-active={isActive(pathname, item.key)} aria-current={isActive(pathname, item.key) ? 'page' : undefined} className="to-main-link" onMouseEnter={() => setOpenMenu(null)} onFocus={() => setOpenMenu(null)} onClick={closeMenus}>{item.label}</Link>
+          ) : (
             <button
               key={item.key}
               ref={(element) => {
@@ -163,18 +175,23 @@ export function TransferOilMainNav({
               aria-haspopup="true"
               aria-controls={`transferoil-menu-${item.key}`}
               aria-expanded={openMenu === item.key}
-              data-active={isActive(pathname, item)}
+              data-main-key={item.key}
+              data-active={isActive(pathname, item.key)}
+              aria-current={isActive(pathname, item.key) ? 'page' : undefined}
               className="to-main-link"
               onMouseEnter={() => openMenuFor(item.key)}
               onKeyDown={(event) => openFromKeyboard(event, item.key)}
               onClick={() => setOpenMenu((current) => (current === item.key ? null : item.key))}
             >
-              {item.label}
+              {item.menu.label}
             </button>
           ))}
         </div>
 
-        <div className="ms-auto flex items-center lg:hidden">
+        <div className="flex w-full items-center justify-between xl:hidden">
+          <button type="button" data-industries-trigger aria-haspopup="dialog" aria-expanded={industriesOpen} aria-controls={industriesOpen ? 'industries-panel' : undefined} onClick={onOpenIndustries} className="to-main-link">
+            {messages.Header.utility.industries}
+          </button>
           <button
             ref={mobileTriggerRef}
             type="button"
@@ -200,24 +217,29 @@ export function TransferOilMainNav({
       {mobileOpen && (
         <div
           id="transferoil-mobile-menu"
-          className="to-mobile-menu absolute inset-x-0 top-full z-[80] max-h-[calc(100vh-138px)] overflow-y-auto border-b border-[rgb(0_0_0_/_25%)] px-5 py-5 shadow-2xl lg:hidden"
+          className="to-mobile-menu absolute inset-x-0 top-full z-[80] max-h-[calc(100dvh-138px)] overflow-y-auto border-b border-[rgb(0_0_0_/_25%)] px-5 py-5 shadow-2xl xl:hidden"
         >
           <div className="grid gap-0">
-            {items.map((item) => (
+            {items.map((item) => item.kind === 'link' ? (
+              <Link key={item.key} data-mobile-main-key={item.key} href={item.href} aria-current={isActive(pathname, item.key) ? 'page' : undefined} data-active={isActive(pathname, item.key)} onClick={closeMenus} className="to-mobile-section-trigger border-b border-white/20 py-3 text-start text-base font-medium text-white">{item.label}</Link>
+            ) : (
               <div key={item.key}>
                 <button
                   type="button"
+                  data-mobile-main-key={item.key}
+                  data-active={isActive(pathname, item.key)}
+                  aria-current={isActive(pathname, item.key) ? 'page' : undefined}
                   onClick={() => setMobileExpanded((current) => (current === item.key ? null : item.key))}
                   aria-controls={`transferoil-mobile-submenu-${item.key}`}
                   aria-expanded={mobileExpanded === item.key}
                   className="to-mobile-section-trigger flex w-full items-center justify-between border-b border-[rgb(255_255_255_/_16%)] py-3 text-start text-base font-medium text-[var(--to-white)]"
                 >
-                  {item.label}
+                  {item.menu.label}
                   <span aria-hidden="true" className="text-xl font-light">{mobileExpanded === item.key ? '−' : '+'}</span>
                 </button>
                 {mobileExpanded === item.key && (
                   <div id={`transferoil-mobile-submenu-${item.key}`}>
-                    <TransferOilDropdown menu={item} messages={messages} mobile onNavigate={closeMenus} />
+                    <TransferOilDropdown menu={item.menu} messages={messages} mobile onNavigate={closeMenus} />
                   </div>
                 )}
               </div>

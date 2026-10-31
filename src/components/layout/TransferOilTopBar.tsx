@@ -3,8 +3,9 @@ import { Link } from '@/i18n/navigation';
 import { brand, brandAssets } from '@/data/brand';
 import type { Messages } from '@/i18n/messages';
 import { LanguageSelector } from '@/components/LanguageSelector';
+import type { MouseEventHandler } from 'react';
 
-export function TransferOilTopBar({ messages }: { messages: Messages }) {
+export function TransferOilTopBar({ messages, industriesOpen, onOpenIndustries }: { messages: Messages; industriesOpen: boolean; onOpenIndustries: MouseEventHandler<HTMLButtonElement> }) {
   const utilityNavigationItems = [
     { label: messages.Header.utility.exhibitions, href: '/fuarlar' },
     { label: messages.Header.utility.news, href: '/haberler' },
@@ -28,7 +29,7 @@ export function TransferOilTopBar({ messages }: { messages: Messages }) {
           />
         </Link>
 
-        <div className="ms-auto hidden items-center gap-[10px] lg:flex">
+        <div className="ms-auto hidden items-center gap-[10px] xl:flex">
           <a href="https://it.linkedin.com/company/transfer-oil-s-p-a-" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="to-social-icon">
             {linkedInIcon}
           </a>
@@ -36,6 +37,9 @@ export function TransferOilTopBar({ messages }: { messages: Messages }) {
             {youtubeIcon}
           </a>
           <span className="mx-[8px] h-[22px] w-px bg-[rgb(255_255_255_/_25%)]" aria-hidden="true" />
+          <button type="button" data-industries-trigger aria-haspopup="dialog" aria-expanded={industriesOpen} aria-controls={industriesOpen ? 'industries-panel' : undefined} onClick={onOpenIndustries} className="to-utility-link">
+            {messages.Header.utility.industries}
+          </button>
           {utilityNavigationItems.map((item) => (
             <Link key={item.label} href={item.href} className="to-utility-link">
               {item.label}
@@ -44,7 +48,7 @@ export function TransferOilTopBar({ messages }: { messages: Messages }) {
           <LanguageSelector messages={messages} />
         </div>
 
-        <div className="ms-auto flex items-center gap-[10px] lg:hidden">
+        <div className="ms-auto flex items-center gap-[10px] xl:hidden">
           <a href="https://it.linkedin.com/company/transfer-oil-s-p-a-" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="to-social-icon">
             {linkedInIcon}
           </a>

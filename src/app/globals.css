@@ -1,6 +1,7 @@
 @import '../styles/transferoil-theme.css';
 @import '../styles/transferoil-typography.css';
 @import '../styles/transferoil-motion.css';
+@import '../styles/industries-panel.css';
 
 @tailwind base;
 @tailwind components;

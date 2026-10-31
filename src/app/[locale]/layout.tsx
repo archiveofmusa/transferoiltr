@@ -5,6 +5,7 @@ import { setRequestLocale } from 'next-intl/server';
 import '../globals.css';
 import { Footer } from '@/components/Footer';
 import { TransferOilHeader } from '@/components/layout/TransferOilHeader';
+import { IndustriesPanelContent } from '@/components/layout/IndustriesPanelContent';
 import { getMessages } from '@/i18n/messages';
 import { isLocale, localeDetails, locales, type Locale } from '@/i18n/routing';
 import { brandPageTitle, siteUrl } from '@/i18n/metadata';
@@ -48,7 +49,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     <html lang={locale} dir={localeDetails[locale].dir} suppressHydrationWarning>
       <body data-locale={locale}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <TransferOilHeader messages={messages} navigation={navigation} />
+          <TransferOilHeader messages={messages} navigation={navigation} locale={locale} industriesContent={<IndustriesPanelContent locale={locale} />} />
           <main>{children}</main>
           <Footer messages={messages} locale={locale} />
         </NextIntlClientProvider>

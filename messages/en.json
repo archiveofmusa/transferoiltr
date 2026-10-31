@@ -50,8 +50,8 @@
     "mainMenu": "Main menu",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "utility": { "exhibitions": "Exhibitions", "news": "News", "certificates": "Certificates", "contact": "Contact" },
-    "main": { "corporate": "Company", "hydraulic": "Hydraulic", "industrial": "Industrial", "uhp": "UHP" },
+    "utility": { "industries": "Industries", "exhibitions": "Exhibitions", "news": "News", "certificates": "Certificates", "contact": "Contact" },
+    "main": { "corporate": "Company", "hydraulic": "Hydraulic", "industrial": "Industrial", "uhp": "UHP", "testCenter": "4,500 Bar Test Center" },
     "corporate": {
       "title": "Company",
       "intro": "Company information about distribution, quality principles and technical support processes.",

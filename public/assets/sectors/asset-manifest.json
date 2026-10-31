@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "assets": {
+    "offshore": {
+      "slug": "offshore",
+      "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-oil-rig-out-at-sea-9336586/",
+      "originalUrl": "https://images.pexels.com/photos/9336586/pexels-photo-9336586.jpeg",
+      "photographer": "Aron Razif",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "sourceWidth": 5472,
+      "sourceHeight": 3648,
+      "imagePosition": "50% 50%",
+      "localizedAlt": {
+        "tr": "Açık denizde birbirine bağlı platformlar; temsili offshore sektör fotoğrafı",
+        "en": "Connected platforms at sea; representative offshore industry photograph",
+        "ru": "Соединённые платформы в открытом море; иллюстративная фотография морской отрасли",
+        "ar": "منصات متصلة في عرض البحر؛ صورة توضيحية لقطاع المنشآت البحرية"
+      },
+      "imageSrc": "/assets/sectors/offshore-1600w.webp",
+      "imageWidth": 1600,
+      "imageHeight": 1067,
+      "variants": [
+        {
+          "src": "/assets/sectors/offshore-480w.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 14078,
+          "sha256": "74c546aa95f2e4b6e08b745823cd8ea7a5c362c9fd2862417244b280afe4a2d7"
+        },
+        {
+          "src": "/assets/sectors/offshore-800w.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 36792,
+          "sha256": "048f04fc62c464cc7343aa2b93f83817e7a08a38b8349e1a041859ba8e517192"
+        },
+        {
+          "src": "/assets/sectors/offshore-1600w.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 164056,
+          "sha256": "036c637796ed7858c546dcb9fac944d9d377065a67f00fac800b942cec87da4e"
+        }
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/9336586/pexels-photo-9336586.jpeg?w=2400&fit=max&q=90",
+      "downloadedWidth": 2400,
+      "downloadedHeight": 1600,
+      "attributionRequired": false,
+      "commercialUseAllowed": true,
+      "licenseReviewedAt": "2026-10-31",
+      "notes": "Representative sector image only. Not a UHPHORTUM facility, customer, endorsement or test centre. Locally resized without enlargement; aspect ratio preserved. Source and license verified individually. No watermark or paid preview used."
+    },
+    "savunma-sanayi": {
+      "slug": "savunma-sanayi",
+      "sourceUrl": "https://www.pexels.com/photo/military-aircraft-in-hangar-18403815/",
+      "originalUrl": "https://images.pexels.com/photos/18403815/pexels-photo-18403815.jpeg",
+      "photographer": "Miguel Cuenca",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "sourceWidth": 8256,
+      "sourceHeight": 5504,
+      "imagePosition": "50% 55%",
+      "localizedAlt": {
+        "tr": "Hangar içinde bir askeri uçak; temsili savunma sanayi fotoğrafı",
+        "en": "A military aircraft inside a hangar; representative defence industry photograph",
+        "ru": "Военный самолёт в ангаре; иллюстративная фотография оборонной промышленности",
+        "ar": "طائرة عسكرية داخل حظيرة؛ صورة توضيحية للصناعات الدفاعية"
+      },
+      "imageSrc": "/assets/sectors/savunma-sanayi-1600w.webp",
+      "imageWidth": 1600,
+      "imageHeight": 1067,
+      "variants": [
+        {
+          "src": "/assets/sectors/savunma-sanayi-480w.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26924,
+          "sha256": "955a5909d73f2712dbb7712069d6725bf7e6b944e96ace379eb3ef5bfdb51c01"
+        },
+        {
+          "src": "/assets/sectors/savunma-sanayi-800w.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 73690,
+          "sha256": "7845832e8978b05f4865cd5c3cee3a8bfaa59200b2f8cf2401f5069b15352ec3"
+        },
+        {
+          "src": "/assets/sectors/savunma-sanayi-1600w.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 335414,
+          "sha256": "adb7ef0dac06b213311b6835f422828df65201e607cd06ab04066fea083c054b"
+        }
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/18403815/pexels-photo-18403815.jpeg?w=2400&fit=max&q=90",
+      "downloadedWidth": 2400,
+      "downloadedHeight": 1600,
+      "attributionRequired": false,
+      "commercialUseAllowed": true,
+      "licenseReviewedAt": "2026-10-31",
+      "notes": "Representative sector image only. Not a UHPHORTUM facility, customer, endorsement or test centre. Locally resized without enlargement; aspect ratio preserved. Source and license verified individually. No watermark or paid preview used."
+    },
+    "endustriyel-tesisler": {
+      "slug": "endustriyel-tesisler",
+      "sourceUrl": "https://unsplash.com/photos/industrial-textile-factory-with-machinery-and-pipes-HpPmiduLDC0",
+      "originalUrl": "https://images.unsplash.com/photo-1610891015188-5369212db097",
+      "photographer": "Lalit Kumar",
+      "provider": "Unsplash",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "sourceWidth": 6720,
+      "sourceHeight": 3173,
+      "imagePosition": "55% 50%",
+      "localizedAlt": {
+        "tr": "Üretim tesisinde makineler ve metal boru hatları; temsili endüstriyel tesis fotoğrafı",
+        "en": "Machinery and metal pipework in a production facility; representative industrial photograph",
+        "ru": "Оборудование и металлические трубопроводы на производстве; иллюстративная промышленная фотография",
+        "ar": "آلات وأنابيب معدنية في منشأة إنتاج؛ صورة توضيحية للمنشآت الصناعية"
+      },
+      "imageSrc": "/assets/sectors/endustriyel-tesisler-1600w.webp",
+      "imageWidth": 1600,
+      "imageHeight": 755,
+      "variants": [
+        {
+          "src": "/assets/sectors/endustriyel-tesisler-480w.webp",
+          "width": 480,
+          "height": 226,
+          "bytes": 30960,
+          "sha256": "1cb5161b64c0539cc53f87217b2cc934fa44b8e9c7ea5ad1e0d85ceebc23f397"
+        },
+        {
+          "src": "/assets/sectors/endustriyel-tesisler-800w.webp",
+          "width": 800,
+          "height": 377,
+          "bytes": 74888,
+          "sha256": "ae29c139fa2678baee40c18c5bd4e2cf5c16aa0b1c2dd15f9db04732b6933946"
+        },
+        {
+          "src": "/assets/sectors/endustriyel-tesisler-1600w.webp",
+          "width": 1600,
+          "height": 755,
+          "bytes": 235560,
+          "sha256": "b30f03d759bd23980450150a13c18008003ea6ea94e6f86f2a9c7816b57b7366"
+        }
+      ],
+      "downloadUrl": "https://images.unsplash.com/photo-1610891015188-5369212db097?w=2400&fit=max&q=90&fm=jpg",
+      "downloadedWidth": 2400,
+      "downloadedHeight": 1133,
+      "attributionRequired": false,
+      "commercialUseAllowed": true,
+      "licenseReviewedAt": "2026-10-31",
+      "notes": "Representative sector image only. Not a UHPHORTUM facility, customer, endorsement or test centre. Locally resized without enlargement; aspect ratio preserved. Source and license verified individually. No watermark or paid preview used."
+    },
+    "rafineriler": {
+      "slug": "rafineriler",
+      "sourceUrl": "https://www.pexels.com/photo/oil-refinery-plant-15970032/",
+      "originalUrl": "https://images.pexels.com/photos/15970032/pexels-photo-15970032.jpeg",
+      "photographer": "Jakub Pabis",
+      "provider": "Pexels",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "sourceWidth": 6000,
+      "sourceHeight": 4000,
+      "imagePosition": "50% 50%",
+      "localizedAlt": {
+        "tr": "Rafineri kolonları ve proses boruları; temsili rafineri sektör fotoğrafı",
+        "en": "Refinery columns and process pipework; representative refinery industry photograph",
+        "ru": "Колонны и технологические трубопроводы НПЗ; иллюстративная фотография нефтепереработки",
+        "ar": "أبراج تكرير وأنابيب عمليات؛ صورة توضيحية لقطاع المصافي"
+      },
+      "imageSrc": "/assets/sectors/rafineriler-1600w.webp",
+      "imageWidth": 1600,
+      "imageHeight": 1067,
+      "variants": [
+        {
+          "src": "/assets/sectors/rafineriler-480w.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 25500,
+          "sha256": "666201b7caa7f2e52a0cdf92af02f1b3d04a4b83d67c3efe548324a61d8f16a7"
+        },
+        {
+          "src": "/assets/sectors/rafineriler-800w.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 63202,
+          "sha256": "ae067d2903175a1a4fe2b878cef01a806285dfbe7ab0c5386fedcbb2561441ad"
+        },
+        {
+          "src": "/assets/sectors/rafineriler-1600w.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 194306,
+          "sha256": "16c637109a4550e7f4871f2909697d269dbffce7589ac33f43c068e1cf46f77a"
+        }
+      ],
+      "downloadUrl": "https://images.pexels.com/photos/15970032/pexels-photo-15970032.jpeg?w=2400&fit=max&q=90",
+      "downloadedWidth": 2400,
+      "downloadedHeight": 1600,
+      "attributionRequired": false,
+      "commercialUseAllowed": true,
+      "licenseReviewedAt": "2026-10-31",
+      "notes": "Representative sector image only. Not a UHPHORTUM facility, customer, endorsement or test centre. Locally resized without enlargement; aspect ratio preserved. Source and license verified individually. No watermark or paid preview used."
+    }
+  }
+}

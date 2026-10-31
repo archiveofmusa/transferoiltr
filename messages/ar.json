@@ -50,8 +50,8 @@
     "mainMenu": "القائمة الرئيسية",
     "openMenu": "فتح القائمة",
     "closeMenu": "إغلاق القائمة",
-    "utility": { "exhibitions": "المعارض", "news": "الأخبار", "certificates": "الشهادات", "contact": "اتصل بنا" },
-    "main": { "corporate": "عن الشركة", "hydraulic": "الهيدروليك", "industrial": "الحلول الصناعية", "uhp": "UHP" },
+    "utility": { "industries": "القطاعات", "exhibitions": "المعارض", "news": "الأخبار", "certificates": "الشهادات", "contact": "اتصل بنا" },
+    "main": { "corporate": "عن الشركة", "hydraulic": "الهيدروليك", "industrial": "الحلول الصناعية", "uhp": "UHP", "testCenter": "مركز اختبار بضغط 4500 بار" },
     "corporate": {
       "title": "عن الشركة",
       "intro": "معلومات عن التوزيع ونهج الجودة وإجراءات الدعم الفني.",

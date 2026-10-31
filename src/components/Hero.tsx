@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import { transferOilAssets } from '@/data/transferOilAssets';
 import type { Messages } from '@/i18n/messages';
 import { ProductFinderDrawer } from '@/components/ProductFinderDrawer';
+import { sortPortfolio } from '@/lib/productPresentation';
 
 type SlideKey = 'home' | 'hydraulic' | 'industrial' | 'uhp';
 type HeroSlide = { key: SlideKey; title: string; subtitle: string; href: string; objectPosition?: string };
@@ -103,7 +104,7 @@ export function Hero({ messages }: { messages: Messages }) {
     { key: 'industrial', ...messages.Hero.slides.industrial, href: '/endustriyel', objectPosition: '50% 50%' },
   ], [messages]);
   const isPaused = isHovered || isFocusWithin || prefersReducedMotion;
-  const categories = [
+  const categories = sortPortfolio([
     {
       key: 'hydraulic' as const,
       title: messages.Hero.categories.hydraulic,
@@ -122,7 +123,7 @@ export function Hero({ messages }: { messages: Messages }) {
       description: messages.Hero.categoryDescriptions.uhp,
       href: '/uhp',
     },
-  ];
+  ], (category) => category.key);
 
   const beginSlideChange = useCallback((nextIndex: number) => {
     if (nextIndex === activeIndex) return;

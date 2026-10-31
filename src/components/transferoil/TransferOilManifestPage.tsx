@@ -27,6 +27,7 @@ import {
   localizeTechnicalLabel,
 } from './manifest-page-utils';
 import { TransferOilManifestBreadcrumbs } from './TransferOilManifestBreadcrumbs';
+import { registryPresentation, sortRegistryPresentation } from '@/lib/productPresentation';
 
 type ManifestTemplateProps = {
   page: TransferOilContentPage;
@@ -301,8 +302,10 @@ function SourcePanel({ page, source, locale, copy }: Pick<ManifestTemplateProps,
 }
 
 function PageBody({ page, source, route, locale, copy, mode }: ManifestTemplateProps & { mode: ManifestMode }) {
-  const childIds = source.childIds;
-  const relatedIds = page.relatedPageIds.filter((id) => !childIds.includes(id) && id !== page.id);
+  const catalogue = registryPresentation(page.id).portfolio !== 'other';
+  const childIds = catalogue ? sortRegistryPresentation(source.childIds, (id) => id) : source.childIds;
+  const relatedSourceIds = page.relatedPageIds.filter((id) => !childIds.includes(id) && id !== page.id);
+  const relatedIds = catalogue ? sortRegistryPresentation(relatedSourceIds, (id) => id) : relatedSourceIds;
   const showTechnicalEmpty = mode === 'product';
 
   return (

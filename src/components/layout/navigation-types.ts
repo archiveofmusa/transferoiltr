@@ -21,3 +21,10 @@ export type NavigationMenu = {
 };
 
 export type TransferOilNavigation = Record<MainNavigationKey, NavigationMenu>;
+
+/** A page link must never be treated as an empty mega-menu trigger. */
+export type MainNavigationItem =
+  | { kind: 'mega'; key: MainNavigationKey; menu: NavigationMenu }
+  | { kind: 'link'; key: 'test-center'; label: string; href: string };
+
+export const mainNavigationOrder: readonly MainNavigationKey[] = ['uhp', 'hidrolik', 'endustriyel', 'kurumsal'];

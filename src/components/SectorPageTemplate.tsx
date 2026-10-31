@@ -9,6 +9,9 @@ import { sectors, sectorRoute, type SectorSlug } from '@/data/sectors';
 import { Link } from '@/i18n/navigation';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
+import { SectorImage } from '@/components/SectorImage';
+import { getTransferOilRouteByPath } from '@/data/transferoil/registry';
+import { sortRegistryPresentation } from '@/lib/productPresentation';
 
 export function SectorPageTemplate({ locale, messages, slug }: { locale: Locale; messages: Messages; slug: SectorSlug }) {
   const copy = sectorServiceCopy[locale];
@@ -18,7 +21,10 @@ export function SectorPageTemplate({ locale, messages, slug }: { locale: Locale;
     <section className="border-b border-line bg-mist py-12">
       <Container>
         <SectorServiceBreadcrumbs locale={locale} messages={messages} items={[{ label: copy.common.sectorsLabel, path: '/sektorler' }, { label: content.title, path: sectorRoute(slug) }]} />
-        <SectionTitle as="h1" eyebrow="UHPHORTUM" title={content.h1} description={content.intro} className="[overflow-wrap:anywhere]" />
+        <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <SectionTitle as="h1" eyebrow="UHPHORTUM" title={content.h1} description={content.intro} className="[overflow-wrap:anywhere]" />
+          <SectorImage slug={slug} locale={locale} sizes="(min-width: 1280px) 580px, (min-width: 1024px) 50vw, 100vw" eager />
+        </div>
       </Container>
     </section>
     <section className="py-18">
@@ -31,7 +37,7 @@ export function SectorPageTemplate({ locale, messages, slug }: { locale: Locale;
           <section>
             <h2 className="text-2xl font-extrabold text-navy">{copy.common.relatedTitle}</h2>
             <p className="mt-3 text-sm leading-7 text-steel">{copy.common.relatedNote}</p>
-            <ul className="mt-5 divide-y divide-line border-y border-line" data-related-solutions>{sector.relatedRoutes.map((href) => <li key={href}><Link href={href} className="flex items-center justify-between gap-4 py-4 text-sm font-bold text-navy hover:text-signal focus-visible:outline-signal"><span>{content.relatedLabels[href]}</span><span aria-hidden="true" className="to-inline-arrow">→</span></Link></li>)}</ul>
+            <ul className="mt-5 divide-y divide-line border-y border-line" data-related-solutions>{sortRegistryPresentation(sector.relatedRoutes, (href) => getTransferOilRouteByPath(href)?.id ?? -1).map((href) => <li key={href}><Link href={href} className="flex items-center justify-between gap-4 py-4 text-sm font-bold text-navy hover:text-signal focus-visible:outline-signal"><span>{content.relatedLabels[href]}</span><span aria-hidden="true" className="to-inline-arrow">→</span></Link></li>)}</ul>
           </section>
           <SectorServiceFAQ title={copy.common.faqTitle} items={content.faq} />
           <Button href="/sektorler" variant="secondary">{copy.common.backToSectors}</Button>

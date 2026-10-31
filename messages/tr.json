@@ -50,8 +50,8 @@
     "mainMenu": "Ana menü",
     "openMenu": "Menüyü aç",
     "closeMenu": "Menüyü kapat",
-    "utility": { "exhibitions": "Fuarlar", "news": "Haberler", "certificates": "Sertifikalar", "contact": "İletişim" },
-    "main": { "corporate": "Kurumsal", "hydraulic": "Hidrolik", "industrial": "Endüstriyel", "uhp": "UHP" },
+    "utility": { "industries": "Endüstriler", "exhibitions": "Fuarlar", "news": "Haberler", "certificates": "Sertifikalar", "contact": "İletişim" },
+    "main": { "corporate": "Kurumsal", "hydraulic": "Hidrolik", "industrial": "Endüstriyel", "uhp": "UHP", "testCenter": "4.500 Bar Test Merkezi" },
     "corporate": {
       "title": "Kurumsal",
       "intro": "Distribütörlük, kalite yaklaşımı ve teknik destek süreçleri için kurumsal bilgi alanı.",

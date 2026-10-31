@@ -10,6 +10,7 @@ import { resolveProductDisplayName } from '@/i18n/productDisplayName';
 import { sectorServiceCopy } from './sectorContent';
 import { sectors, sectorRoute } from './sectors';
 import { testCenter } from './testCenter';
+import { sortRegistryPresentation } from '@/lib/productPresentation';
 import type {
   MainNavigationKey,
   NavigationMenu,
@@ -48,10 +49,10 @@ function routeToNode(route: RegistryRoute, locale: Locale): NavigationTreeNode {
     id: route.id,
     label: routeLabel(route, locale),
     href: route.routePath,
-    children: route.childIds
+    children: sortRegistryPresentation(route.childIds
       .map((id) => routeById.get(id))
       .filter((child): child is RegistryRoute => Boolean(child))
-      .map((child) => routeToNode(child, locale)),
+      .map((child) => routeToNode(child, locale)), (node) => node.id),
   };
 }
 
@@ -78,13 +79,13 @@ function registryMenu(
   return {
     key,
     ...details,
-    nodes: [
+    nodes: sortRegistryPresentation([
       ...root.childIds
         .map((id) => routeById.get(id))
         .filter((route): route is RegistryRoute => Boolean(route))
         .map((route) => routeToNode(route, locale)),
       ...extraRoutes.map((route) => routeToNode(route, locale)),
-    ],
+    ], (node) => node.id),
     routeCount: descendants(root) + extraRoutes.reduce((total, route) => total + descendants(route), 0),
   };
 }
