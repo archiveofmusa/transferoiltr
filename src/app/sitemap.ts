@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { transferOilLocales, transferOilRoutes } from '@/data/transferoil/registry';
 import { uhpProducts } from '@/data/uhpProducts';
 import { siteUrl } from '@/i18n/metadata';
+import { sectors, sectorRoute } from '@/data/sectors';
+import { testCenter } from '@/data/testCenter';
 
 const cleanSiteUrl = siteUrl.replace(/\/$/, '');
 
@@ -27,7 +29,10 @@ function localizedPath(locale: string, path: string): string {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const generatedAt = new Date();
+  const serviceRoutes = ['/sektorler', ...sectors.map(({ slug }) => sectorRoute(slug)), testCenter.path];
+  // Only pages edited in this content release get a known editorial date.
+  // Do not claim that every catalogue page changed whenever the sitemap is built.
+  const updatedRoutes = new Set(['/', ...serviceRoutes]);
   const entries: MetadataRoute.Sitemap = [];
   const seenUrls = new Set<string>();
 
@@ -45,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       seenUrls.add(url);
       entries.push({
         url,
-        lastModified: generatedAt,
+        ...(updatedRoutes.has(route.routePath) ? { lastModified: testCenter.contentUpdatedAt } : {}),
         changeFrequency: route.routePath === '/' ? 'weekly' : 'monthly',
         priority: route.routePath === '/' ? 1 : route.parentId === null ? 0.9 : 0.7,
         alternates: { languages },
@@ -55,6 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const additionalRoutes = [
     ...namedRoutes,
+    ...serviceRoutes,
     ...uhpProducts.map((product) => `/urunler/${product.slug}` as const),
   ];
 
@@ -72,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       seenUrls.add(url);
       entries.push({
         url,
-        lastModified: generatedAt,
+        ...(updatedRoutes.has(path) ? { lastModified: testCenter.contentUpdatedAt } : {}),
         changeFrequency: path === '/' || path === '/haberler' ? 'weekly' : 'monthly',
         priority: path === '/' ? 1 : path.startsWith('/urunler/') ? 0.75 : 0.8,
         alternates: { languages },

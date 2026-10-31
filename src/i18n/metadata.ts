@@ -24,8 +24,8 @@ export function brandPageTitle(title: string): string {
   return pageTitle.includes(brand.name) ? pageTitle : `${pageTitle} | ${brand.name}`;
 }
 
-export function createPageMetadata(locale: Locale, messages: Messages, key: keyof Messages['Meta'], path = ''): Metadata {
-  const meta = messages.Meta[key];
+export function createPageMetadata(locale: Locale, messages: Messages, key: keyof Messages['Meta'] | { title: string; description: string }, path = ''): Metadata {
+  const meta = typeof key === 'string' ? messages.Meta[key] : key;
   const title = brandPageTitle(meta.title);
   const canonical = absoluteSiteUrl(`/${locale}${path}`);
   const imageUrl = absoluteSiteUrl(brandAssets.openGraph);

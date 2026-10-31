@@ -50,7 +50,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <NextIntlClientProvider locale={locale} messages={messages}>
           <TransferOilHeader messages={messages} navigation={navigation} />
           <main>{children}</main>
-          <Footer messages={messages} />
+          <Footer messages={messages} locale={locale} />
         </NextIntlClientProvider>
       </body>
     </html>

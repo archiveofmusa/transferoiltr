@@ -4,12 +4,16 @@ import type { Messages } from '@/i18n/messages';
 import { Container } from './Container';
 import { brand, brandAssets } from '@/data/brand';
 import { siteContact } from '@/config/contact';
+import { sectorServiceCopy } from '@/data/sectorContent';
+import { testCenter } from '@/data/testCenter';
+import type { Locale } from '@/i18n/routing';
 
-export function Footer({ messages }: { messages: Messages }) {
+export function Footer({ messages, locale }: { messages: Messages; locale: Locale }) {
+  const serviceLinks = sectorServiceCopy[locale].common;
   const columns = [
     { title: messages.Footer.corporate, links: [[messages.Footer.links.about, '/kurumsal/about-us'], [messages.Footer.links.support, '/teknik-destek'], [messages.Footer.links.contact, '/iletisim']] },
     { title: messages.Footer.products, links: [[messages.Footer.links.hydraulic, '/hidrolik'], [messages.Footer.links.industrial, '/endustriyel'], [messages.Footer.links.uhp, '/uhp'], [messages.Footer.links.fittings, '/baglanti-elemanlari']] },
-    { title: messages.Footer.resources, links: [[messages.Footer.links.applications, '/uygulamalar'], [messages.Footer.links.catalogues, '/kataloglar-sertifikalar'], [messages.Footer.links.certificates, '/sertifikalar']] },
+    { title: messages.Footer.resources, links: [[serviceLinks.sectorsLabel, '/sektorler'], [serviceLinks.testCenterLabel, testCenter.path], [messages.Footer.links.applications, '/uygulamalar'], [messages.Footer.links.catalogues, '/kataloglar-sertifikalar'], [messages.Footer.links.certificates, '/sertifikalar']] },
     { title: messages.Footer.links.legal, links: [[messages.Footer.links.sustainability, '/surdurulebilirlik/sustainability'], [messages.Footer.links.cookiePolicy, '/yasal/cookie-policy'], [messages.Footer.links.legalNotice, '/yasal/copyright-legal'], [messages.Footer.links.privacy, '/yasal/privacy'], [messages.Footer.links.salesConditions, '/yasal/sales-conditions']] },
   ];
   const copyright = messages.Footer.copyright.replace('{year}', String(new Date().getFullYear()));

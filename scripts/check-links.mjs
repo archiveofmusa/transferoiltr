@@ -8,7 +8,8 @@ const expectedSocialLinks = {
   linkedin: 'https://it.linkedin.com/company/transfer-oil-s-p-a-',
   youtube: 'https://www.youtube.com/user/TransferOil',
 };
-const expectedWhatsAppBase = 'https://wa.me/905446369122';
+// Current owner-approved contact policy: email only; do not reintroduce phone/WhatsApp.
+const expectedEmail = 'info@uhphortum.com';
 
 function argument(name, fallback) {
   const prefix = `--${name}=`;
@@ -97,7 +98,7 @@ const dynamicPatterns = appPatterns.filter((pattern) => pattern.includes('['));
 
 const report = {
   generatedAt: new Date().toISOString(),
-  expected: { socialLinks: expectedSocialLinks, whatsappBase: expectedWhatsAppBase },
+  expected: { socialLinks: expectedSocialLinks, email: expectedEmail, phoneAndWhatsApp: false },
   summary: {},
   internalLinks: [],
   externalLinks: [],
@@ -169,9 +170,7 @@ for (const [sourceFile, source] of allSource) {
 }
 
 const topBarFile = path.join(root, 'src/components/layout/TransferOilTopBar.tsx');
-const whatsappFile = path.join(root, 'src/components/WhatsAppFloatingButton.tsx');
 const topBarSource = allSource.get(topBarFile) || '';
-const whatsappSource = allSource.get(whatsappFile) || '';
 
 for (const [name, href] of Object.entries(expectedSocialLinks)) {
   const escaped = href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -185,15 +184,14 @@ for (const [name, href] of Object.entries(expectedSocialLinks)) {
   }
 }
 
-if (!whatsappSource.includes(expectedWhatsAppBase)) {
-  addError(report, 'WHATSAPP_NUMBER_MISSING', 'Global WhatsApp bağlantısında beklenen 905446369122 numarası yok.', { file: relative(whatsappFile) });
+const contactFile = path.join(root, 'src/config/contact.ts');
+if (!(allSource.get(contactFile) || '').includes(`email: '${expectedEmail}'`)) {
+  addError(report, 'CONTACT_EMAIL_MISMATCH', 'Güncel iletişim e-postası korunmamış.', { file: relative(contactFile) });
 }
-const whatsappAnchor = whatsappSource.match(/<a\b[\s\S]*?>/)?.[0] || '';
-if (!whatsappAnchor || literalAttribute(whatsappAnchor, 'target') !== '_blank' || !hasRelSecurity(whatsappAnchor)) {
-  addError(report, 'WHATSAPP_LINK_SECURITY', 'WhatsApp bağlantısı yeni sekme ve noopener noreferrer kurallarını sağlamıyor.', { file: relative(whatsappFile) });
-}
-if (!/text=\$\{encodeURIComponent\(/.test(whatsappSource)) {
-  addError(report, 'WHATSAPP_MESSAGE_ENCODING', 'WhatsApp varsayılan mesajı encodeURIComponent ile kodlanmıyor.', { file: relative(whatsappFile) });
+for (const [sourceFile, source] of allSource) {
+  if (/https?:\/\/(?:wa\.me|api\.whatsapp\.com)|["'`]tel:/.test(source)) {
+    addError(report, 'REMOVED_CONTACT_CHANNEL_REINTRODUCED', 'Kaldırılan telefon veya WhatsApp kanalı yeniden eklenmiş.', { file: relative(sourceFile) });
+  }
 }
 
 const manifestPageFile = path.join(root, 'src/components/transferoil/TransferOilManifestPage.tsx');

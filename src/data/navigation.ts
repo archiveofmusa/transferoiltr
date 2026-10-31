@@ -7,6 +7,9 @@ import { brand } from './brand';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import { resolveProductDisplayName } from '@/i18n/productDisplayName';
+import { sectorServiceCopy } from './sectorContent';
+import { sectors, sectorRoute } from './sectors';
+import { testCenter } from './testCenter';
 import type {
   MainNavigationKey,
   NavigationMenu,
@@ -88,6 +91,12 @@ function registryMenu(
 
 function corporateMenu(locale: Locale, messages: Messages): NavigationMenu {
   const corporateRoutes = routes.filter((route) => route.mainSection === 'Şirket');
+  const copy = sectorServiceCopy[locale];
+  // Local distributor pages stay outside the immutable manufacturer registry.
+  const serviceNodes: NavigationTreeNode[] = [
+    { id: -100, label: copy.common.sectorsLabel, href: '/sektorler', children: sectors.map((sector, index) => ({ id: -110 - index, label: copy.sectors[sector.slug].title, href: sectorRoute(sector.slug), children: [] })) },
+    { id: -101, label: copy.common.testCenterLabel, href: testCenter.path, children: [] },
+  ];
   return {
     key: 'kurumsal',
     label: messages.Header.main.corporate,
@@ -97,8 +106,8 @@ function corporateMenu(locale: Locale, messages: Messages): NavigationMenu {
     href: '/kurumsal/about-us',
     image: transferOilAssets.menuCorporate,
     imageAlt: messages.Header.mega.menuImage.replace('{title}', messages.Header.corporate.title),
-    routeCount: corporateRoutes.length,
-    nodes: corporateRoutes.map((route) => routeToNode(route, locale)),
+    routeCount: corporateRoutes.length + serviceNodes.length + sectors.length,
+    nodes: [...corporateRoutes.map((route) => routeToNode(route, locale)), ...serviceNodes],
   };
 }
 
